@@ -121,7 +121,7 @@ The full historical M1 runtime, schemas, fixtures, tests, STB-REF/STB-PLAN versi
 
 The September 24 ownership freeze superseded the earlier plan to make Program the continuing operational semantic authority. System now owns canonical shared operational definitions; Program retains research/decision vocabulary and semantic provenance.
 
-It consolidates shared terminology from Governed Reference, Grok, Store, and current System and now also covers:
+The first-pass consolidation captured shared terminology from Governed Reference, Grok, Store, and System. Under the ownership freeze, operational meaning is now maintained by System while Program retains research/decision vocabulary and provenance for:
 
 - high-risk common words such as project, model, stock, available, fixture, state, release, execution, production, and build;
 - entry/actor/opening context;
