@@ -9,9 +9,9 @@
 
 The active working set is intended to have three authorities:
 
-- **Program** — shared definitions, governance, research, evidence, decisions, migration/retirement record.
-- **System** — current application implementation, application contracts, records, adapters, tests.
-- **Store** — current material/stock/capability/economics/fulfillment implementation and Store answers.
+- **Program** — research, experiments, evidence, machine-development questions/findings, reviewed decisions/adoption records, partnerships/economic/business work, migration/retirement record.
+- **System** — application, canonical shared operational definitions, application architecture, shared contracts, project-definition classes, records/custody, adapters/integration, tests.
+- **Store** — Store-local vocabulary, material/stock/catalog facts, admitted capability, modeled work/time, economics/fulfillment facts, Store answers/refusals/deferrals, tests.
 
 The public Review and short Scan-to-Build repositories remain review/demo surfaces.
 
@@ -64,7 +64,7 @@ The later Governed Reference recovery audit examined Candidate.2 and concluded *
 
 Useful results were separated from the failed candidate:
 
-- valid semantic/safety principles → successor architecture / Program definitions;
+- valid semantic/safety principles → current System operational definitions or Program research/decision record according to ownership;
 - useful negative-test intent → current requirements/evidence where applicable;
 - exact recovery artifacts → historical provenance;
 - stale/incomplete runtime replacements → reject from current implementation;
@@ -105,7 +105,7 @@ Program admissions from the Governed Reference mining include:
 
 - enduring governance/ADR rulings;
 - shared-definition source material;
-- common-entry architecture;
+- common-entry architecture (post-freeze rehomed to System; Program retains relocation/provenance);
 - information custody/disclosure/external-processing governance;
 - machine-site convergence research;
 - Demand-as-Architecture research record;
@@ -117,9 +117,9 @@ The full historical M1 runtime, schemas, fixtures, tests, STB-REF/STB-PLAN versi
 
 **Mining status: COMPLETE.**
 
-## Canonical definitions dependency
+## Canonical definitions dependency — resolved by ownership freeze
 
-Program PR #4, `organize/canonical-definitions-0.1`, is the intended continuing semantic authority.
+The September 24 ownership freeze superseded the earlier plan to make Program the continuing operational semantic authority. System now owns canonical shared operational definitions; Program retains research/decision vocabulary and semantic provenance.
 
 It consolidates shared terminology from Governed Reference, Grok, Store, and current System and now also covers:
 
@@ -131,7 +131,7 @@ It consolidates shared terminology from Governed Reference, Grok, Store, and cur
 - material/manufacturing/machine distinctions;
 - explicit “never equate” boundaries.
 
-Until that candidate is adopted or revised, old semantic pointers cannot be safely removed.
+Old semantic pointers are removed or retained strictly as provenance only after the current System/Store owner is identified.
 
 ## What “mining complete” means
 
@@ -171,7 +171,7 @@ Examples found in current System include:
 - `docs/application/CONTROLLING-SOURCE-POINTERS.md` — still points to Grok as controlling source;
 - `docs/project/SOURCE-AUTHORITY.md` — still names Grok/Governed Reference as current authorities;
 - `docs/cell/CURRENT-CELL-SOURCE-POINTER.md` — still treats Grok Cell material as externally pinned current source;
-- `docs/application/SEMANTIC-GUARDRAILS.md` and historical semantic copies — still point to Grok for meaning that is intended to move to Program definitions;
+- `docs/application/SEMANTIC-GUARDRAILS.md` and historical semantic copies — still point to Grok for meaning that is now owned by System operational definitions;
 - `docs/governance/README.md` and `docs/governance/CONTROLLING-SOURCE-POINTERS.md` — still call Governed Reference the current documentary/semantic source and promise exact-copy transfer into System;
 - `work/capability-bridge/GOLD-INDEX.md` and related source maps — include current-role labels that need to be separated from historical provenance;
 - `apps/stb/shared/contracts.mjs` — contains a `GR_SOURCE` constant and therefore needs owner-specific review before any donor retirement claim;
@@ -179,14 +179,14 @@ Examples found in current System include:
 
 These references are not evidence of unmined donor content. They are stale or transitional ownership/pointer debt.
 
-The retirement cleanup must preserve historical pins while changing current authority language to Program/System/Store.
+The retirement cleanup must preserve historical pins while changing current authority language to the frozen Program/System/Store ownership map.
 
 ## What remains before retirement
 
 These are not mining tasks:
 
 1. review/adopt or revise Program PR #2 (Grok);
-2. review/adopt or revise Program PR #4 (canonical definitions);
+2. keep System canonical operational definitions and Program research/decision vocabulary separated under the ownership freeze;
 3. review/adopt or revise Program PR #5 (Transfer Staging disposition);
 4. review/adopt or revise Program PR #6 (Governed Reference reconciliation);
 5. close/disposition Governed Reference PR #4 after its selected research is secured;
