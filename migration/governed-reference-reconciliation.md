@@ -196,7 +196,7 @@ Branch-only content is also dispositioned:
 Additional Program admissions from the final pass:
 
 - `governance/common-entry-architecture.md` — now a relocation/provenance notice; current rule is System `docs/application/COMMON-ENTRY-ARCHITECTURE.md`
-- `governance/information-custody-and-processing.md`
+- `governance/information-custody-and-processing.md` — broader research/policy record; current application custody boundary is System `docs/application/INFORMATION-CUSTODY-BOUNDARY.md`
 - `research/demand-as-architecture.md`
 - `governance/ownership-and-source-questions.md`
 
