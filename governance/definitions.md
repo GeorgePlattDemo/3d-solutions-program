@@ -62,6 +62,46 @@ Those repositories remain evidence/provenance for their exact historical version
 
 **Refuse** — Explicit negative result because a request exceeds an applicable rule, material, capability, authority, or safety boundary. A correct refusal is a complete system outcome.
 
+
+### High-risk common words
+
+These words are allowed, but they are too ambiguous to carry authority without qualification when the distinction matters.
+
+**Project** — May mean an ordinary human undertaking, a durable application record, or a governed `ProjectInstance`. Use the qualified meaning at an implementation boundary.
+
+**Model** — May mean a 3D model, data model, mathematical model, simulation model, machine model, or language model. The word alone does not identify authority.
+
+**Stock** — May mean merchant inventory, a stock class, one physical board/sheet, or raw input material. State which one.
+
+**Available** — May mean listed, on hand, obtainable, unreserved, capable, or ready. Do not use it as a substitute for a named availability state.
+
+**Fixture** — May mean physical workholding/reference hardware or controlled software test data. Qualify it.
+
+**Program** — May mean this 3D Solutions Program, software, or machine/controller instructions. Near execution boundaries, qualify it.
+
+**Mode** — May mean machine operating mode, fabrication/process mode, or software state. Qualify it.
+
+**State** — May describe software lifecycle, knowledge, inventory, commercial status, machine condition, or physical readiness. A state name carries only the authority defined for that state.
+
+**Release** — May mean software release, material release, packet release, release for loading, or execution permission. Never rely on the unqualified word at a physical boundary.
+
+**Execution** — May mean running software, running a simulation, or performing physical work. Simulation execution is not physical execution.
+
+**Production** — May mean deployed software or physical manufacture. Near machine/control topics, state which.
+
+**Build** — May mean software build, repository candidate, machine construction, part fabrication, assembly, or installation. The word alone creates no acceptance or authority.
+
+### Entry and actor context
+
+**Entry context** — Information/routing context that describes how a person or job enters the common system. It may affect what is asked, reused, imported, or shown. It does not change the underlying truth model or create verification/authorization.
+
+**Actor context** — Application representation of the user's present relationship to the project or record for routing and responsibility. It is not a permanent identity, qualification, or authority merely because a label was selected.
+
+**Opening state** — First application state appropriate to an entry context. It is routing/UI state, not a GateResult or physical/commercial determination.
+
+Current product-facing entry language may use labels such as **NEW USER**, **RETURNING USER**, and **PROFESSIONAL**, while older Governed Reference architecture used **COLD**, **PLACE**, and **CONTRACTOR**. Those historical identifiers remain provenance; the durable Program rule is that different starting contexts converge into one shared domain/definition/Store path and do not become competing truth models.
+
+
 ## 4. Evidence, observation, and truth state
 
 **Capture** — Acquisition of project or site evidence using an identified method.
@@ -113,6 +153,12 @@ These are semantic meanings. Current schemas and implementation details remain o
 **ProjectInstance** — Governed project record binding the applicable project information and lifecycle. A project does not require that every fact already be resolved.
 
 **ObservationSet** — Structured result of a capture method containing observations, coverage, unresolved conditions, and status.
+
+
+**EvidenceCard** — Source-attributed evidence summary that states what was studied/established, where it applies, its source/version, and material limits. A summary that omits its limit is not a stronger form of evidence.
+
+**HumanAuthorityRecord** — Record of a human actor's authority scope and, where applicable, validity bounds. It does not make the underlying technical condition true.
+
 
 **MaterialClass** — Material identity layer describing what the material is independently of a merchant SKU.
 
@@ -327,6 +373,8 @@ Application receipt time does not renew Store source time.
 The following substitutions are prohibited unless a separately defined transformation explicitly establishes the stronger proposition:
 
 - user declaration ≠ system interpretation
+- entry-context label ≠ permanent identity or authority
+- routing state ≠ GateResult
 - declared ≠ observed
 - observed ≠ verified
 - measurement ≠ exact truth
