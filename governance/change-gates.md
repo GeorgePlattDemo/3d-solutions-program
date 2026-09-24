@@ -30,6 +30,8 @@ The same rule applies to temporary repositories: moving a README is not migratio
 
 The Program check validates local documentary links and structural evidence in the migration record. Its workflow runs on pushes and pull requests. It does not determine whether a research conclusion is correct or whether a public disclosure is appropriate.
 
-Repository branch protection/rulesets have not been established or verified in this pass. Thus the check is automated validation, not yet a technically mandatory merge gate. Human review remains necessary. Do not advertise organization-wide enforcement until the corresponding repository settings and checks have been verified.
+Program `main` is protected by the active repository ruleset `Protect main`. Changes require a pull request, the required `check` status to pass with strict up-to-date checking, and review conversations to be resolved. Branch deletion and non-fast-forward / force-push updates are blocked. No bypass actors are configured. Required approving reviews remain `0` for the current one-person workflow.
 
-Bootstrap exception: the empty Program repository requires an initial main-branch commit. Subsequent organizational content is presented as a branch and pull request under these gates.
+These controls make the documentary check a technical merge gate for this repository; they do not replace human judgment or establish organization-wide enforcement.
+
+The bootstrap exception applied only to the repository's initial main-branch setup. Subsequent Program changes follow the protected-main workflow above.
