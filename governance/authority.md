@@ -4,9 +4,9 @@ Organizational direction established September 24, 2026. Existing technical cont
 
 | Subject | Owning home | Present handling |
 | --- | --- | --- |
-| Application definitions, customer/yard journey, records, shared interfaces, application tests | scan-to-build-system | Retain. Reconcile accepted governance here; do not introduce another runtime core. |
-| Catalog, material resolution, admitted cell envelope, modeled travel/time, economics and Store answers | scan-to-build-store | Retain independent evaluator. A program proposal cannot expand its admitted capability. |
-| Research questions, proposed machine builds, experimental protocols, evidence and program decisions | 3d-solutions-program | Admit selected material. Existing System machine documents stay controlling at their current scope until individually migrated. |
+| Shared cross-repository definitions, semantic boundaries, governance, research questions, experimental protocols, evidence and reviewed program decisions | 3d-solutions-program | Canonical shared vocabulary lives in [definitions.md](definitions.md). System and Store may define narrower local terms but do not silently redefine shared terms. |
+| Application implementation, customer/yard journey, records, adapters, shared implementation contracts and application tests | scan-to-build-system | Retain executable ownership here. Reconcile against Program definitions; do not introduce another runtime core. |
+| Catalog, material resolution, admitted cell envelope, modeled travel/time, economics and Store answers | scan-to-build-store | Retain independent evaluator. Reconcile shared terminology against Program definitions; a Program proposal cannot expand admitted Store capability. |
 | Full demonstration and its explanatory journey | scan-to-build-review | Retain. Mine supporting research; preserve project pages and navigation. |
 | Quick introduction | Scan-to-Build | Retain as the quick walkthrough. It is not automatically the current runtime release. |
 | Historic governance and reference implementation | scan-to-build-governed-reference | Mine for accepted semantics, tests and provenance. Retirement blocked by unresolved content and open work. |
@@ -20,6 +20,8 @@ A research proposal is a Program fact. An adopted evaluation limit is a Store fa
 Local controller configuration and registered postprocessor engineering belong to the machine-development program. Store declares the specific machine configuration on which its model relies. This register does not move controller code into the application or authorize physical operation.
 
 Shared interface changes require compatible producer and consumer changes. Project identity and project-specific facts remain isolated even where the evaluator is shared.
+
+For shared terminology, Program is the semantic arbiter. A conflicting System or Store meaning is a reconciliation defect, not a competing source of truth. Existing executable behavior remains behavior until deliberately changed and tested in its owning repository; Program documentation does not silently rewrite runtime code.
 
 ## Public posture
 
