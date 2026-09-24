@@ -85,9 +85,10 @@
       ],
       "systemCopies": [],
       "subject": "application planning and package history",
-      "classification": "UNRESOLVED / needs owner decision",
-      "reason": "Historical UI prototype. System stabilization identifies patterns worth preserving and forbids transferring simulated authority. Owner must establish whether any useful source-only interaction remains before retirement; no behavior copied.",
-      "reviewBasis": "prototype role and stabilization reconciliation; not an exhaustive interaction audit"
+      "classification": "SUPERSEDED / retain as history, do not promote",
+      "reason": "Navigation-only prototype: showScreen handles hash navigation; entry action controls are disabled. System now contains actor/session routing and common-Begin source plus entry browser tests. No executable downstream capability is recovered from this page. Browser parity was not run.",
+      "reviewBasis": "follow-up source comparison against System 5c07833f4547e68a80770488a47f86154e091e74; limits and executed checks in grok-validity-review.md",
+      "followup": "migration/grok-validity-review.md"
     },
     {
       "path": "apps/stb/.gitignore",
@@ -2409,9 +2410,10 @@
       ],
       "systemCopies": [],
       "subject": "definition-contract proposals",
-      "classification": "UNRESOLVED / needs owner decision",
-      "reason": "Proposal only. System owner must decide whether a current demonstrated gap warrants any adoption. The minimum proposal explicitly narrows the compiler approach and rejects owner names as status values; migration adopts neither design.",
-      "reviewBasis": "proposal status, narrowing and unresolved decisions reviewed"
+      "classification": "SUPERSEDED / retain as history, do not promote",
+      "reason": "Do not promote the compiler implementation blueprint: the companion minimum proposal explicitly narrows it, and System has implemented the small shadow-only contract. Retain independently substantiated observations through the validity review; this disposition does not declare every historical research question false.",
+      "reviewBasis": "follow-up source comparison against System 5c07833f4547e68a80770488a47f86154e091e74; limits and executed checks in grok-validity-review.md",
+      "followup": "migration/grok-validity-review.md"
     },
     {
       "path": "docs/reviews/STB-DEFINITION-CONTRACT-MINIMUM-IMPLEMENTATION-0.1.md",
@@ -2424,9 +2426,10 @@
       ],
       "systemCopies": [],
       "subject": "definition-contract proposals",
-      "classification": "UNRESOLVED / needs owner decision",
-      "reason": "Proposal only. System owner must decide whether a current demonstrated gap warrants any adoption. The minimum proposal explicitly narrows the compiler approach and rejects owner names as status values; migration adopts neither design.",
-      "reviewBasis": "proposal status, narrowing and unresolved decisions reviewed"
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "The first proposed slice already exists on System main: definition-contract.mjs and its 14 unit tests, introduced at b4058f60a536445b26c8ad5682266ecdf54e938c. No production import was found in apps/stb. Do not rebuild or describe later adapters as implemented. Retain the still-present unknown-class fallback finding as a bounded System follow-up.",
+      "reviewBasis": "follow-up source comparison against System 5c07833f4547e68a80770488a47f86154e091e74; limits and executed checks in grok-validity-review.md",
+      "followup": "migration/grok-validity-review.md"
     },
     {
       "path": "PACKAGE-MANIFEST.json",
@@ -2486,9 +2489,10 @@
       ],
       "systemCopies": [],
       "subject": "application planning and package history",
-      "classification": "UNRESOLVED / needs owner decision",
-      "reason": "Historical UI prototype. System stabilization identifies patterns worth preserving and forbids transferring simulated authority. Owner must establish whether any useful source-only interaction remains before retirement; no behavior copied.",
-      "reviewBasis": "prototype role and stabilization reconciliation; not an exhaustive interaction audit"
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "Useful interaction patterns are already enumerated in System STB-APP-STABILIZATION-0.1.md. Current evidence/review/archive modules provide corresponding responsibilities; do not transplant the tour, its material checks or fixture answers. Exact UI parity and file-reset races remain unverified; no retirement clearance.",
+      "reviewBasis": "follow-up source comparison against System 5c07833f4547e68a80770488a47f86154e091e74; limits and executed checks in grok-validity-review.md",
+      "followup": "migration/grok-validity-review.md"
     },
     {
       "path": "README.md",
@@ -2642,5 +2646,11 @@
       "reason": "Historical workshop/package navigation and task status, retained at source. Current Program ownership and System transfer records govern this migration; old workshop restrictions and upload status are not present instructions.",
       "reviewBasis": "document role/status review"
     }
-  ]
+  ],
+  "validityReview": {
+    "systemCommit": "5c07833f4547e68a80770488a47f86154e091e74",
+    "report": "migration/grok-validity-review.md",
+    "scope": "four previously unresolved documentary dispositions; no runtime adoption",
+    "browserVerification": "not run: Chromium executable absent"
+  }
 }

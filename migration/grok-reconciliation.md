@@ -2,6 +2,8 @@
 
 Candidate against Program main `ca3565a38fee5a067634590f3116afd5dac5d420`, September 24, 2026. Grok remains private; Program remains public. No donor content or settings are changed. No repository is cleared for retirement.
 
+Follow-up: [current-validity review](grok-validity-review.md) resolves the four earlier documentary dispositions against a newer exact System source. Technical owner actions and browser-verification limits remain explicit.
+
 ## Scope and evidence
 
 The [register](grok-reconciliation.json) covers all nine observed branch heads: 257 file occurrences, 126 distinct path/blob records. Branch names, commits, tree identities and per-branch file counts are recorded. This supersedes the earlier Grok triage dispositions in [source-inventory.json](source-inventory.json) for these exact source versions; it does not revise Staging or Governed Reference triage.
@@ -31,10 +33,10 @@ The branch named `wip/atlas-0.1` does not itself contain the Atlas documents. Th
 | Identical journeys, architecture, Atlas background and corrected cell source | DUPLICATE / no new authority; register names the exact System copies |
 | Old cell live-capability wording, old fulfillment wording, partial roadmap | SUPERSEDED / retain as history, do not promote; explicit corrections below |
 | Workshop manifests, upload status and superseded navigation | SUPERSEDED / retain as history, do not promote; current ownership records govern |
-| Compiler/minimum-contract proposals and two UI prototypes | UNRESOLVED / needs owner decision; no design or behavior adopted |
+| Compiler/minimum-contract proposals and two UI prototypes | Follow-up: minimum contract and recovered Sarah patterns are System-owned; compiler blueprint and navigation-only front door are superseded. See validity review for remaining technical actions. |
 | Material, admitted capability, travel/time and economics | STORE-owned / leave or point to Store as a subject boundary; no standalone Grok item in this batch qualifies for Store migration |
 
-Counts: 4 accepted, 38 System-owned, 0 Store-owned, 9 superseded, 71 duplicate, 4 unresolved. Acceptance applies only to the selected questions, not every claim in the source document.
+Current register counts after validity review: 4 accepted, 40 System-owned, 0 Store-owned, 11 superseded, 71 duplicate, 0 items awaiting documentary owner classification. Technical follow-ups remain open; classification is not implementation completion. Acceptance applies only to the selected questions, not every claim in the source document.
 
 ## Why older variants are excluded
 
@@ -55,8 +57,8 @@ At System commit `3c6dfb27d798842286f4209ba14f47796256b8e3`:
 
 ## Remaining owner decisions
 
-1. System owner: do the compiler/minimum-contract proposals address a demonstrated gap in the current implementation? Record a scoped decision against current behavior before adopting anything; do not create another compiler from this migration.
-2. System owner: do the front-door and Sarah prototype contain any useful interaction absent from the accepted application? Compare the actual interactions before retirement. Their local simulated answers and execution implications are not transferable authority.
+1. System owner: assess the still-present unknown-class fallback with a dedicated regression test and scoped decision. The minimum contract module already exists; its later adapters are not adopted by this migration.
+2. System owner: establish actual prototype-to-current interaction coverage before retirement. Source ownership is resolved, but browser parity and pending-file/reset behavior were not verified.
 3. Program owner: select whether any recovered research question merits an experiment. No controller/BOM, envelope increment, budget or commissioning commitment is made here.
 
 **Proposed design → experimental evidence → reviewed decision → versioned Store/System adoption.** Research selection is only the first step.
