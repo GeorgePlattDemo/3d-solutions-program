@@ -9,9 +9,9 @@ Organizational direction established September 24, 2026. Existing technical cont
 | Catalog, material resolution, admitted cell envelope, modeled travel/time, economics and Store answers | scan-to-build-store | Retain independent evaluator. Reconcile shared terminology against Program definitions; a Program proposal cannot expand admitted Store capability. |
 | Full demonstration and its explanatory journey | scan-to-build-review | Retain. Mine supporting research; preserve project pages and navigation. |
 | Quick introduction | Scan-to-Build | Retain as the quick walkthrough. It is not automatically the current runtime release. |
-| Historic governance and reference implementation | scan-to-build-governed-reference | Mine for accepted semantics, tests and provenance. Retirement blocked by unresolved content and open work. |
-| Earlier planning, prototypes and research | grok-file | Mine all branches. Existing exact copies need no additional copy. |
-| Candidate transfer package | scan-to-build-transfer-staging | Compare with accepted descendants and record remaining differences before retirement. |
+| Historic governance and reference implementation | scan-to-build-governed-reference | Content mining complete. Enduring governance/research is reconciled into Program; historical executable evidence remains provenance. Retirement waits only on final pointer/dependency cleanup and archive checkpoint. |
+| Earlier planning, prototypes and research | grok-file | Content mining complete across all observed branch heads. Accepted research is in Program; application ancestry remains provenance in System. Retirement waits only on final pointer/dependency cleanup and archive checkpoint. |
+| Candidate transfer package | scan-to-build-transfer-staging | Content mining complete. Candidate.2 remains NO-GO history; no current working-tree dependency was found. Archive candidate. |
 
 ## One owner, references elsewhere
 
@@ -25,9 +25,18 @@ For shared terminology, Program is the semantic arbiter. A conflicting System or
 
 ## Public posture
 
-Publish useful technical work, evidence, limits and decisions deliberately. Preserve current access settings during migration. Material discovered in a private source requires a content review before publication; credentials, personal records and third-party confidential material do not enter this public repository. A folder name is not an access control.
+**Program is the public home for reconciled governance, definitions, architecture, research, evidence, and migration/retirement records. System and Store remain public working authorities. Private donor repositories remain private historical sources unless a specific source body is intentionally approved for publication. Do not bulk-publish donor contents merely because they are being retired.**
 
-This is an organization policy, not a change to ownership or licensing terms. Preserve source attribution and applicable notices; publication alone does not grant a new reuse license.
+Apply that rule as follows:
+
+- publish reconciled current meaning, evidence, limits and decisions through the proper public owner;
+- preserve exact private donor identities and SHAs as provenance;
+- keep rejected, superseded, failed, misleading, legally unresolved, or merely historical source bodies private unless separately approved;
+- a private source may be mined into a public current record without publishing the entire private source;
+- credentials, personal records and third-party confidential material do not enter the public Program;
+- publication does not itself change copyright, licensing, authorship, patent ownership, technical authority or reuse rights.
+
+A folder name is not an access control. Preserve source attribution and applicable notices.
 
 ## Source status
 
