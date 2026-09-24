@@ -10,6 +10,8 @@
 2. [Next Engineering Step](NEXT-ENGINEERING-STEP.md) — the next bounded dimensional research question.
 3. [Research Cell](cell/README.md) — why/when dimensional and sheet work become one research cell.
 4. [Research Cell Staging](cell/RESEARCH-CELL-STAGING-0.1.md) — unresolved hypothesis/evidence template.
+5. [Machine / Cell Staging](staging/README.md) — evidence-stage navigation for dimensional, sheet, and cell research.
+6. [Machine Engineering](engineering/README.md) — candidate physical engineering and evidence-gated detail.
 
 Related Program research:
 
@@ -19,11 +21,11 @@ Related Program research:
 
 ## Current cleanup boundary
 
-This first relocation slice moves the clearly Program-owned **research program and research-cell planning surfaces** out of System.
+The clearly Program-owned machine-development research surfaces have now been rehomed here: the research program, research-cell planning, evidence staging, candidate engineering, and the current S-001 research candidate.
 
-The deeper dimensional/sheet engineering and evidence-staging documents still under System `work/machines/` are being reviewed separately. Their present location is transitional and does not make System the owner of machine-development research.
+The old System paths remain compatibility pointers so existing links and provenance do not break. Historical machine/cell donor copies in System remain provenance unless a current owner identifies a specific operational requirement/test that needs them.
 
-Historical machine/cell donor copies in System remain provenance unless a current owner identifies a specific requirement/test that needs them.
+System retains application/shared operational contracts, interfaces, records, adapters, tests, and current software truth. Store retains Store-local capability/economics and evidence-stage meanings it owns.
 
 ## Adoption chain
 
