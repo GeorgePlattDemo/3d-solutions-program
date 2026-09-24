@@ -9,6 +9,7 @@ The organized research, evidence and development program for Scan-to-Build.
 | Your question | Read |
 | --- | --- |
 | What is the proposed experiment? | [Explore the bounded cell trial](research/bounded-cell-trial.md) |
+| Where is machine-development work organized? | [Machine development research](research/machine-development/README.md) |
 | Where is the full demonstration? | [Scan-to-Build Review](https://github.com/GeorgePlattDemo/scan-to-build-review) — the full demonstration, retained |
 | Where is the quick walkthrough? | [Scan-to-Build](https://github.com/GeorgePlattDemo/Scan-to-Build) — the short introduction, retained |
 | Where are the application and Store implementations? | [System](https://github.com/GeorgePlattDemo/scan-to-build-system) and [Store](https://github.com/GeorgePlattDemo/scan-to-build-store) |
