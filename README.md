@@ -14,7 +14,7 @@ The organized research, evidence and development program for Scan-to-Build.
 | Where is the quick walkthrough? | [Scan-to-Build](https://github.com/GeorgePlattDemo/Scan-to-Build) — the short introduction, retained |
 | Where are the application and Store implementations? | [System](https://github.com/GeorgePlattDemo/scan-to-build-system) and [Store](https://github.com/GeorgePlattDemo/scan-to-build-store) |
 | What does an operational job term mean? | [System canonical operational definitions](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/main/docs/definitions/README.md) |
-| What Program/research language is being preserved? | [Program vocabulary and semantic provenance](governance/definitions.md) |
+| What Program/research language is being preserved? | [Program vocabulary and semantic provenance](governance/semantic-provenance.md) |
 | Where does each subject belong? | [Authority and destination register](governance/authority.md) |
 | How do changes become accepted? | [Ordered change gates](governance/change-gates.md) |
 | What is being consolidated? | [Migration findings and work queue](migration/README.md) |
