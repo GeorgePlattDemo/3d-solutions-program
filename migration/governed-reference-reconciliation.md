@@ -117,7 +117,7 @@ This preserves citeability without making old versioned specifications compete w
 | `scripts/`, package files, CI | Repository-specific implementation infrastructure; retire with donor unless an owning repository independently needs equivalent tooling. |
 | validation/freeze/change reports | Historical evidence; keep provenance, do not make current acceptance claims. |
 | documentary baseline duplicate tree | Archive/history; do not copy duplicate bodies into Program. |
-| STB-REF/STB-PLAN full bodies | Historical controlling sources for their version; cite through archived donor, while selected current meaning is admitted to Program. |
+| STB-REF/STB-PLAN full bodies | Historical controlling sources for their version; cite through archived donor, while selected still-valid material is admitted to the current System, Store, or Program owner according to subject. |
 
 ## Branch reconciliation
 
