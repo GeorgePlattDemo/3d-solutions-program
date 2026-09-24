@@ -28,7 +28,32 @@ The [Grok report](grok-reconciliation.md) and [per-item register](grok-reconcili
 
 The [current-validity follow-up](grok-validity-review.md) records which unresolved Grok proposals are already implemented, superseded or still technically relevant. No additional source bodies were imported.
 
-## Concrete next batches
+## Post-freeze ordered mining
+
+The September 24 ownership freeze supersedes the earlier semantic-owner assumption used during the first donor pass:
+
+- **Program** — research, experiments, evidence, machine-development questions/findings, reviewed decisions/adoption records, partnerships/economic/business work, migration/retirement record.
+- **System** — application, canonical shared operational definitions, application/Store semantic boundary, project-definition classes, records/custody, customer → Store → Yard journey, adapters/integration, application tests.
+- **Store** — Store-local vocabulary, catalog/SKUs, material resolution, stock, admitted capability, modeled operations/time, economics, Store answers/refusals/deferrals, Store tests.
+
+Because donor mining was performed before that ownership correction, the next phase reclassifies **already-admitted material** against these frozen buckets before reopening any donor source.
+
+### Ordered reclassification queue
+
+| Order | Subject | Current disposition |
+| --- | --- | --- |
+| 1 | Common Entry Architecture | **Rehome to System.** It is operational application architecture. Program retains provenance/relocation only. |
+| 2 | Information custody / external processing | Split operational application custody requirements from broader Program research/policy questions; do not invent consent machinery. |
+| 3 | Governed Reference enduring rulings | Keep Program decision/provenance record; move only still-valid operational requirements that lack a current System/Store home. |
+| 4 | Machine/cell research still housed in System | Mine research/questions/evidence into Program while retaining System-owned interfaces, contracts, tests, and historical provenance. |
+| 5 | Review-owned research duplication | Preserve Review navigation/presentation while ending independently editable duplicate research authority. |
+| 6 | Final pointer/dependency audit and donor retirement proposals | Archive only after active trees no longer depend on retired donors as current authority. |
+
+Implementation kinks such as unknown-class fallback, Store economics, project behavior, or machine execution are **not mining work** and remain deferred until the ownership/migration cleanup is complete.
+
+## Earlier pre-freeze queue — historical context
+
+The table below records the first-pass queue and is retained for provenance. It no longer controls execution where the post-freeze ordered-mining queue above differs.
 
 | Order | Work | Destination / decision |
 | --- | --- | --- |
