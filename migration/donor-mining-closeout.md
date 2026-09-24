@@ -146,6 +146,41 @@ Future retrieval from an archived donor is allowed only for one of these reasons
 
 “Maybe there is something good in there” is no longer a reason to keep a donor active.
 
+## Current pointer audit
+
+A bounded search of Program, System, Store, Review, and the short public Scan-to-Build repository found **no current reference to Transfer Staging**.
+
+Grok and Governed Reference references in System fall into two classes.
+
+### Provenance references that may remain
+
+These record historical source identity and should not be erased merely because the source is archived:
+
+- `provenance/APP-TRANSFER.md`
+- historical source rows in `provenance/SOURCE-PINS.md`
+- accepted-lineage references in the current baseline/state records, when clearly labeled provenance/history
+- source-library provenance headers for retained historical copies
+
+Archived repositories remain valid provenance targets.
+
+### Current/controlling-source references that must be reconciled before retirement
+
+Examples found in current System include:
+
+- `docs/application/README.md` — still says application code has not yet been transferred and points to Grok as accepted implementation;
+- `docs/application/CONTROLLING-SOURCE-POINTERS.md` — still points to Grok as controlling source;
+- `docs/project/SOURCE-AUTHORITY.md` — still names Grok/Governed Reference as current authorities;
+- `docs/cell/CURRENT-CELL-SOURCE-POINTER.md` — still treats Grok Cell material as externally pinned current source;
+- `docs/application/SEMANTIC-GUARDRAILS.md` and historical semantic copies — still point to Grok for meaning that is intended to move to Program definitions;
+- `docs/governance/README.md` and `docs/governance/CONTROLLING-SOURCE-POINTERS.md` — still call Governed Reference the current documentary/semantic source and promise exact-copy transfer into System;
+- `work/capability-bridge/GOLD-INDEX.md` and related source maps — include current-role labels that need to be separated from historical provenance;
+- `apps/stb/shared/contracts.mjs` — contains a `GR_SOURCE` constant and therefore needs owner-specific review before any donor retirement claim;
+- some capability/project bridge documents still say “current governed source” when the intended future authority is Program.
+
+These references are not evidence of unmined donor content. They are stale or transitional ownership/pointer debt.
+
+The retirement cleanup must preserve historical pins while changing current authority language to Program/System/Store.
+
 ## What remains before retirement
 
 These are not mining tasks:
