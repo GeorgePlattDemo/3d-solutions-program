@@ -1,29 +1,27 @@
-# Canonical definitions and semantic boundaries
+# Program vocabulary and semantic provenance
 
-**Status:** Program authority for cross-repository terminology.  
+**Status:** Program research/decision vocabulary and reconciliation record; **not** the canonical operational definition authority.  
 **Owner:** `3d-solutions-program`.  
-**Applies to:** Scan-to-Build Program, System, Store, and material admitted from retired donor repositories.
+**Operational authority:** `GeorgePlattDemo/scan-to-build-system/docs/definitions/README.md` and the identified executable contracts under `apps/stb/shared/`.
 
-This page is the common vocabulary contract for the working program. It exists so the application, Store, research record, and later machine-development work cannot use the same word to mean materially different things without an explicit qualified term.
+This page preserves useful vocabulary, distinctions, and semantic provenance discovered during research and donor reconciliation. It may also define Program-local research, experimental, evidence, and decision language.
 
-It is not a runtime schema, a machine controller, a Store capability declaration, a commercial contract, or an authorization issuer. A documentation change here does not silently alter deployed behavior. When a current implementation conflicts with this page, the conflict is a reconciliation defect to be resolved in the owning repository.
+Operational terms repeated here are informative summaries for research continuity. They do not override System's canonical operational definitions, Store-local facts, runtime schemas, machine/controller configuration, commercial terms, or authorization boundaries.
 
 ## 1. Precedence and ownership
 
-For **shared cross-repository terms**, this page controls meaning.
-
-System and Store may define implementation-specific or owner-specific terms that are not defined here. They may add narrower qualifiers, but they shall not silently change a shared meaning.
+For **shared operational terms**, System controls meaning. Store may define narrower Store-local terms and Program may define research/program terms, but neither silently changes the System job meaning.
 
 If a durable wire identifier or existing type name cannot be renamed without breaking compatibility, preserve the identifier and document its qualified meaning. Compatibility is not permission to collapse semantic boundaries.
 
 Implementation ownership remains separate:
 
-- **Program** owns shared definitions, governance, research questions, evidence, and reviewed program decisions.
-- **System** owns application behavior, project journeys, application records, adapters, shared implementation contracts, and application tests.
+- **Program** owns research questions, experiments, evidence, machine-development findings, reviewed decisions/adoption records, partnership/economic/business work, and migration/retirement records.
+- **System** owns canonical shared operational definitions, application behavior, project journeys, application records, adapters, shared implementation contracts, project-definition rules, and application tests.
 - **Store** owns material/offering resolution, stock facts, admitted capability, modeled work/time, economics, fulfillment facts, Store answers, and Store tests.
 - A future commissioned machine/controller implementation owns local machine configuration, controller-specific lowering, physical readiness, and execution evidence within its accepted boundary.
 
-A Program definition cannot manufacture Store capability, application implementation, inventory, price, machine readiness, commercial assent, or physical authority.
+A Program research term, proposal, or decision record cannot manufacture Store capability, application implementation, inventory, price, machine readiness, commercial assent, or physical authority.
 
 ## 2. Source reconciliation basis
 
@@ -34,7 +32,7 @@ This page consolidates still-valid semantic material from these sources:
 - Store `1f9f1a217d91686ef21848508b20e605e7cc6bc1`, `DEFINITIONS.md`.
 - System `5c07833f4547e68a80770488a47f86154e091e74`, including `apps/stb/shared/definition-contract.mjs` and `docs/application/SEMANTIC-GUARDRAILS.md`.
 
-Those repositories remain evidence/provenance for their exact historical versions. This page is the intended continuing semantic home for the shared meanings selected here.
+Those repositories remain evidence/provenance for their exact historical versions. This page preserves the Program-side reconciliation record. Still-valid operational meanings require deliberate admission into the current System or Store owner.
 
 ## 3. Foundational words
 
@@ -99,7 +97,7 @@ These words are allowed, but they are too ambiguous to carry authority without q
 
 **Opening state** — First application state appropriate to an entry context. It is routing/UI state, not a GateResult or physical/commercial determination.
 
-Current product-facing entry language may use labels such as **NEW USER**, **RETURNING USER**, and **PROFESSIONAL**, while older Governed Reference architecture used **COLD**, **PLACE**, and **CONTRACTOR**. Those historical identifiers remain provenance; the durable Program rule is that different starting contexts converge into one shared domain/definition/Store path and do not become competing truth models.
+Current product-facing entry language may use labels such as **NEW USER**, **RETURNING USER**, and **PROFESSIONAL**, while older Governed Reference architecture used **COLD**, **PLACE**, and **CONTRACTOR**. Those historical identifiers remain provenance; the durable architectural principle recorded here is that different starting contexts converge into one shared domain/definition/Store path and do not become competing truth models.
 
 
 ## 4. Evidence, observation, and truth state
@@ -190,7 +188,7 @@ These are semantic meanings. Current schemas and implementation details remain o
 
 ## 6. Definition-contract vocabulary
 
-The current System minimum definition contract uses a small closed vocabulary. Program controls the shared meaning; System owns the executable module and tests.
+The current System minimum definition contract uses a small closed vocabulary. System owns both the operational meaning and the executable module/tests. This section records the Program-side reconciliation context only.
 
 ### Responsibility status
 
@@ -414,9 +412,9 @@ The following substitutions are prohibited unless a separately defined transform
 
 ## 13. Change rule
 
-Add or change a shared term only when the difference can materially affect project meaning, evidence, material, Store answers, economics, authority, safety, execution, or the durable record.
+A proposed change to a shared **operational** term belongs in System. Program may record the research basis, evidence, alternatives, and reviewed adoption decision, but operational adoption requires a deliberate System change.
 
-A shared-definition change should identify:
+A proposed operational-definition change should identify:
 
 1. the term;
 2. prior meaning/source;
@@ -426,4 +424,4 @@ A shared-definition change should identify:
 6. tests or documentary checks required;
 7. whether any durable identifier remains unchanged.
 
-System and Store should link to this page for shared terminology and maintain only their genuinely local terms. Donor repositories may retain historical wording as provenance, but they cease to be semantic authorities once their selected material is admitted here.
+System is the canonical operational-definition home. Store maintains its genuinely local terms and consumes the identified System job meaning. Program keeps only Program-local vocabulary plus research/reconciliation context. Donor repositories may retain historical wording as provenance; they do not become current semantic authorities merely because they remain accessible.
