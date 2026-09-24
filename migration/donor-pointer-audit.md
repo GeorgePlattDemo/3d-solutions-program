@@ -1,6 +1,7 @@
 # Donor Pointer Audit
 
 **Step:** 4 — donor-pointer audit only  
+**Archive status:** `grok-file`, `scan-to-build-governed-reference`, and `scan-to-build-transfer-staging` are archived, read-only, and not deleted; the two former current-pointer rows were cleared in System `8fe959a48c7c97f69367920741932dc075c4adec`.  
 **Program base:** `34fd6e7d1290d3234e3a5492c1720bdf64b37f03`  
 **System base:** `57d22530ce095df902228a49989d28d25a40c819`  
 **Store base:** `ead5fb182eb05e7081e89c103ff74458654502ae`  

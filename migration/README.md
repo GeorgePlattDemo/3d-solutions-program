@@ -1,6 +1,6 @@
 # Migration findings and work queue
 
-Snapshot: September 24, 2026. No source repository has been deleted, archived, or made public by this pass.
+Snapshot: September 24, 2026. `grok-file`, `scan-to-build-transfer-staging`, and `scan-to-build-governed-reference` are archived, read-only, and not deleted.
 
 ## What has been examined
 
@@ -24,7 +24,7 @@ Review's existing copy remains in place during this transition. A follow-up relo
 
 ## Grok reconciliation candidate
 
-The [Grok report](grok-reconciliation.md) and [per-item register](grok-reconciliation.json) now reconcile all nine observed branch heads. Four selected research topics are staged in [Program research](../research/grok-machine-research.md). This replaces Grok triage for the recorded versions, pending PR acceptance; it is not retirement clearance.
+The [Grok report](grok-reconciliation.md) and [per-item register](grok-reconciliation.json) reconcile all nine observed branch heads. Four selected research topics are staged in [Program research](../research/grok-machine-research.md). This replaced Grok triage for the recorded versions; `grok-file` is now archived, read-only, and not deleted.
 
 The [current-validity follow-up](grok-validity-review.md) records which unresolved Grok proposals are already implemented, superseded or still technically relevant. No additional source bodies were imported.
 
@@ -47,7 +47,7 @@ Because donor mining was performed before that ownership correction, the next ph
 | 3 | Governed Reference enduring rulings | **COMPLETED.** Program keeps the ADR/ruling decision-provenance record. Current owner review found no additional operational rule body requiring migration solely to preserve those historical rulings. |
 | 4 | Machine/cell research still housed in System | **COMPLETED.** Machine Build Program, Next Engineering Step, research-cell planning, dimensional/sheet evidence staging, candidate engineering, and S-001 machine research now live under Program `research/machine-development/`. Old System work paths are compatibility pointers; System operational contracts/tests and historical donor provenance remain in System. |
 | 5 | Review-owned research duplication | Preserve Review navigation/presentation while ending independently editable duplicate research authority. |
-| 6 | Final pointer/dependency audit and donor retirement proposals | Archive only after active trees no longer depend on retired donors as current authority. |
+| 6 | Final pointer/dependency audit and donor retirement proposals | **COMPLETED.** Current-pointer cleanup is complete; the three donors are archived, read-only, and not deleted. |
 
 Implementation kinks such as unknown-class fallback, Store economics, project behavior, or machine execution are **not mining work** and remain deferred until the ownership/migration cleanup is complete.
 
@@ -64,9 +64,9 @@ The table below records the first-pass queue and is retained for provenance. It 
 | 5 | Staging candidate versus Governed Reference accepted/recovery code and tests | Establish successor coverage; retain useful test cases and historical proof, not the entire candidate package in System |
 | 6 | Governed Reference semantics and open PR #4 (Store S1/machine-site boundary proposals) | Reconcile accepted semantics into System and experimental engineering into Program; close or transfer open work deliberately |
 | 7 | Review research/ontology/roadmap supporting material | Route research to Program and governing contracts to System, while preserving full demonstration pages |
-| 8 | Dependency and link audit, archive proposals | Grok, Staging and Governed Reference only after their retirement gates pass |
+| 8 | Dependency and link audit, archive proposals | **COMPLETED for archive status.** Grok, Staging and Governed Reference are archived, read-only, and not deleted. |
 
-At inventory time Grok and Staging had no open PRs. Governed Reference had open PR #4. Open issues, tags/releases, unreachable history, deployment dependencies and external incoming links have not yet been exhaustively audited. These are retirement blockers, not reasons to import everything.
+At inventory time Grok and Staging had no open PRs and Governed Reference had open PR #4. Those observations remain historical inventory context; the three donors are now archived, read-only, and not deleted.
 
 ## Specific source contradictions to reconcile
 
