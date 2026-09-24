@@ -46,7 +46,52 @@ for row in json.loads((ROOT / 'migration/admissions.json').read_text())['admissi
     if row['sourceBlob'] not in identities:
         errors.append(f'admission differs beyond recorded link/newline normalization: {row["destinationPath"]}')
 
+# Grok coverage is checked against the captured branch manifest, not a green runtime claim.
+reconciliation = json.loads((ROOT / 'migration/grok-reconciliation.json').read_text())
+allowed = {
+    'ACCEPTED / migrate to Program', 'SYSTEM-owned / leave or point to System',
+    'STORE-owned / leave or point to Store',
+    'SUPERSEDED / retain as history, do not promote',
+    'DUPLICATE / no new authority', 'UNRESOLVED / needs owner decision',
+}
+branches = {b['name']: b for b in reconciliation['branches']}
+coverage = {name: set() for name in branches}
+seen = set()
+for b in branches.values():
+    if not sha.fullmatch(b['commit']) or not sha.fullmatch(b['tree']):
+        errors.append('invalid Grok branch identity')
+for row in reconciliation['entries']:
+    key = (row['path'], row['blob'])
+    if key in seen or not sha.fullmatch(row['blob']):
+        errors.append('duplicate/invalid Grok file identity')
+    seen.add(key)
+    if row['classification'] not in allowed or not row['reason'] or not row['reviewBasis']:
+        errors.append('invalid Grok disposition')
+    if not row['sources']:
+        errors.append('missing Grok provenance')
+    for source in row['sources']:
+        branch = source['branch']
+        if branch not in branches or source['commit'] != branches[branch]['commit']:
+            errors.append('Grok provenance does not match branch manifest')
+        elif row['path'] in coverage[branch]:
+            errors.append('duplicate Grok path within branch')
+        else:
+            coverage[branch].add(row['path'])
+    if row['classification'].startswith('ACCEPTED'):
+        destination = ROOT / row.get('destination', '')
+        if not destination.is_file() or not row['systemCopies']:
+            errors.append('accepted research missing destination or public source counterpart')
+        elif row['blob'] not in destination.read_text():
+            errors.append('accepted research missing source identity in destination')
+    if row['classification'].startswith('DUPLICATE') and not row['systemCopies']:
+        errors.append('Grok duplicate without exact counterpart')
+for name, b in branches.items():
+    if len(coverage[name]) != b['fileCount']:
+        errors.append(f'Grok branch coverage mismatch: {name}')
+
 if errors:
     raise SystemExit('\n'.join(errors))
 print(f'PASS: local links, {len(inventory["entries"])} inventory records, '
       f'{len(inventory["branchUnique"])} branch records, and research admission identity')
+
+print(f'PASS: Grok {len(branches)} branches, {len(seen)} file versions, dispositions and provenance')

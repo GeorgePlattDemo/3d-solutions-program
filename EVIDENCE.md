@@ -12,6 +12,7 @@ Navigation index, September 24, 2026. A link identifies evidence or a work surfa
 | Proposed next experiment | [Bounded-cell trial](research/bounded-cell-trial.md) | Research proposal, equipment candidates, sensing and evaluation questions |
 | End-to-end explanation | [Demo closing document](https://github.com/GeorgePlattDemo/scan-to-build-review/blob/fdeb20a378f7f8b066fec658ea40cdf3be58e379/docs/01-From-Definition-to-Handoff.md) | Explanation of the intended continuity from definition through handoff |
 | Patent source | [System patent sources](https://github.com/GeorgePlattDemo/scan-to-build-system/tree/3c6dfb27d798842286f4209ba14f47796256b8e3/docs/patents/source) | Issued source documents; not proof of safety, commissioning or implementation completeness |
+| Grok reconciliation | [Branch-complete report](migration/grok-reconciliation.md), [current-validity review](migration/grok-validity-review.md) and [selected research](research/grok-machine-research.md) | Source dispositions and open decisions; candidate documentation, not capability adoption |
 | Organization and gaps | [Migration findings](migration/README.md) | Measured duplicate findings, scope of review and remaining retirement work |
 
 For outreach, send the relevant document directly. For an engineering claim, attach the exact version and the specific verification result. Do not substitute a polished explanation for a demonstrated result.

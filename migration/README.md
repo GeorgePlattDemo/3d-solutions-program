@@ -22,14 +22,20 @@ The current public Review bounded-cell trial document is staged at [research/bou
 
 Review's existing copy remains in place during this transition. A follow-up relocation change should preserve its old address with a concise pointer once the Program destination is accepted. Do not leave two independently edited authoritative copies.
 
+## Grok reconciliation candidate
+
+The [Grok report](grok-reconciliation.md) and [per-item register](grok-reconciliation.json) now reconcile all nine observed branch heads. Four selected research topics are staged in [Program research](../research/grok-machine-research.md). This replaces Grok triage for the recorded versions, pending PR acceptance; it is not retirement clearance.
+
+The [current-validity follow-up](grok-validity-review.md) records which unresolved Grok proposals are already implemented, superseded or still technically relevant. No additional source bodies were imported.
+
 ## Concrete next batches
 
 | Order | Work | Destination / decision |
 | --- | --- | --- |
 | 1 | Review Program organization and research admission; verify the existing public links | Program; then Review relocation notice |
-| 2 | Grok journey documents: five exact System copies already found; compare journey pack and Store handoff variants | System; retain only accepted differences |
-| 3 | Grok branch-only work: entry intake, roadmap, app foundation/front door, Alcove prototype, cell-spine variation | System or Program according to subject; separate superseded implementation from still-useful requirements |
-| 4 | Grok definition-contract/compiler proposals | Review against current System implementation; record accepted decisions or exclude superseded proposals, not a second active design |
+| 2 | Review Grok reconciliation candidate and selected research | Program PR; no merge in this pass |
+| 3 | Complete browser comparison for recovered Sarah interactions before retirement | Ownership resolved; browser execution unavailable in this pass; no source transplant |
+| 4 | Review unknown-class fallback in current System; do not rebuild the existing shadow contract | System owner: dedicated regression and scoped decision; select research experiments separately |
 | 5 | Staging candidate versus Governed Reference accepted/recovery code and tests | Establish successor coverage; retain useful test cases and historical proof, not the entire candidate package in System |
 | 6 | Governed Reference semantics and open PR #4 (Store S1/machine-site boundary proposals) | Reconcile accepted semantics into System and experimental engineering into Program; close or transfer open work deliberately |
 | 7 | Review research/ontology/roadmap supporting material | Route research to Program and governing contracts to System, while preserving full demonstration pages |
@@ -39,7 +45,7 @@ At inventory time Grok and Staging had no open PRs. Governed Reference had open 
 
 ## Specific source contradictions to reconcile
 
-- System's README says “Private working repository,” while the repository metadata is public. Correct that separately without changing visibility.
+- Resolved at System `5c07833f4547e68a80770488a47f86154e091e74`: its README now says “Public working repository.” This pass made no System or visibility change.
 - Grok's README still describes a historical inability to access Governed Reference; current access works. That statement is historical, not a present blocker.
 - Older branch instructions prohibit work outside their workshop. They describe that earlier task boundary; they do not override the owner's current consolidation instruction.
 - System currently houses machine research. The new Program ownership direction does not make those files disappear or invalidate their references. Each relocation needs a destination and a checked pointer.

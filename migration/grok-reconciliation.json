@@ -1,0 +1,2656 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-24",
+  "status": "candidate documentary reconciliation; adoption pending PR review",
+  "sourceRepository": "GeorgePlattDemo/grok-file",
+  "sourceVisibility": "private",
+  "programBase": "ca3565a38fee5a067634590f3116afd5dac5d420",
+  "systemReference": {
+    "repository": "GeorgePlattDemo/scan-to-build-system",
+    "commit": "3c6dfb27d798842286f4209ba14f47796256b8e3"
+  },
+  "categories": [
+    "ACCEPTED / migrate to Program",
+    "SYSTEM-owned / leave or point to System",
+    "STORE-owned / leave or point to Store",
+    "SUPERSEDED / retain as history, do not promote",
+    "DUPLICATE / no new authority",
+    "UNRESOLVED / needs owner decision"
+  ],
+  "branches": [
+    {
+      "name": "build/app-foundation-0.1",
+      "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d",
+      "tree": "4595b4785a2686486e477ce2e70fb3f476285a8d",
+      "fileCount": 116
+    },
+    {
+      "name": "build/app-front-door-0.1",
+      "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc",
+      "tree": "c85487d7285e044f024934132cc1dddc30c0b7dc",
+      "fileCount": 24
+    },
+    {
+      "name": "main",
+      "commit": "f704f0da3f34b58506791890691cbf4ceb315b8a",
+      "tree": "f704f0da3f34b58506791890691cbf4ceb315b8a",
+      "fileCount": 13
+    },
+    {
+      "name": "plan/app-entry-intake-contract-0.1",
+      "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42",
+      "tree": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42",
+      "fileCount": 25
+    },
+    {
+      "name": "plan/app-master-roadmap-0.1",
+      "commit": "985db87a707bd454d7c58419e2cf4d884f00cded",
+      "tree": "985db87a707bd454d7c58419e2cf4d884f00cded",
+      "fileCount": 24
+    },
+    {
+      "name": "prototype/sarah-alcove-tour",
+      "commit": "b52570fe48db3af09825b826b739aca72db32c22",
+      "tree": "b52570fe48db3af09825b826b739aca72db32c22",
+      "fileCount": 11
+    },
+    {
+      "name": "wip/app-build-0.1-stabilization",
+      "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086",
+      "tree": "bec2da322d7f4e63d549f1b21f079d346c0b4086",
+      "fileCount": 23
+    },
+    {
+      "name": "wip/atlas-0.1",
+      "commit": "843fc1878a544efc9d42145ccfecfbb87f87afbe",
+      "tree": "843fc1878a544efc9d42145ccfecfbb87f87afbe",
+      "fileCount": 10
+    },
+    {
+      "name": "wip/cell-spine-0.1",
+      "commit": "f0c3e08682810d7a3c03c211dc76f8ece756313e",
+      "tree": "f0c3e08682810d7a3c03c211dc76f8ece756313e",
+      "fileCount": 11
+    }
+  ],
+  "entries": [
+    {
+      "path": "app/index.html",
+      "blob": "de4039843a6366de130cdbf9beb9ac05c9b246a2",
+      "sources": [
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application planning and package history",
+      "classification": "SUPERSEDED / retain as history, do not promote",
+      "reason": "Navigation-only prototype: showScreen handles hash navigation; entry action controls are disabled. System now contains actor/session routing and common-Begin source plus entry browser tests. No executable downstream capability is recovered from this page. Browser parity was not run.",
+      "reviewBasis": "follow-up source comparison against System 5c07833f4547e68a80770488a47f86154e091e74; limits and executed checks in grok-validity-review.md",
+      "followup": "migration/grok-validity-review.md"
+    },
+    {
+      "path": "apps/stb/.gitignore",
+      "blob": "e8bd937283db779c14801eef8007808855faa66e",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/.gitignore"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/.node-version",
+      "blob": "c94711948a665d304dfc7016e1bebc497162b451",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/.node-version"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/app.mjs",
+      "blob": "14b30309b617aad4724ce1862ad350f130669741",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/browser/data/archive.mjs",
+      "blob": "6e71e31a0933ecb412f2bba5ec6d1b8c60f0f8f6",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/data/archive.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/data/record-view.mjs",
+      "blob": "df8f82be4bae36acebfaeda58ae7fe44c1ab0118",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/data/record-view.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/data/repository.mjs",
+      "blob": "d408e9e99091a7ed8fa7efbcc8e7f713c6d6ded8",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/data/repository.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/data/review-view.mjs",
+      "blob": "fa813fc2bffe85fd22103ad71e77b32b25a77735",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/browser/data/selectors.mjs",
+      "blob": "1f6a7f592074fd290633c1fc68590a59129a0685",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/data/selectors.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/data/store-view.mjs",
+      "blob": "f6af94eef1ecf1297aa148bfc7172596861b8b39",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/browser/domain/board.mjs",
+      "blob": "e43593496681621c6e47989fb03627a2055dc7c3",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/domain/board.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/domain/candidate.mjs",
+      "blob": "381594a5db063e513879a6af621dcc08f798fae6",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/browser/domain/classes.mjs",
+      "blob": "23638ea85d3ecfec9648c91c82b93508f0ed5bd8",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/browser/domain/derive.mjs",
+      "blob": "e8647aee460a8f5fc1c7925a8925670cc96590dc",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/browser/domain/evidence.mjs",
+      "blob": "047058ebaa4dc6d77809f8b4d271287dc0d3b4c5",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/domain/evidence.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/domain/observation.mjs",
+      "blob": "eeb7f950273d5c529e9d1910546204af2d2ab53d",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/domain/observation.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/domain/review.mjs",
+      "blob": "bbea33574a1f764c7daa4758e6f168fd4ff65bb4",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/browser/index.html",
+      "blob": "819ff28f0f506d3522edab6bcdea73e48c6e703b",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/index.html"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/integration/store-client.mjs",
+      "blob": "71556218b9f2ee9fb8f5ce8763704fbb3e3e32a1",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/browser/integration/store-coordinator.mjs",
+      "blob": "2a03021c4640b034f7cbf5bf620fd328682a4622",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/browser/styles.css",
+      "blob": "30cbdfb00e1fd9d8995067fbf82d97f390680477",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/styles.css"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/ui/candidate-view.mjs",
+      "blob": "bfaa30692f5e5fcdec0f067e8a7ac61076bb5f5c",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/browser/ui/panels.mjs",
+      "blob": "044a60741c2e8a09d400632afa0c45c5fad628dc",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/ui/panels.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/ui/record-panel.mjs",
+      "blob": "cb681cfb76909debf897a9d108a5b350a45104eb",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/ui/record-panel.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/ui/review-panel.mjs",
+      "blob": "9c256b1618bf4c4c73f14ad0ec78fecab6239acf",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/ui/review-panel.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/ui/shell.mjs",
+      "blob": "41c8a35981cc8005d0daf620e5118626fa6b3198",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/ui/shell.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/ui/source-viewer.mjs",
+      "blob": "146b53c420314057af29bad37c2656c58d5d55c6",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/ui/source-viewer.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/ui/store-panel.mjs",
+      "blob": "85b156d4f3393639b03d88d1c86cd6cb3b4a679c",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/browser/ui/view-state.mjs",
+      "blob": "0ab5ac725fba41cb90fc40b15b74f65311907137",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/ui/view-state.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/vendor/pdfjs/pdf.min.mjs",
+      "blob": "f09214a966f867681510e5754656cb69d52f93e0",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/vendor/pdfjs/pdf.min.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/vendor/pdfjs/pdf.worker.min.mjs",
+      "blob": "3ec0f16d5c919a2987d72ba722d3da44f80e0fbe",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/vendor/pdfjs/pdf.worker.min.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/browser/vendor/pdfjs/VERSION",
+      "blob": "deb026f7cebb9b7beb35a4f76aea7a602d1e4af8",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/browser/vendor/pdfjs/VERSION"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/package-lock.json",
+      "blob": "629dd3edb986361d2e9412dde531fc69373e0fb6",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/package-lock.json"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/package.json",
+      "blob": "672f7adcbb62b7287afb370bfaa4eebbd1c063ab",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/README.md",
+      "blob": "ebec662dda56e32dfd3c9d08c265609dbc40b4bf",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/server/main.mjs",
+      "blob": "55ed6a34ad13b1c2deaa92e02f1e07253d358108",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/server/store-adapter.mjs",
+      "blob": "5781f94b063cdf95c3eab16a49bf76dace22bba4",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/server/store-source.mjs",
+      "blob": "9bc990bef1e0ba5a4ebef33d0f773199a48efb54",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/shared/archive-format.mjs",
+      "blob": "09fcb3e13f30c41464c238110107383bb7e57b7d",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/shared/archive-format.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/shared/board-rule.mjs",
+      "blob": "af971bf6fe793a15dd476d342ff0e2d99883fb2a",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/shared/board-rule.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/shared/canonical.mjs",
+      "blob": "de635da99c7ca225bc5fe24d03862ef062a67dd3",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/shared/canonical.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/shared/contracts.mjs",
+      "blob": "e39a178eb1a487b8298d27f8962968f05923d5a9",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/shared/review-digest.mjs",
+      "blob": "e125ca7c70b0299a469bf1cfe4bbfde9ab8fe1db",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/shared/store-present.mjs",
+      "blob": "e305d2b7cb6899eb975fbdaf404eb91151f35782",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/shared/store-wire.mjs",
+      "blob": "d6be7d15cccac2df1bc53b4d7496a02f32fa26ce",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/boundaries/assets.test.mjs",
+      "blob": "3b14d3a067cf81a55581efbefa74c59c61f2b1c3",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/boundaries/future-suites.test.mjs",
+      "blob": "26a8c249062677261891cbf56bf21362c8f09225",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/boundaries/future-suites.test.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/boundaries/imports.test.mjs",
+      "blob": "9fa94ab85d3ad08a7feff47dc4ca6545ffb6895d",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/browser/archive.spec.mjs",
+      "blob": "9b3c7fae1ea6a81a316c525004d8dd3b06aa22f1",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/browser/archive.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/browser/board-view.spec.mjs",
+      "blob": "0dd464c92d9cc718863bdc5e4236a9eb4af59c00",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/browser/board-view.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/browser/board.spec.mjs",
+      "blob": "de36d2bdd96f92ae2510ff9228c145971ea90a77",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/browser/board.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/browser/entry.spec.mjs",
+      "blob": "98f3e4e9d31424dfc3ca513b20f7d67d8a86b20f",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/browser/entry.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/browser/errors.spec.mjs",
+      "blob": "09d5fd097440e15c7251c8d78cf153727558c84e",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/browser/errors.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/browser/evidence.spec.mjs",
+      "blob": "8b152235710b2368551346ff3fdbbd0366c86b41",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/browser/evidence.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/browser/lifecycle.spec.mjs",
+      "blob": "d36e21208683e0ab68052044baf579b894669a36",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/browser/lifecycle.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/browser/observation.spec.mjs",
+      "blob": "fbd5702c0be822286bf6db3ebd84a504ad3f7c8e",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/browser/observation.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/browser/page1.spec.mjs",
+      "blob": "7593a39bbb31402034ce84b238497c45b2c4563b",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/browser/page2.spec.mjs",
+      "blob": "97ee6d931c0a32cc46c8f83f5fecab22f8d31209",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/browser/page2.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/browser/project-identity.spec.mjs",
+      "blob": "116547629c2ef9ef0ab8709464424604ce87a2c5",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/browser/project-identity.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/browser/repository.spec.mjs",
+      "blob": "899bf8235d49ca981323035c2cd04690037cab72",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/browser/repository.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/browser/result.spec.mjs",
+      "blob": "f76648ae09a6265734dc4a5911221ff738431a0b",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/browser/result.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/browser/review.spec.mjs",
+      "blob": "55154dd49c24fa56524d1b693b4361ef1d8be112",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/browser/review.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/browser/runtime.spec.mjs",
+      "blob": "b503ce9f846096d72dd03e579eb4554c78282b2a",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/browser/runtime.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/browser/store-ask.spec.mjs",
+      "blob": "9617f84d68cb308444448400dc641d206863b739",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/browser/store-client.spec.mjs",
+      "blob": "eec502d2ccf04a060b1762a56079f60b5f381224",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/browser/store-client.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/browser/store-panel.spec.mjs",
+      "blob": "0a0fdeaa59f2cb1f4ab02cf84469645600f1bcfc",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/fixtures/bytes.mjs",
+      "blob": "7846ea90587b877bbc755c42da7197a4df785bbc",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/fixtures/bytes.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/helpers/alternate-origin.mjs",
+      "blob": "92616da1621161e3b4fe1dae0ca9a4185ab0de1d",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/helpers/alternate-origin.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/helpers/browser-repo.mjs",
+      "blob": "027774d89ed888b9f0ed25f8b12b04d5127930c1",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/helpers/browser-repo.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/helpers/http.mjs",
+      "blob": "295ccb93fa3f2b424e26131048a1167e1a5c97d6",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/helpers/http.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/helpers/not-implemented.mjs",
+      "blob": "62c0d1bcfd7b2d260beeaa1256714c3ce952aabb",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/helpers/not-implemented.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/helpers/persistent-browser.mjs",
+      "blob": "b7266d79e752c360252a5f7a82aa61297c76b647",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/helpers/persistent-browser.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/playwright.config.mjs",
+      "blob": "af68161492d8a885300b22511a2eca7d95ddcee3",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/playwright.config.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/playwright.vertical.config.mjs",
+      "blob": "d0c8c67ab1932f78de9221e584794c0f7c1b2f92",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/playwright.vertical.config.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/store/helpers.mjs",
+      "blob": "5552f8f981146c0b3bea8397b79ebe7d36bdc14e",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/store/pinned.test.mjs",
+      "blob": "995869aa89dd970b4a7be6fe7d403479017779af",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/store/source-gate.test.mjs",
+      "blob": "5722dd7159b3526a33554f460e5bdd17f9276bac",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/store/wrapper.test.mjs",
+      "blob": "b36b9b5af58461e9eb1ced9a6b85b513f6629f32",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/unit/archive-format.test.mjs",
+      "blob": "8419be978211deb955ea5a66273f0c28175c9ad5",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/unit/archive-format.test.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/unit/board-rule.test.mjs",
+      "blob": "1140b67bf4cbf99a2bc24c363e57502852e6b612",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/unit/board-rule.test.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/unit/canonical.test.mjs",
+      "blob": "dc81c26299720ff39724dd697c017cd4a9ead4eb",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/unit/canonical.test.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/unit/contracts.test.mjs",
+      "blob": "1a7d1953eca9159b60abc85be15cc14c42f57976",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/unit/contracts.test.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/unit/entry.test.mjs",
+      "blob": "195a11bd41c445ee2e1762f627fbe2f219e06c52",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/unit/host.test.mjs",
+      "blob": "fc782a7d6b422e5effa973ef7a4c92d10143db51",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/unit/review.test.mjs",
+      "blob": "8948876f8993526b9245752f283c39f4e716c5ea",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/unit/static-resolve.test.mjs",
+      "blob": "34bc924aa081204fdd919822a1e8d0e921cc6d1c",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/unit/store-present.test.mjs",
+      "blob": "3898c9985659f3ec9c26f519f65b3d97fc9a33a2",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/unit/store-wire.test.mjs",
+      "blob": "fa31cc294f67a6758ebdfad9b61f8bda1d9caf08",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/vertical/helpers.mjs",
+      "blob": "6a51c27f096b79c1510996d48bbc9d8e3f2a6c2d",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application implementation and tests",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "apps/stb/test/vertical/v8-01-new-user.spec.mjs",
+      "blob": "e259c00a3685f3e374dc2d40c23e142f57d05a77",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/vertical/v8-01-new-user.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/vertical/v8-actors.spec.mjs",
+      "blob": "7e3ee7f3e90849b417b1cfbf2a9d66d4c4cac623",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/vertical/v8-actors.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "apps/stb/test/vertical/v8-authority-a11y.spec.mjs",
+      "blob": "c0d69de5e29de39f3737e88e5b53a2cb76debd81",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "apps/stb/test/vertical/v8-authority-a11y.spec.mjs"
+      ],
+      "subject": "application implementation and tests",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/app/STB-APP-BUILD-0.1.md",
+      "blob": "e6be9f5c225934846904c5cf2796d05135913677",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        }
+      ],
+      "systemCopies": [
+        "source-library/application-current/STB-APP-BUILD-0.1.md"
+      ],
+      "subject": "application planning and package history",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/app/STB-APP-MASTER-ROADMAP-0.1.md",
+      "blob": "58de02e9906866a87f3a83fc4a9e54f87c1dd0ae",
+      "sources": [
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application planning and package history",
+      "classification": "SUPERSEDED / retain as history, do not promote",
+      "reason": "This partial roadmap explicitly prohibits building from the checkpoint. Completed roadmap 615dc7dc6faa13eeab2b16b6ee85a1fc5ba78f3b contains the subsequent milestones; neither is a new Program implementation instruction.",
+      "reviewBasis": "explicit successor wording and content difference"
+    },
+    {
+      "path": "docs/app/STB-APP-MASTER-ROADMAP-0.1.md",
+      "blob": "615dc7dc6faa13eeab2b16b6ee85a1fc5ba78f3b",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application planning and package history",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "docs/app/STB-APP-SOURCE-MAP-0.1.md",
+      "blob": "7f46d45660e2d4173ad8a6e4b717e62fe09b2142",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        }
+      ],
+      "systemCopies": [
+        "source-library/application-current/STB-APP-SOURCE-MAP-0.1.md"
+      ],
+      "subject": "application planning and package history",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/app/STB-APP-STABILIZATION-0.1.md",
+      "blob": "67d92e585075cbf887defd2cb40af7edbecaeec1",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        }
+      ],
+      "systemCopies": [
+        "source-library/application-current/STB-APP-STABILIZATION-0.1.md"
+      ],
+      "subject": "application planning and package history",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/app/STB-APP-STRUCTURE-0.1.md",
+      "blob": "3ec66aed5419ebd7c3599481029a49967a8a58a8",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        }
+      ],
+      "systemCopies": [
+        "source-library/application-current/STB-APP-STRUCTURE-0.1.md"
+      ],
+      "subject": "application planning and package history",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/app/STB-ENTRY-INTAKE-CONTRACT-0.1.md",
+      "blob": "e4093efa2a59ac721a78df38872b60fd3015e18b",
+      "sources": [
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application planning and package history",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "System owns this application/planning ancestry. System apps/README.md and BRANCH-PR-GENEALOGY.md document the foundation transfer; retained donor content is not a new implementation baseline.",
+      "reviewBasis": "ownership and documented ancestry; not a behavioral code audit"
+    },
+    {
+      "path": "docs/architecture/contractor-tool-boundary.md",
+      "blob": "b2e6fb2aec4d47fc07b86bea5c33f33b7b1faa42",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "main",
+          "commit": "f704f0da3f34b58506791890691cbf4ceb315b8a"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "prototype/sarah-alcove-tour",
+          "commit": "b52570fe48db3af09825b826b739aca72db32c22"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        },
+        {
+          "branch": "wip/atlas-0.1",
+          "commit": "843fc1878a544efc9d42145ccfecfbb87f87afbe"
+        },
+        {
+          "branch": "wip/cell-spine-0.1",
+          "commit": "f0c3e08682810d7a3c03c211dc76f8ece756313e"
+        }
+      ],
+      "systemCopies": [
+        "source-library/application-current/architecture/contractor-tool-boundary.md"
+      ],
+      "subject": "application planning and package history",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/architecture/entry-to-store-handoff.md",
+      "blob": "73a6ffb981611190036dcbeabfe6069a9b5ec631",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "source-library/application-current/architecture/entry-to-store-handoff.md"
+      ],
+      "subject": "application planning and package history",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/architecture/entry-to-store-handoff.md",
+      "blob": "f75e3783623c68605fd747922b13d68276152b0a",
+      "sources": [
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "main",
+          "commit": "f704f0da3f34b58506791890691cbf4ceb315b8a"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "prototype/sarah-alcove-tour",
+          "commit": "b52570fe48db3af09825b826b739aca72db32c22"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        },
+        {
+          "branch": "wip/atlas-0.1",
+          "commit": "843fc1878a544efc9d42145ccfecfbb87f87afbe"
+        },
+        {
+          "branch": "wip/cell-spine-0.1",
+          "commit": "f0c3e08682810d7a3c03c211dc76f8ece756313e"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application planning and package history",
+      "classification": "SUPERSEDED / retain as history, do not promote",
+      "reason": "System's matching successor 73a6ffb981611190036dcbeabfe6069a9b5ec631 explicitly replaces simulated fulfillment status with reference-node evaluation disposition.",
+      "reviewBasis": "explicit successor wording and content difference"
+    },
+    {
+      "path": "docs/architecture/in-store-channel.md",
+      "blob": "56371bcadf8bb6a498b409df8aa8d61cfbe075df",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "main",
+          "commit": "f704f0da3f34b58506791890691cbf4ceb315b8a"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "prototype/sarah-alcove-tour",
+          "commit": "b52570fe48db3af09825b826b739aca72db32c22"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        },
+        {
+          "branch": "wip/atlas-0.1",
+          "commit": "843fc1878a544efc9d42145ccfecfbb87f87afbe"
+        },
+        {
+          "branch": "wip/cell-spine-0.1",
+          "commit": "f0c3e08682810d7a3c03c211dc76f8ece756313e"
+        }
+      ],
+      "systemCopies": [
+        "source-library/application-current/architecture/in-store-channel.md"
+      ],
+      "subject": "application planning and package history",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/architecture/STB-SEMANTIC-BOUNDARIES-0.1.md",
+      "blob": "45a324fdd200cb1f7384bcd9d172b204179d7b5f",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        }
+      ],
+      "systemCopies": [
+        "source-library/application-current/STB-SEMANTIC-BOUNDARIES-0.1.md"
+      ],
+      "subject": "application planning and package history",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/atlas/README.md",
+      "blob": "e5494c8c848803edb50534b27e59c8a668c7e249",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        }
+      ],
+      "systemCopies": [
+        "source-library/atlas-research/README.md"
+      ],
+      "subject": "research",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/atlas/STB-ATLAS-01-CAPTURE-0.1.md",
+      "blob": "f96dfd19b302e098833bb07e1e7c4ab4a739f51a",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        }
+      ],
+      "systemCopies": [
+        "source-library/atlas-research/STB-ATLAS-01-CAPTURE-0.1.md"
+      ],
+      "subject": "research",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/atlas/STB-ATLAS-02-EASY-HARD-IN-0.1.md",
+      "blob": "a1698dd0c8f51307087252f3f27145c68f3f199a",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        }
+      ],
+      "systemCopies": [
+        "source-library/atlas-research/STB-ATLAS-02-EASY-HARD-IN-0.1.md"
+      ],
+      "subject": "research",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/atlas/STB-ATLAS-03-ORDER-MEMBRANE-0.1.md",
+      "blob": "a3b1238d89577d7f3cc78335dc8ebfd28aa8fc19",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        }
+      ],
+      "systemCopies": [
+        "source-library/atlas-research/STB-ATLAS-03-ORDER-MEMBRANE-0.1.md"
+      ],
+      "subject": "research",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/atlas/STB-ATLAS-04-NEUTRAL-OPS-TO-MACHINE-0.1.md",
+      "blob": "afc60256c882c8bda5f40d390acdaa34ccf49e22",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        }
+      ],
+      "systemCopies": [
+        "source-library/atlas-research/STB-ATLAS-04-NEUTRAL-OPS-TO-MACHINE-0.1.md"
+      ],
+      "subject": "research",
+      "classification": "ACCEPTED / migrate to Program",
+      "reason": "Selected research questions only, curated from the already-public identical System source. No equipment, capability, economics or execution authority adopted.",
+      "reviewBasis": "substantive research section review and public source identity",
+      "destination": "research/grok-machine-research.md"
+    },
+    {
+      "path": "docs/atlas/STB-ATLAS-05-ENVELOPE-LADDER-0.1.md",
+      "blob": "c7677e6dcee74ea6dd2d73da7b4269ffdf6ba44d",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        }
+      ],
+      "systemCopies": [
+        "source-library/atlas-research/STB-ATLAS-05-ENVELOPE-LADDER-0.1.md"
+      ],
+      "subject": "research",
+      "classification": "ACCEPTED / migrate to Program",
+      "reason": "Selected research questions only, curated from the already-public identical System source. No equipment, capability, economics or execution authority adopted.",
+      "reviewBasis": "substantive research section review and public source identity",
+      "destination": "research/grok-machine-research.md"
+    },
+    {
+      "path": "docs/atlas/STB-ATLAS-06-IRON-0.1.md",
+      "blob": "0a9f171a0547a9f9493ac7691eb7f71a4187a534",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        }
+      ],
+      "systemCopies": [
+        "source-library/atlas-research/STB-ATLAS-06-IRON-0.1.md"
+      ],
+      "subject": "research",
+      "classification": "ACCEPTED / migrate to Program",
+      "reason": "Selected research questions only, curated from the already-public identical System source. No equipment, capability, economics or execution authority adopted.",
+      "reviewBasis": "substantive research section review and public source identity",
+      "destination": "research/grok-machine-research.md"
+    },
+    {
+      "path": "docs/atlas/STB-ATLAS-07-ATOMS-VS-BITS-0.1.md",
+      "blob": "a31f14543e2958d3e725a6ce2e75f023c7340615",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        }
+      ],
+      "systemCopies": [
+        "source-library/atlas-research/STB-ATLAS-07-ATOMS-VS-BITS-0.1.md"
+      ],
+      "subject": "research",
+      "classification": "ACCEPTED / migrate to Program",
+      "reason": "Selected research questions only, curated from the already-public identical System source. No equipment, capability, economics or execution authority adopted.",
+      "reviewBasis": "substantive research section review and public source identity",
+      "destination": "research/grok-machine-research.md"
+    },
+    {
+      "path": "docs/cell/STB-CELL-0.1.md",
+      "blob": "73282ee4a7bdada9b1cd261f5fbae5bb5d7092a5",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        }
+      ],
+      "systemCopies": [
+        "source-library/machine-cell/STB-CELL-0.1.md"
+      ],
+      "subject": "machine definition research",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/cell/STB-CELL-0.1.md",
+      "blob": "e1864c2d3b7ad92293144e0fcacab4025d842878",
+      "sources": [
+        {
+          "branch": "wip/cell-spine-0.1",
+          "commit": "f0c3e08682810d7a3c03c211dc76f8ece756313e"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "machine definition research",
+      "classification": "SUPERSEDED / retain as history, do not promote",
+      "reason": "Corrected cell version 73282ee4a7bdada9b1cd261f5fbae5bb5d7092a5 explicitly replaces live capability wording with synthetic, not installed or commissioned. No recovered numeric definition is lost in that wording correction.",
+      "reviewBasis": "explicit successor wording and content difference"
+    },
+    {
+      "path": "docs/journeys/cold-entry.md",
+      "blob": "12e10022140b072b61acfe82ee8128db8d3035fc",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "main",
+          "commit": "f704f0da3f34b58506791890691cbf4ceb315b8a"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "prototype/sarah-alcove-tour",
+          "commit": "b52570fe48db3af09825b826b739aca72db32c22"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        },
+        {
+          "branch": "wip/atlas-0.1",
+          "commit": "843fc1878a544efc9d42145ccfecfbb87f87afbe"
+        },
+        {
+          "branch": "wip/cell-spine-0.1",
+          "commit": "f0c3e08682810d7a3c03c211dc76f8ece756313e"
+        }
+      ],
+      "systemCopies": [
+        "source-library/journey-donors/cold-entry.md"
+      ],
+      "subject": "customer journeys",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/journeys/contractor.md",
+      "blob": "742a99068ee7725639a4cd5704732463b389bfd7",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "main",
+          "commit": "f704f0da3f34b58506791890691cbf4ceb315b8a"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "prototype/sarah-alcove-tour",
+          "commit": "b52570fe48db3af09825b826b739aca72db32c22"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        },
+        {
+          "branch": "wip/atlas-0.1",
+          "commit": "843fc1878a544efc9d42145ccfecfbb87f87afbe"
+        },
+        {
+          "branch": "wip/cell-spine-0.1",
+          "commit": "f0c3e08682810d7a3c03c211dc76f8ece756313e"
+        }
+      ],
+      "systemCopies": [
+        "source-library/journey-donors/contractor.md"
+      ],
+      "subject": "customer journeys",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/journeys/returning-homeowner.md",
+      "blob": "a12935180cb58eedc95ca1f51659e3ceb1e0e2bb",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "main",
+          "commit": "f704f0da3f34b58506791890691cbf4ceb315b8a"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "prototype/sarah-alcove-tour",
+          "commit": "b52570fe48db3af09825b826b739aca72db32c22"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        },
+        {
+          "branch": "wip/atlas-0.1",
+          "commit": "843fc1878a544efc9d42145ccfecfbb87f87afbe"
+        },
+        {
+          "branch": "wip/cell-spine-0.1",
+          "commit": "f0c3e08682810d7a3c03c211dc76f8ece756313e"
+        }
+      ],
+      "systemCopies": [
+        "source-library/journey-donors/returning-homeowner.md"
+      ],
+      "subject": "customer journeys",
+      "classification": "DUPLICATE / no new authority",
+      "reason": "Exact Git blob already exists in System; no new copy or authority.",
+      "reviewBasis": "Git blob identity and ownership review"
+    },
+    {
+      "path": "docs/reviews/README.md",
+      "blob": "3e736bafcff7cc616c88df9b5b1456d66d4d3864",
+      "sources": [
+        {
+          "branch": "main",
+          "commit": "f704f0da3f34b58506791890691cbf4ceb315b8a"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "definition-contract proposals",
+      "classification": "SUPERSEDED / retain as history, do not promote",
+      "reason": "Historical workshop/package navigation and task status, retained at source. Current Program ownership and System transfer records govern this migration; old workshop restrictions and upload status are not present instructions.",
+      "reviewBasis": "document role/status review"
+    },
+    {
+      "path": "docs/reviews/STB-DEFINITION-COMPILER-REVIEW-0.1.md",
+      "blob": "d4614d57374962010569034c230c067f7fc510c6",
+      "sources": [
+        {
+          "branch": "main",
+          "commit": "f704f0da3f34b58506791890691cbf4ceb315b8a"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "definition-contract proposals",
+      "classification": "SUPERSEDED / retain as history, do not promote",
+      "reason": "Do not promote the compiler implementation blueprint: the companion minimum proposal explicitly narrows it, and System has implemented the small shadow-only contract. Retain independently substantiated observations through the validity review; this disposition does not declare every historical research question false.",
+      "reviewBasis": "follow-up source comparison against System 5c07833f4547e68a80770488a47f86154e091e74; limits and executed checks in grok-validity-review.md",
+      "followup": "migration/grok-validity-review.md"
+    },
+    {
+      "path": "docs/reviews/STB-DEFINITION-CONTRACT-MINIMUM-IMPLEMENTATION-0.1.md",
+      "blob": "e85580e091328efa4b08a65b0f9e72f0b7587c58",
+      "sources": [
+        {
+          "branch": "main",
+          "commit": "f704f0da3f34b58506791890691cbf4ceb315b8a"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "definition-contract proposals",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "The first proposed slice already exists on System main: definition-contract.mjs and its 14 unit tests, introduced at b4058f60a536445b26c8ad5682266ecdf54e938c. No production import was found in apps/stb. Do not rebuild or describe later adapters as implemented. Retain the still-present unknown-class fallback finding as a bounded System follow-up.",
+      "reviewBasis": "follow-up source comparison against System 5c07833f4547e68a80770488a47f86154e091e74; limits and executed checks in grok-validity-review.md",
+      "followup": "migration/grok-validity-review.md"
+    },
+    {
+      "path": "PACKAGE-MANIFEST.json",
+      "blob": "54948a57fb3ca183cf1ad3da954e8d2848f2d1ab",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "main",
+          "commit": "f704f0da3f34b58506791890691cbf4ceb315b8a"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "prototype/sarah-alcove-tour",
+          "commit": "b52570fe48db3af09825b826b739aca72db32c22"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        },
+        {
+          "branch": "wip/atlas-0.1",
+          "commit": "843fc1878a544efc9d42145ccfecfbb87f87afbe"
+        },
+        {
+          "branch": "wip/cell-spine-0.1",
+          "commit": "f0c3e08682810d7a3c03c211dc76f8ece756313e"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application planning and package history",
+      "classification": "SUPERSEDED / retain as history, do not promote",
+      "reason": "Historical workshop/package navigation and task status, retained at source. Current Program ownership and System transfer records govern this migration; old workshop restrictions and upload status are not present instructions.",
+      "reviewBasis": "document role/status review"
+    },
+    {
+      "path": "prototypes/sarah-alcove-guided-tour.html",
+      "blob": "b06f38f190d4f874f90470a83791307b9cd71f1c",
+      "sources": [
+        {
+          "branch": "prototype/sarah-alcove-tour",
+          "commit": "b52570fe48db3af09825b826b739aca72db32c22"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application planning and package history",
+      "classification": "SYSTEM-owned / leave or point to System",
+      "reason": "Useful interaction patterns are already enumerated in System STB-APP-STABILIZATION-0.1.md. Current evidence/review/archive modules provide corresponding responsibilities; do not transplant the tour, its material checks or fixture answers. Exact UI parity and file-reset races remain unverified; no retirement clearance.",
+      "reviewBasis": "follow-up source comparison against System 5c07833f4547e68a80770488a47f86154e091e74; limits and executed checks in grok-validity-review.md",
+      "followup": "migration/grok-validity-review.md"
+    },
+    {
+      "path": "README.md",
+      "blob": "59e94918be9eea95ddd02de44ab2cb2ce228a1f2",
+      "sources": [
+        {
+          "branch": "main",
+          "commit": "f704f0da3f34b58506791890691cbf4ceb315b8a"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application planning and package history",
+      "classification": "SUPERSEDED / retain as history, do not promote",
+      "reason": "Historical workshop/package navigation and task status, retained at source. Current Program ownership and System transfer records govern this migration; old workshop restrictions and upload status are not present instructions.",
+      "reviewBasis": "document role/status review"
+    },
+    {
+      "path": "README.md",
+      "blob": "c4c0c36ffe376692f0189bcf8d9ae3fa1d29ebeb",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "prototype/sarah-alcove-tour",
+          "commit": "b52570fe48db3af09825b826b739aca72db32c22"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        },
+        {
+          "branch": "wip/atlas-0.1",
+          "commit": "843fc1878a544efc9d42145ccfecfbb87f87afbe"
+        },
+        {
+          "branch": "wip/cell-spine-0.1",
+          "commit": "f0c3e08682810d7a3c03c211dc76f8ece756313e"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application planning and package history",
+      "classification": "SUPERSEDED / retain as history, do not promote",
+      "reason": "Historical workshop/package navigation and task status, retained at source. Current Program ownership and System transfer records govern this migration; old workshop restrictions and upload status are not present instructions.",
+      "reviewBasis": "document role/status review"
+    },
+    {
+      "path": "STB-PHASE2-JOURNEY-PACK.md",
+      "blob": "5a13188c4a3efbde70b58a3ffe3385ae0a8fb825",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "main",
+          "commit": "f704f0da3f34b58506791890691cbf4ceb315b8a"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "prototype/sarah-alcove-tour",
+          "commit": "b52570fe48db3af09825b826b739aca72db32c22"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        },
+        {
+          "branch": "wip/atlas-0.1",
+          "commit": "843fc1878a544efc9d42145ccfecfbb87f87afbe"
+        },
+        {
+          "branch": "wip/cell-spine-0.1",
+          "commit": "f0c3e08682810d7a3c03c211dc76f8ece756313e"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application planning and package history",
+      "classification": "SUPERSEDED / retain as history, do not promote",
+      "reason": "Historical workshop/package navigation and task status, retained at source. Current Program ownership and System transfer records govern this migration; old workshop restrictions and upload status are not present instructions.",
+      "reviewBasis": "document role/status review"
+    },
+    {
+      "path": "UPLOAD-STATUS.md",
+      "blob": "46b085debbc06f3a60f53002d769e1d3f3d393e5",
+      "sources": [
+        {
+          "branch": "build/app-foundation-0.1",
+          "commit": "4595b4785a2686486e477ce2e70fb3f476285a8d"
+        },
+        {
+          "branch": "build/app-front-door-0.1",
+          "commit": "c85487d7285e044f024934132cc1dddc30c0b7dc"
+        },
+        {
+          "branch": "main",
+          "commit": "f704f0da3f34b58506791890691cbf4ceb315b8a"
+        },
+        {
+          "branch": "plan/app-entry-intake-contract-0.1",
+          "commit": "2d80b5a7b0e7687c425e100bfa0ff3a833166d42"
+        },
+        {
+          "branch": "plan/app-master-roadmap-0.1",
+          "commit": "985db87a707bd454d7c58419e2cf4d884f00cded"
+        },
+        {
+          "branch": "prototype/sarah-alcove-tour",
+          "commit": "b52570fe48db3af09825b826b739aca72db32c22"
+        },
+        {
+          "branch": "wip/app-build-0.1-stabilization",
+          "commit": "bec2da322d7f4e63d549f1b21f079d346c0b4086"
+        },
+        {
+          "branch": "wip/atlas-0.1",
+          "commit": "843fc1878a544efc9d42145ccfecfbb87f87afbe"
+        },
+        {
+          "branch": "wip/cell-spine-0.1",
+          "commit": "f0c3e08682810d7a3c03c211dc76f8ece756313e"
+        }
+      ],
+      "systemCopies": [],
+      "subject": "application planning and package history",
+      "classification": "SUPERSEDED / retain as history, do not promote",
+      "reason": "Historical workshop/package navigation and task status, retained at source. Current Program ownership and System transfer records govern this migration; old workshop restrictions and upload status are not present instructions.",
+      "reviewBasis": "document role/status review"
+    }
+  ],
+  "validityReview": {
+    "systemCommit": "5c07833f4547e68a80770488a47f86154e091e74",
+    "report": "migration/grok-validity-review.md",
+    "scope": "four previously unresolved documentary dispositions; no runtime adoption",
+    "browserVerification": "not run: Chromium executable absent"
+  }
+}
