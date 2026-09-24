@@ -42,8 +42,8 @@ Because donor mining was performed before that ownership correction, the next ph
 
 | Order | Subject | Current disposition |
 | --- | --- | --- |
-| 1 | Common Entry Architecture | **Rehome to System.** It is operational application architecture. Program retains provenance/relocation only. |
-| 2 | Information custody / external processing | Split operational application custody requirements from broader Program research/policy questions; do not invent consent machinery. |
+| 1 | Common Entry Architecture | **COMPLETED.** Rehomed to System; Program retains provenance/relocation only. |
+| 2 | Information custody / external processing | **Current batch.** System owns implemented project/evidence/record custody and any future operational disclosure interface; Program retains broader secondary-use, aggregation, participant, provider-policy, and commercial-sensitivity questions. No consent machinery is invented. |
 | 3 | Governed Reference enduring rulings | Keep Program decision/provenance record; move only still-valid operational requirements that lack a current System/Store home. |
 | 4 | Machine/cell research still housed in System | Mine research/questions/evidence into Program while retaining System-owned interfaces, contracts, tests, and historical provenance. |
 | 5 | Review-owned research duplication | Preserve Review navigation/presentation while ending independently editable duplicate research authority. |
