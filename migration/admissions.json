@@ -1,0 +1,12 @@
+{
+  "admissions": [
+    {
+      "sourceRepository": "scan-to-build-review",
+      "sourceCommit": "fdeb20a378f7f8b066fec658ea40cdf3be58e379",
+      "sourcePath": "docs/02-Explore-the-Bounded-Cell-Trial.md",
+      "sourceBlob": "c7f4a902a4509f21c6813d3e13e6fcae826daf3f",
+      "destinationPath": "research/bounded-cell-trial.md",
+      "transformation": "Only companion-document relative link changed to the exact public source URL."
+    }
+  ]
+}
