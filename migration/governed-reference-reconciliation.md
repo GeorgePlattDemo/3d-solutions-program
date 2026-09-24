@@ -47,10 +47,10 @@ Selected Governed Reference content belongs in Program only where it is research
 - unresolved machine-development questions;
 - source provenance and retirement record.
 
-Candidate result in this branch:
+Current reconciled results:
 
-- `governance/governed-reference-rulings.md`
-- `research/machine-site-convergence.md`
+- `governance/governed-reference-rulings.md` — Program decision/provenance record; post-freeze review found no additional operational rule body requiring migration merely to preserve the historical ADRs.
+- `research/machine-site-convergence.md` — Program research questions, not Store/System/machine authority.
 
 Canonical shared operational terminology is now owned by System. Program retains vocabulary only for research/decision context and provenance.
 

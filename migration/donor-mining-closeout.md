@@ -103,7 +103,7 @@ Branch-only dispositions:
 
 Program admissions from the Governed Reference mining include:
 
-- enduring governance/ADR rulings;
+- enduring governance/ADR lessons retained as Program decision/provenance; post-freeze review found no additional operational rule body requiring migration solely to preserve them;
 - shared-definition source material;
 - common-entry architecture (post-freeze rehomed to System; Program retains relocation/provenance);
 - information custody/disclosure/external-processing source material (post-freeze split: System operational custody; Program broader research/policy);

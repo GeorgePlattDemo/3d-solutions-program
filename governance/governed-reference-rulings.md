@@ -2,7 +2,7 @@
 
 **Source repository:** `GeorgePlattDemo/scan-to-build-governed-reference`  
 **Source main:** `18949f163718a937f072f4be3a654bb303e53160`  
-**Status:** Program reconciliation candidate. This page does not alter System or Store runtime behavior.
+**Status:** Program decision/provenance record for historical Governed Reference rulings. It is not the current operational semantic or implementation authority and does not alter System or Store runtime behavior.
 
 ## Purpose
 
@@ -16,7 +16,7 @@ The source repository mixed three things:
 
 Those categories must remain separate.
 
-## Current enduring rulings
+## Retained decision principles
 
 ### Safety and authority
 
@@ -92,17 +92,28 @@ Retain these lessons:
 
 Do not carry forward its frozen fixture values, inactive-feature list, package layout, or M1 command list as present Program requirements.
 
-## Relationship to canonical definitions
+## Relationship to current owners
 
-The Program canonical-definitions candidate is intended to own shared word meaning across Program/System/Store. This page owns enduring governance rulings and historical ADR disposition.
+System owns canonical shared operational definitions, application architecture, records/custody, application contracts, and tests. Store owns Store-local facts, capability, economics, and Store answers. Program owns research, evidence, reviewed decisions/adoption records, and migration/provenance.
 
-Definitions answer **what a term means**.  
-This page answers **what cross-repository governance constraints still apply**.
+This page therefore records **why earlier rulings mattered and how they were dispositioned**. It does not create a parallel operational rulebook.
 
-Neither page silently changes executable System or Store behavior. A conflict found in implementation requires an owner-specific reconciliation and tests.
+Post-freeze reclassification checked the principal retained rulings against current System owner material. The same operational boundaries are already represented in current System definitions, application/custody guidance, verification records, or accepted/parallel implementation evidence, including:
+
+- simulation versus physical execution;
+- authority-state separation and fail-closed behavior;
+- content-hash identity limits;
+- durable identifier stability;
+- source/evidence versus inference;
+- custody/processor versus authority;
+- explicit unresolved conditions.
+
+**No additional operational rule body is migrated from this page merely to preserve the historical ADRs.**
+
+If a current System or Store owner later identifies a specific missing requirement, it must be admitted as a bounded owner-specific change with tests/proof. Historical acceptance in Governed Reference is not sufficient by itself.
 
 ## Historical source retention
 
 The source ADR files, full STB-REF/STB-PLAN documents, M1 packages, fixtures, schemas, tests, and audit records remain recoverable in the retired/archived source repository. They do not all need active duplicates in Program.
 
-The point of this page is to preserve the rulings that must remain easy to find after that repository is no longer part of the working set.
+The point of this page is to preserve the historical decisions, lessons, and dispositions that remain useful after that repository is no longer part of the working set—without making Program a second operational authority.
