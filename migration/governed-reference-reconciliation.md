@@ -35,12 +35,12 @@ Those bodies should not all be copied into Program.
 
 ### Program
 
-Program owns the enduring cross-repository governance, definitions, research questions, experiment evidence, and migration/decision record.
+Program owns research questions, experiment evidence, reviewed decisions/adoption records, machine-development questions/findings, and migration/retirement record. System owns canonical shared operational definitions and application architecture; Store owns Store-local facts and capability/economic answers.
 
-Selected Governed Reference content therefore belongs in Program as reconciled meaning, not wholesale duplication:
+Selected Governed Reference content belongs in Program only where it is research, evidence, reviewed decision/provenance, or migration record; operational material belongs with System or Store:
 
-- enduring governance rulings and ADR lessons;
-- shared object/status meanings needed by the canonical definitions;
+- enduring ADR/governance lessons as decision/provenance records;
+- shared object/status source material only as provenance for System operational definitions;
 - demand/information-custody research that remains current;
 - safety/authority separation;
 - negative lessons from recovery/security audits;
@@ -52,15 +52,15 @@ Candidate result in this branch:
 - `governance/governed-reference-rulings.md`
 - `research/machine-site-convergence.md`
 
-The separate Program canonical-definitions candidate handles shared terminology.
+Canonical shared operational terminology is now owned by System. Program retains vocabulary only for research/decision context and provenance.
 
 ### System
 
-System owns current executable application behavior, application contracts/adapters, records, integration behavior, and tests.
+System owns current application behavior, canonical shared operational definitions, application architecture, contracts/adapters, records, integration behavior, and tests.
 
 Historical Governed Reference code should enter System only when a present System requirement specifically needs that executable behavior and it survives current acceptance tests. The old M1 packages/schemas/fixtures are not imported merely because they once demonstrated governance.
 
-System currently contains a documentary governance mirror. After Program governance is accepted, that mirror should be reduced to implementation-specific material and pointers to Program rather than remain a second semantic/governance authority.
+System's historical Governed Reference mirror remains provenance. Current operational rules should be explicit System contracts/docs; Program decision/research records may be referenced for rationale without becoming a second operational authority.
 
 ### Store
 
@@ -80,9 +80,10 @@ The source root said STB-REF controlled domain semantics, STB-PLAN controlled ac
 
 That hierarchy was appropriate for the historical repository. The current organization changes the destination:
 
-- shared meaning → Program definitions;
-- enduring cross-repository rule → Program governance;
-- current executable contract → System or Store owner;
+- shared operational meaning → System definitions;
+- application architecture / record-custody rule → System where operational;
+- research/evidence/decision rationale → Program;
+- Store-local fact/capability/economic contract → Store;
 - historical milestone/build rule → source archive/history.
 
 The 13 source ADRs were reviewed. Their disposition is recorded in `governance/governed-reference-rulings.md`.
@@ -97,10 +98,10 @@ Do not create another active full-copy set in Program solely because the donor i
 
 The correct extraction is:
 
-- canonical still-valid shared definitions → Program definitions;
-- enduring governance → Program governance;
-- research propositions → Program research;
-- executable current requirements → System/Store;
+- canonical still-valid shared operational definitions → System;
+- application architecture / operational custody requirements → System;
+- research propositions and reviewed decision/provenance records → Program;
+- Store-local requirements → Store;
 - the exact historical full documents → archived source provenance.
 
 This preserves citeability without making old versioned specifications compete with current authority.
@@ -116,7 +117,7 @@ This preserves citeability without making old versioned specifications compete w
 | `scripts/`, package files, CI | Repository-specific implementation infrastructure; retire with donor unless an owning repository independently needs equivalent tooling. |
 | validation/freeze/change reports | Historical evidence; keep provenance, do not make current acceptance claims. |
 | documentary baseline duplicate tree | Archive/history; do not copy duplicate bodies into Program. |
-| STB-REF/STB-PLAN full bodies | Historical controlling sources for their version; cite through archived donor, while selected current meaning is admitted to Program. |
+| STB-REF/STB-PLAN full bodies | Historical controlling sources for their version; cite through archived donor, while selected still-valid material is admitted to the current System, Store, or Program owner according to subject. |
 
 ## Branch reconciliation
 
@@ -150,7 +151,7 @@ It adds exactly three proposed documents:
 
 Disposition:
 
-- **Store reference-node contract:** superseded as a build authority by the later independent Store/System ownership model. Durable semantic separations are covered by current Store definitions and the Program definitions effort. Do not migrate the full body.
+- **Store reference-node contract:** superseded as a build authority by the later independent Store/System ownership model. Durable semantic separations are covered by current System operational definitions and Store-local definitions. Do not migrate the full body.
 - **S1 build plan:** superseded implementation plan. It explicitly assumes S1 code belongs in Governed Reference/Grok, which is no longer the current owner structure. Do not migrate as backlog.
 - **Machine-site convergence:** retain as **Program research**, stripped of fixture-specific/unactivated pseudo-contract claims. The unresolved frames, kinematics, tool/stock binding, lowering, controller-dialect, release/acceptance/execution separation, and commissioning questions remain useful.
 
@@ -179,7 +180,7 @@ The final content pass classified all 233 files on donor main with no unclassifi
 
 | Disposition class | Files | Meaning |
 | --- | ---: | --- |
-| Program-mined current meaning | 33 | Enduring governance, definitions/source vocabulary, common-entry/custody research, ADR lessons, and Demand-as-Architecture source material were reconciled into compact Program records rather than bulk-copied. |
+| First-pass Program admissions | 33 | Research, governance/ADR lessons, definitions/source vocabulary, common-entry/custody material, and Demand-as-Architecture source material were compacted rather than bulk-copied. Post-freeze reclassification now moves operational material to System/Store while Program retains research/decision/provenance. |
 | System or historical executable evidence | 154 | M1/reference-node code, schemas, fixtures, tests, scripts, inspectors, current-simulation notes, audits and related executable evidence. Current implementation enters System only when a present System requirement specifically needs it; otherwise it remains source history. |
 | Frozen source/archive only | 23 | Full STB-REF/STB-PLAN versions, documentary-baseline copies, source manifests and historical frozen material. Preserve exact source identity; do not make old versioned specs a competing current authority. |
 | Repository-local/provenance only | 23 | Repository plumbing, package-era dependency record, root reports/manifests, setup/history and other donor-local administration/provenance. |
@@ -194,7 +195,7 @@ Branch-only content is also dispositioned:
 
 Additional Program admissions from the final pass:
 
-- `governance/common-entry-architecture.md`
+- `governance/common-entry-architecture.md` — now a relocation/provenance notice; current rule is System `docs/application/COMMON-ENTRY-ARCHITECTURE.md`
 - `governance/information-custody-and-processing.md`
 - `research/demand-as-architecture.md`
 - `governance/ownership-and-source-questions.md`
@@ -207,8 +208,8 @@ The full private Demand-as-Architecture working paper remains private at its exa
 
 Remaining retirement work is mechanical/governance work:
 
-1. review/adopt or revise the Program canonical definitions candidate;
-2. review/adopt or revise this Governed Reference reconciliation candidate;
+1. preserve the post-freeze System/Program/Store ownership map and finish reclassifying first-pass admissions;
+2. keep this Governed Reference reconciliation aligned with those current owners;
 3. close or otherwise disposition donor PR #4 without losing the selected machine-site research;
 4. repoint/remove current System documentary pointers that still call Governed Reference the controlling semantic/governance source;
 5. reduce System's copied governance mirror after Program ownership is established, while retaining implementation-specific contracts/tests that System actually needs;
