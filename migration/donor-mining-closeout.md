@@ -106,7 +106,7 @@ Program admissions from the Governed Reference mining include:
 - enduring governance/ADR rulings;
 - shared-definition source material;
 - common-entry architecture (post-freeze rehomed to System; Program retains relocation/provenance);
-- information custody/disclosure/external-processing governance;
+- information custody/disclosure/external-processing source material (post-freeze split: System operational custody; Program broader research/policy);
 - machine-site convergence research;
 - Demand-as-Architecture research record;
 - unresolved ownership/source questions.
