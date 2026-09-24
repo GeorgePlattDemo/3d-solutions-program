@@ -2,7 +2,7 @@
 
 Read README.md, governance/authority.md, governance/change-gates.md and migration/README.md before making organizational changes.
 
-Preserve Review as the full demonstration and Scan-to-Build as the quick walkthrough. Mine supporting material without replacing their mature pages or navigation. System owns application behavior; Store owns its actual evaluation; Program owns selected research and program decisions.
+Preserve Review as the full demonstration and Scan-to-Build as the quick walkthrough. Mine supporting material without replacing their mature pages or navigation. System owns application behavior and canonical shared operational definitions; Store owns its actual Store facts/evaluation/economics; Program owns research, experiments, evidence, reviewed decisions/adoption records, partnership/economic/business work, and migration/retirement records.
 
 Do not bulk-import donor repositories, transcripts or rejected proposals. Use the inventory to find existing copies, then inspect meaningful differences. Record what is retained, migrated, superseded or excluded and why. A matching blob is not deletion authorization. Read branch-only work before clearing a repository for retirement.
 
