@@ -64,4 +64,3 @@ At System commit `3c6dfb27d798842286f4209ba14f47796256b8e3`:
 ## Gates and preservation
 
 Program main was reported protected by current branch metadata. Required rules/check settings were not independently established by that flag. This candidate still requires review and is not merged. Existing public/private posture and all donor files remain intact. Only Program navigation points to this reconciliation; donor relocation notices are unnecessary because nothing was removed. Documentary checks validate coverage, identities and links, not machine performance or proposal merit.
-

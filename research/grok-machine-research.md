@@ -35,4 +35,3 @@ Source: `GeorgePlattDemo/grok-file`, branch `wip/app-build-0.1-stabilization`, c
 A future experiment needs an identified configuration, measured outcomes, limitations and an owner review. A positive result still needs a separate versioned Store change and compatible System verification before the application can rely on it. This pass supplies none of those later approvals. Missing geometry, cycle time, commissioning evidence or safety validation remains missing.
 
 The recovered cell-spine variant's claim of live capability was explicitly corrected to synthetic, not installed or commissioned, in its successor. Its recovered definitions remain referenced in System at their existing scope. They are not silently promoted into an admitted machine configuration here. See the [reconciliation report](../migration/grok-reconciliation.md) and [complete source register](../migration/grok-reconciliation.json).
-
