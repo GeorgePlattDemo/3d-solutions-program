@@ -9,9 +9,9 @@ Organizational direction established September 24, 2026. Existing technical cont
 | Store-specific vocabulary, catalog/SKUs, material resolution, stock, admitted machine/cell capability, modeled operations/time, economics, Store answers/refusals/deferrals, and Store-side tests | scan-to-build-store | Store determines what this Store can provide for the identified job without changing the job's meaning. |
 | Full demonstration and its explanatory journey | scan-to-build-review | Retain. Mine supporting research; preserve project pages and navigation. |
 | Quick introduction | Scan-to-Build | Retain as the quick walkthrough. It is not automatically the current runtime release. |
-| Historic governance and reference implementation | scan-to-build-governed-reference | Content mining complete. Enduring governance/research is reconciled into Program; historical executable evidence remains provenance. Retirement waits only on final pointer/dependency cleanup and archive checkpoint. |
-| Earlier planning, prototypes and research | grok-file | Content mining complete across all observed branch heads. Accepted research is in Program; application ancestry remains provenance in System. Retirement waits only on final pointer/dependency cleanup and archive checkpoint. |
-| Candidate transfer package | scan-to-build-transfer-staging | Content mining complete. Candidate.2 remains NO-GO history; no current working-tree dependency was found. Archive candidate. |
+| Historic governance and reference implementation | scan-to-build-governed-reference | Content mining complete. Enduring governance/research is reconciled into Program; historical executable evidence remains provenance. Repository is archived, read-only, and not deleted. |
+| Earlier planning, prototypes and research | grok-file | Content mining complete across all observed branch heads. Accepted research is in Program; application ancestry remains provenance in System. Repository is archived, read-only, and not deleted. |
+| Candidate transfer package | scan-to-build-transfer-staging | Content mining complete. Candidate.2 remains NO-GO history; no current working-tree dependency was found. Repository is archived, read-only, and not deleted. |
 
 ## One owner, references elsewhere
 
