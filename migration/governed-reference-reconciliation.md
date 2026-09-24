@@ -173,18 +173,50 @@ Retain the lessons:
 
 The full 73k audit can remain in the archived source. Program needs the decision lessons and exact source identity, not a second full copy.
 
+## Final mining coverage
+
+The final content pass classified all 233 files on donor main with no unclassified paths:
+
+| Disposition class | Files | Meaning |
+| --- | ---: | --- |
+| Program-mined current meaning | 33 | Enduring governance, definitions/source vocabulary, common-entry/custody research, ADR lessons, and Demand-as-Architecture source material were reconciled into compact Program records rather than bulk-copied. |
+| System or historical executable evidence | 154 | M1/reference-node code, schemas, fixtures, tests, scripts, inspectors, current-simulation notes, audits and related executable evidence. Current implementation enters System only when a present System requirement specifically needs it; otherwise it remains source history. |
+| Frozen source/archive only | 23 | Full STB-REF/STB-PLAN versions, documentary-baseline copies, source manifests and historical frozen material. Preserve exact source identity; do not make old versioned specs a competing current authority. |
+| Repository-local/provenance only | 23 | Repository plumbing, package-era dependency record, root reports/manifests, setup/history and other donor-local administration/provenance. |
+
+**Unclassified main paths: 0.**
+
+Branch-only content is also dispositioned:
+
+- `fix/m1-reference-node-recovery` — corrected work incorporated into donor main; no separate current body.
+- `chore/review-readiness` — branch-only runtime/infrastructure versions are historical pre-recovery implementation evidence.
+- `docs/store-s1-boundaries` — two Store/S1 planning documents are superseded by current System/Store ownership; machine-site convergence was retained as Program research.
+
+Additional Program admissions from the final pass:
+
+- `governance/common-entry-architecture.md`
+- `governance/information-custody-and-processing.md`
+- `research/demand-as-architecture.md`
+- `governance/ownership-and-source-questions.md`
+
+The full private Demand-as-Architecture working paper remains private at its exact donor source/hash. Program records the admitted research propositions without accidentally publishing the full private source.
+
 ## Current blockers before retirement
 
-Governed Reference is **not yet retirement-ready**. Remaining bounded work:
+**Content mining is complete.** Governed Reference is not yet archive-ready only because the current working repositories still contain documentary dependencies and the migration candidates have not yet been adopted.
 
-1. adopt/revise the Program canonical definitions so shared meaning no longer points back to the donor;
-2. adopt/revise the enduring-governance disposition;
-3. decide the Program machine-site research extraction;
-4. close or otherwise disposition donor PR #4 without losing the selected research;
-5. repoint/remove current System documentary pointers that still call Governed Reference the controlling source;
-6. review the remaining informative architecture/research documents (especially common entry contexts, demand traceability, information custody, disclosure/external-processing/participant work) for Program admission versus supersession;
-7. run a final incoming-link/dependency search across current trees;
-8. record the final donor SHA/branch heads and archive checkpoint.
+Remaining retirement work is mechanical/governance work:
+
+1. review/adopt or revise the Program canonical definitions candidate;
+2. review/adopt or revise this Governed Reference reconciliation candidate;
+3. close or otherwise disposition donor PR #4 without losing the selected machine-site research;
+4. repoint/remove current System documentary pointers that still call Governed Reference the controlling semantic/governance source;
+5. reduce System's copied governance mirror after Program ownership is established, while retaining implementation-specific contracts/tests that System actually needs;
+6. run the final incoming-link/dependency search across the current working/public trees;
+7. record the final donor main SHA and branch-head checkpoint;
+8. archive the donor before considering any permanent deletion.
+
+No further source-body mining is required unless a later owner identifies a specific current behavior that is missing and traces it back to the archived donor.
 
 ## Expected retirement result
 
