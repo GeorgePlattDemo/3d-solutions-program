@@ -8,7 +8,7 @@ This proposal examines a different, narrower setting: dimensional wood, a limite
 
 The application introduces the proposed journey from a customer’s definition to an evaluated job and eventual handoff. The experimental cell would investigate the physical assumptions beneath that journey. Together, they offer a way to ask a bounded question with evidence rather than expanding a demonstration until it appears to answer everything.
 
-[Return to the demonstration’s closing explanation](https://github.com/GeorgePlattDemo/scan-to-build-review/blob/fdeb20a378f7f8b066fec658ea40cdf3be58e379/docs/01-From-Definition-to-Handoff.md).
+The working app is the current demonstration: [open the app](https://github.com/GeorgePlattDemo/scan-to-build-system). (Earlier closing explanation, kept as provenance: `scan-to-build-review@fdeb20a378f7` `docs/01-From-Definition-to-Handoff.md`.)
 
 ## The starting point: what exists and what remains to be established
 
@@ -140,7 +140,7 @@ This leaves room to develop the mechanism and its observations together while ke
 
 The engineering trial asks whether the cell can perform useful bounded work. The proposed fall 2026 study asks whether that capability has a useful place in practice.
 
-The proposed University of North Carolina at Charlotte student-project framing concerns demand, adoption, workforce, community value, and sustainability. It should examine who needs the work, how they obtain it now, which quantities and turnaround times matter, and what responsibilities a supplier or operator would accept. Institutional participation remains subject to agreement.
+Regional studies are ongoing. The questions that matter here are demand, adoption, workforce, community value, and sustainability: who needs the work, how they obtain it now, which quantities and turnaround times matter, and what responsibilities a supplier or operator would accept.
 
 Those questions should inform the engineering envelope. A repeatable operation with little demand may not justify a service. A frequently requested operation with excessive setup or recovery may require a narrower offer. Potential benefits from local processing or better material use should be evaluated alongside labor, transport, energy, waste, and equipment burden.
 

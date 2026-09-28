@@ -12,18 +12,21 @@
 4. [Research Cell Staging](cell/RESEARCH-CELL-STAGING-0.1.md) — unresolved hypothesis/evidence template.
 5. [Machine / Cell Staging](staging/README.md) — evidence-stage navigation for dimensional, sheet, and cell research.
 6. [Machine Engineering](engineering/README.md) — candidate physical engineering and evidence-gated detail.
+7. [STB-CELL-0.1](cell/STB-CELL-0.1.md) — the full tandem cell, control and interface spec, with its patent-figure correspondence.
+8. [Post-app mechanical source map](POST-APP-MECHANICAL-SOURCE-MAP.md) — where each mechanical source lives and how it was treated.
 
 Related Program research:
 
 - [Bounded cell trial](../bounded-cell-trial.md)
 - [Recovered Grok machine research](../grok-machine-research.md)
 - [Machine-site convergence](../machine-site-convergence.md)
+- [STB Atlas](../atlas/README.md) — seven research papers: capture, easy/hard in, order membrane, neutral ops to machine, envelope ladder, iron, atoms vs bits
 
 ## Current cleanup boundary
 
 The clearly Program-owned machine-development research surfaces have now been rehomed here: the research program, research-cell planning, evidence staging, candidate engineering, and the current S-001 research candidate.
 
-The old System paths remain compatibility pointers so existing links and provenance do not break. Historical machine/cell donor copies in System remain provenance unless a current owner identifies a specific operational requirement/test that needs them.
+On 2026-09-28 the old System compatibility pointers were removed, and the remaining real bodies (the Atlas papers, STB-CELL-0.1 and the post-app mechanical source map) moved here. Each carries a plain-text note naming its System source commit.
 
 System retains application/shared operational contracts, interfaces, records, adapters, tests, and current software truth. Store retains Store-local capability/economics and evidence-stage meanings it owns.
 

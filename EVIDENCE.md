@@ -1,18 +1,21 @@
 # Evidence and direct links
 
-Navigation index, September 24, 2026. A link identifies evidence or a work surface; inclusion does not certify current runtime performance.
+Navigation index, September 28, 2026. A link identifies evidence or a work surface; inclusion does not certify runtime performance. Each row points at the one place that owns the fact.
 
 | Inquiry | Direct source | What it establishes |
 | --- | --- | --- |
-| Full demonstration | [Review](https://github.com/GeorgePlattDemo/scan-to-build-review) | Public demonstration entrance and project material |
-| Quick introduction | [Original Scan-to-Build](https://github.com/GeorgePlattDemo/Scan-to-Build) | Shorter introduction; not asserted to be the latest runtime |
-| Current promoted entry | [System README at reviewed snapshot](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/3c6dfb27d798842286f4209ba14f47796256b8e3/README.md) | Identifies OPEN SYSTEM BUILD; metadata and older narrative statements still require reconciliation |
-| Application verification | [System verification register](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/3c6dfb27d798842286f4209ba14f47796256b8e3/docs/project/VERIFICATION-REGISTER.md) | Maintained location of claims and proof; not independently revalidated by this organization pass |
-| Independent Store | [Store repository](https://github.com/GeorgePlattDemo/scan-to-build-store) | Capability/material/economics implementation; consult its actual source and current acceptance evidence |
+| The working app | [Open the app](https://georgeplattdemo.github.io/scan-to-build-system/system-build-current.html) · [System repository](https://github.com/GeorgePlattDemo/scan-to-build-system) | The digital path, live: a defined job goes to an independently hosted Store and back |
+| What the app has proven | [System verification register](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/main/docs/project/VERIFICATION-REGISTER.md) | Each claim tied to a test and an exact version, and what is not claimed |
+| What was accepted, when | [System baseline](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/main/STB-CURRENT-BASELINE.md) | Accepted source tree, pins and date |
+| What a yard can answer | [Store Zero](https://github.com/GeorgePlattDemo/scan-to-build-store/blob/main/STORE-ZERO.md) · [Store stages](https://github.com/GeorgePlattDemo/scan-to-build-store/blob/main/STB-STORE-CELL-STAGES-0.1.md) | The reference yard, its evidence stages, and its own tests |
+| Patent sources | [System patent sources](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/main/docs/patents/README.md) | Issued grants and how current work maps to them; not proof of safety, commissioning or completeness |
+| Research proposition | [Demand as architecture](research/demand-as-architecture.md) | The question and where it is allowed to stop |
 | Proposed next experiment | [Bounded-cell trial](research/bounded-cell-trial.md) | Research proposal, equipment candidates, sensing and evaluation questions |
-| End-to-end explanation | [Demo closing document](https://github.com/GeorgePlattDemo/scan-to-build-review/blob/fdeb20a378f7f8b066fec658ea40cdf3be58e379/docs/01-From-Definition-to-Handoff.md) | Explanation of the intended continuity from definition through handoff |
-| Patent source | [System patent sources](https://github.com/GeorgePlattDemo/scan-to-build-system/tree/3c6dfb27d798842286f4209ba14f47796256b8e3/docs/patents/source) | Issued source documents; not proof of safety, commissioning or implementation completeness |
+| The cell, fully specified | [STB-CELL-0.1](research/machine-development/cell/STB-CELL-0.1.md) | Tandem cell, control and interfaces, with patent-figure correspondence |
+| Research atlas | [STB Atlas](research/atlas/README.md) | Seven research papers from capture to distribution |
 | Grok reconciliation | [Branch-complete report](migration/grok-reconciliation.md), [current-validity review](migration/grok-validity-review.md) and [selected research](research/grok-machine-research.md) | Source dispositions and open decisions; candidate documentation, not capability adoption |
-| Organization and gaps | [Migration findings](migration/README.md) | Measured duplicate findings, scope of review and remaining retirement work |
+| Organization and gaps | [Migration findings](migration/README.md) | Duplicate findings, scope of review and retirement records |
+
+Earlier demonstrations are cited as plain-text provenance only, not linked: `scan-to-build-review` (frozen) and the original `Scan-to-Build` walkthrough.
 
 For outreach, send the relevant document directly. For an engineering claim, attach the exact version and the specific verification result. Do not substitute a polished explanation for a demonstrated result.
