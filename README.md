@@ -93,6 +93,7 @@ Each of those is a question, not a promise. That's the point of the research.
 | Does the digital path actually work? | [System verification register](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/main/docs/project/VERIFICATION-REGISTER.md) | Each claim tied to a test and an exact version |
 | What can a yard actually answer? | [Store Zero](https://github.com/GeorgePlattDemo/scan-to-build-store/blob/main/STORE-ZERO.md) | The reference yard, its stock, prices and refusals |
 | Who decides what? | [Authority register](governance/authority.md) | Which repository owns which facts |
+| What does a word mean? | [Definitions](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/main/docs/definitions/README.md) | The one authority for shared meaning across all three repositories |
 
 ## The fine print
 
