@@ -43,7 +43,17 @@ for row in json.loads((ROOT / 'migration/admissions.json').read_text())['admissi
     # apply_patch normalizes a terminal newline; source API may omit it.
     candidates = {data.encode(), data.removesuffix('\n').encode()}
     identities = {hashlib.sha1(b'blob ' + str(len(v)).encode() + b'\0' + v).hexdigest() for v in candidates}
-    if row['sourceBlob'] not in identities:
+    # A later edit is allowed only when it is recorded: its reason plus the exact current blob.
+    later = row.get('laterEdits') or []
+    raw = destination.read_bytes()
+    current = {hashlib.sha1(b'blob ' + str(len(v)).encode() + b'\0' + v).hexdigest() for v in {raw, raw.removesuffix(b'\n')}}
+    recorded_current = later[-1]['blob'] if later else None
+    if later and not all(e.get('date') and e.get('reason') and e.get('blob') for e in later):
+        errors.append(f'admission later edit must name date, reason and blob: {row["destinationPath"]}')
+    elif recorded_current:
+        if recorded_current not in current:
+            errors.append(f'admission changed after its last recorded edit: {row["destinationPath"]}')
+    elif row['sourceBlob'] not in identities:
         errors.append(f'admission differs beyond recorded link/newline normalization: {row["destinationPath"]}')
 
 # Grok coverage is checked against the captured branch manifest, not a green runtime claim.

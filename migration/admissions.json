@@ -6,7 +6,14 @@
       "sourcePath": "docs/02-Explore-the-Bounded-Cell-Trial.md",
       "sourceBlob": "c7f4a902a4509f21c6813d3e13e6fcae826daf3f",
       "destinationPath": "research/bounded-cell-trial.md",
-      "transformation": "Only companion-document relative link changed to the exact public source URL."
+      "transformation": "Only companion-document relative link changed to the exact public source URL.",
+      "laterEdits": [
+        {
+          "date": "2026-09-28",
+          "reason": "Program stands alone: the Review link became plain-text provenance, and the Charlotte student-project paragraph was reframed as \"regional studies are ongoing\".",
+          "blob": "dc0d44397cbe5eef6c26171868be5d92bbadcd7c"
+        }
+      ]
     }
   ]
 }
