@@ -364,7 +364,7 @@ Tool dock 312 stores interchangeable heads. Patent: circular saw on a rotatable 
 ### Modes — what moves
 
 | Mode | Sheet | Platform | Typical use as disclosed |
-|---|---|---|
+|---|---|---|---|
 | 1 | operator / panel-commanded positioning on 619 | panel-commanded; Y pinion may be disengaged and locked at X centerline for conventional-like cuts | precise crosscut or rip from baselines via panel, not disconnected hand pull |
 | 2 | servo X via yoke rollers 614 | locked at X centerline; servo Y only | stencil outline; attach points left; operator severs in 308; router can cut curves; circular saw limited to linear/rectangular outline |
 | 3 | fixed to 618 or to a carrier plate pinned/clamped to 618 | servo X and Y | higher precision, slower; edge profile, etch, depth-controlled work; may finish a part first shaped in mode 2 |
