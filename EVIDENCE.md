@@ -11,7 +11,7 @@ Navigation index, September 28, 2026. A link identifies evidence or a work surfa
 | Patent sources | [System patent sources](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/main/docs/patents/README.md) | Issued grants and how current work maps to them; not proof of safety, commissioning or completeness |
 | Research proposition | [Demand as architecture](research/demand-as-architecture.md) | The question and where it is allowed to stop |
 | Proposed next experiment | [Bounded-cell trial](research/bounded-cell-trial.md) | Research proposal, equipment candidates, sensing and evaluation questions |
-| The cell, fully specified | [STB-CELL-0.1](research/machine-development/cell/STB-CELL-0.1.md) | Tandem cell, control and interfaces, with patent-figure correspondence |
+| Candidate cell engineering | [STB-CELL-0.1](research/machine-development/cell/STB-CELL-0.1.md) | Program-owned candidate cell engineering and patent correspondence; not admitted Store capability or commissioned machinery |
 | Research atlas | [STB Atlas](research/atlas/README.md) | Seven research papers from capture to distribution |
 | Grok reconciliation | [Branch-complete report](migration/grok-reconciliation.md), [current-validity review](migration/grok-validity-review.md) and [selected research](research/grok-machine-research.md) | Source dispositions and open decisions; candidate documentation, not capability adoption |
 | Organization and gaps | [Migration findings](migration/README.md) | Duplicate findings, scope of review and retirement records |
