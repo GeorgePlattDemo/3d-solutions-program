@@ -1,5 +1,7 @@
 # STB-CELL-0.1 — Tandem Cell, Control, Interfaces, and Audit
 
+> **CURRENT CLASSIFICATION — PROGRAM CANDIDATE ENGINEERING.** This document is Program-owned research/engineering work. It is not admitted Store capability, commissioned machinery, or production authority. Store owns any admitted machine capability; System owns shared operational meaning.
+
 > Moved from System on 2026-09-28: `GeorgePlattDemo/scan-to-build-system@48bc96a977fa` `source-library/machine-cell/STB-CELL-0.1.md`. Content unchanged.
 
 **Status:** Descriptively adopted as a working artifact on `grok-file` only. Not a Store or REF adoption. Production path closed. Candidate objects remain candidate.  
@@ -362,7 +364,7 @@ Tool dock 312 stores interchangeable heads. Patent: circular saw on a rotatable 
 ### Modes — what moves
 
 | Mode | Sheet | Platform | Typical use as disclosed |
-|---|---|---|---|
+|---|---|---|
 | 1 | operator / panel-commanded positioning on 619 | panel-commanded; Y pinion may be disengaged and locked at X centerline for conventional-like cuts | precise crosscut or rip from baselines via panel, not disconnected hand pull |
 | 2 | servo X via yoke rollers 614 | locked at X centerline; servo Y only | stencil outline; attach points left; operator severs in 308; router can cut curves; circular saw limited to linear/rectangular outline |
 | 3 | fixed to 618 or to a carrier plate pinned/clamped to 618 | servo X and Y | higher precision, slower; edge profile, etch, depth-controlled work; may finish a part first shaped in mode 2 |
