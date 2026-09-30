@@ -22,7 +22,7 @@ Use one bounded branch/PR per owning change. Link dependent PRs. A commit is a r
 
 ## Dependencies
 
-A documentation-only organization change does not require unrelated software rewrites. A change to Store capability is tested in Store, then against the consuming System adapter, then through the visible Review application before any visible-completion claim. Existing pins are not bulk-replaced during housekeeping.
+A documentation-only organization change does not require unrelated software rewrites. A change to Store capability is tested in Store, then against the consuming System adapter, then through the current System application path before any visible-completion claim. Existing pins are not bulk-replaced during housekeeping.
 
 The same rule applies to temporary repositories: moving a README is not migration of a runtime dependency.
 
