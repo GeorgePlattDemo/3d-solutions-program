@@ -10,6 +10,6 @@ This repository is public. No new private folders are requested. Review source c
 
 Use a bounded branch/PR after bootstrap. Run python3 tools/check_program.py. Report exact commits and distinguish local verification, hosted CI, acceptance and deployment. Do not claim branch protection or mandatory CI without verified settings. Never promote candidate engineering into admitted Store capability through a documentation move.
 
-**Protected path — do not touch.** The live app in `scan-to-build-system` reaches the hosted Store on Railway at one pinned Store commit (`fc3f555b8f1f329bcf2dd81fa26995230d12a527`). No Program task changes that pin, the Railway endpoint, or any Railway setting. See the "Protected path" section of System's `AGENTS.md`. If a task seems to require it, stop and ask.
+**Protected path — do not touch.** The live app in `scan-to-build-system` reaches the hosted Store on Railway at the exact Store commit owned by System's `STORE_PIN` in `scan-to-build-system/apps/stb/shared/contracts.mjs`. Program does not restate or change that pin, the Railway endpoint, or any Railway setting. See the "Protected path" section of System's `AGENTS.md`. If a task seems to require it, stop and ask.
 
 **Definitions.** Shared terms are defined once, in System `docs/definitions/README.md`. Program may propose a change in meaning; it does not define shared terms here.

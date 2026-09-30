@@ -1,5 +1,7 @@
 # STB-CELL-0.1 — Tandem Cell, Control, Interfaces, and Audit
 
+> **CURRENT CLASSIFICATION — PROGRAM CANDIDATE ENGINEERING.** This document is Program-owned research/engineering work. It is not admitted Store capability, commissioned machinery, or production authority. Store owns any admitted machine capability; System owns shared operational meaning.
+
 > Moved from System on 2026-09-28: `GeorgePlattDemo/scan-to-build-system@48bc96a977fa` `source-library/machine-cell/STB-CELL-0.1.md`. Content unchanged.
 
 **Status:** Descriptively adopted as a working artifact on `grok-file` only. Not a Store or REF adoption. Production path closed. Candidate objects remain candidate.  
