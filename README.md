@@ -12,7 +12,7 @@
 
 North Carolina still grows, cuts, and ships a great deal of wood. The work around it has concentrated. Furniture-factory employment fell **59.4% between 1993 and 2022** ([NC Commerce](https://www.commerce.nc.gov/news/the-lead-feed/not-your-grandfathers-manufacturing)). In 2024 the forest sector’s total output rose **3.1%** while total supported employment fell **1.9%** ([NC State Extension](https://content.ces.ncsu.edu/economic-contribution-of-the-forest-sector-in-north-carolina)). A 2020 Extension review describes fewer sawmill companies and a state producing more lumber than it consumed ([sawmill review](https://content.ces.ncsu.edu/the-north-carolina-sawmill-industry-a-closer-look)).
 
-Scale, costs, trade, and technology shape where work remains worthwhile. Precise digital definitions, accessible motion control, and dependable software could make a small amount of work efficient too: one board, one opening, one customer’s result.
+Scale, costs, trade, and technology shape where work remains worthwhile. For decades, much of manufacturing investment favored larger facilities and concentrated production. Precise digital definitions, accessible motion control, and dependable software may now make a different scale worthwhile: one board, one opening, one customer’s result.
 
 **What if the information reached local wood and modest automation first?** The customer’s own project definition could drive the cut, mill, and drill beside inventory already sitting in a yard. The work, and some of the income, could happen there.
 
