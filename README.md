@@ -6,7 +6,7 @@
 
 3D Solutions LLC · Greensboro, North Carolina
 
-[▶ Open the working demonstration](https://georgeplattdemo.github.io/scan-to-build-system/system-build-current.html)
+[▶ Open the working demonstration](https://system-candidate-production.up.railway.app/)
 
 ## The North Carolina question
 
@@ -53,7 +53,7 @@ The [bounded-cell trial](research/bounded-cell-trial.md) follows real requests t
 | [System](https://github.com/GeorgePlattDemo/new-system)           | How does an idea become an identified job? The application, shared job meaning, and records.                          |
 | [Store](https://github.com/GeorgePlattDemo/store-zero)            | What can this yard provide? Material, capability, modeled work, economics, and answers.                               |
 
-System and Store above are the working repositories. The demonstration linked at the top still runs from the original [System](https://github.com/GeorgePlattDemo/scan-to-build-system) and [Store](https://github.com/GeorgePlattDemo/scan-to-build-store), which remain the historical record until the replacement is accepted.
+System and Store above are the working repositories. The demonstration linked at the top now runs the replacement System and its pinned replacement Store on Railway. The original [System](https://github.com/GeorgePlattDemo/scan-to-build-system) and [Store](https://github.com/GeorgePlattDemo/scan-to-build-store) remain historical records pending formal promotion.
 
 Try **Start your own** in the application. Intent establishes the job’s requirements; the Bench lets you work their values. Then follow the [Project 1 digital manufacturing trail](https://github.com/GeorgePlattDemo/store-zero/blob/main/docs/project-1-digital-trail/D001_Project1_Review.md) from one definition to a reproduced Store answer and generated virtual commands. The [verification record](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/verification/start-your-own.md) records what has been shown for Start your own, and what has not.
 
