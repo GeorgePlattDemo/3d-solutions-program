@@ -49,7 +49,7 @@ The Project 1 review maps selected issued claims to customer choices, estimates,
 
 ## Present digital proof
 
-**D001 Project 1 Digital Trail Review 0.2**, dated October 3, 2026, follows one identified requirement through System derivation, a pinned Store evaluation, material selection, modeled economics, local coordinates, and generated virtual commands. Store holds the published review and its reproducible evidence package. \[9, 10\]
+**D001 Project 1 Digital Trail Review 0.2**, dated October 3, 2026, follows one identified requirement through System derivation, a pinned Store evaluation, material selection, modeled economics, local coordinates, and generated virtual commands. The review was published in the predecessor Store repository, `scan-to-build-store`, at commit `83d9253b179f92acde8879ebea93e0dbcd8c508b`, with its reproducible evidence package; references 9 and 10 cite that preserved publication. The current Store, `store-zero`, also carries Project 1 trail documents; those are not the cited original. \[9, 10\]
 
 | **Reference specimen**  | **Reported result**                                                                   |
 |-------------------------|---------------------------------------------------------------------------------------|
@@ -58,20 +58,20 @@ The Project 1 review maps selected issued claims to customer choices, estimates,
 | Selected parent         | A 72-inch treated 2×4 offering.                                                       |
 | Modeled budgetary total | \$11.09: \$5.15 material and \$5.94 machine service.                                  |
 | Reported Store time     | 85.5001 seconds.                                                                      |
-| System revision         | 1cbee7dd91fa718ae077d0eafe58070d4853d141                                              |
-| Consumed Store revision | 9c62d9d6f7775deef83d47196d32c9b5174a352c                                              |
+| System revision         | 1cbee7dd91fa718ae077d0eafe58070d4853d141 (predecessor System, `scan-to-build-system`)  |
+| Consumed Store revision | 9c62d9d6f7775deef83d47196d32c9b5174a352c (predecessor Store, `scan-to-build-store`)    |
 
-These values belong to this preserved reference calculation. Its package retains the exact input and result hashes, seven source-file identities, and generated artifacts.
+These values belong to this preserved reference calculation, made by the predecessor System and Store. They are not a result of the current application. Its package retains the exact input and result hashes, seven source-file identities, and generated artifacts.
 
 The review reports reproduction using **Node 24.19.0**, a **45-record virtual sequence containing 21 axis moves**, and **fourteen local proof checks**. Those checks include changed-demand and altered-result rejection, nominal spot alignment, modeled faults, contact-gap detection, and blocked physical admission. This document cites that reported run; it does not claim a separate reproduction. \[9, 10\]
 
 The part length is not re-entered or the component redrawn to generate the reference sequence. That establishes continuity through one bounded digital path.
 
-The physical gaps are specific: one-roller contact states, retained-face and kerf registration, and saw downstroke geometry remain unresolved. The TwinCAT source was not compiled or executed in TwinCAT. **Physical admission is BLOCKED.** The specimen contains no commissioned machine or measured conforming parts. Current application claims are separately recorded in System’s verification register. \[9, 11\]
+The physical gaps are specific: one-roller contact states, retained-face and kerf registration, and saw downstroke geometry remain unresolved. The TwinCAT source was not compiled or executed in TwinCAT. **Physical admission is BLOCKED.** The specimen contains no commissioned machine or measured conforming parts. Claims for the current application are recorded in the current System’s verification note; the predecessor System’s verification register records the claims made for the original application. \[9, 11, 12\]
 
 ## Evidence needed next
 
-Would you use the [current application](https://georgeplattdemo.github.io/scan-to-build-system/system-build-current.html) to define a replacement wood component or explore a supported finished object? Try a case and tell us what you needed, what worked, and whether you would use the service. Your response is evidence about demand.
+Would you use the [current application](https://system-candidate-production.up.railway.app/) to define a replacement wood component or explore a supported finished object? Try a case and tell us what you needed, what worked, and whether you would use the service. Your response is evidence about demand.
 
 | **Activity**                    | **What it must establish**                                                                                     |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------|
@@ -97,4 +97,5 @@ The next question is concrete: does carrying a defined request to a bounded mach
 8. [NIST — North Carolina Manufacturing Extension Partnership](https://www.nist.gov/mep/centers/north-carolina-manufacturing-extension-partnership-ncmep).
 9. [D001 Project 1 Digital Trail Review 0.2](https://github.com/GeorgePlattDemo/scan-to-build-store/blob/83d9253b179f92acde8879ebea93e0dbcd8c508b/docs/project-1-digital-trail/D001_Project1_Review.md), preserved publication.
 10. [Project 1 publication record and evidence package](https://github.com/GeorgePlattDemo/scan-to-build-store/blob/83d9253b179f92acde8879ebea93e0dbcd8c508b/docs/project-1-digital-trail/README.md).
-11. [System verification register](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/main/docs/project/VERIFICATION-REGISTER.md), current claim and proof register.
+11. [Predecessor System verification register](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/main/docs/project/VERIFICATION-REGISTER.md), the claim and proof register for the original application, preserved as history.
+12. [Current System verification note](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/verification/start-your-own.md), what has been shown for the five jobs of the current application, and what has not.
