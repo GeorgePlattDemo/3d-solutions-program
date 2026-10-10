@@ -50,10 +50,12 @@ The [bounded-cell trial](research/bounded-cell-trial.md) follows real requests t
 | **Repository**                                                    | **The question it answers**                                                                                           |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Program                                                           | Why pursue this, and what would make it viable? Research, evidence, candidate engineering, and development decisions. |
-| [System](https://github.com/GeorgePlattDemo/scan-to-build-system) | How does an idea become an identified job? The application, shared job meaning, and records.                          |
-| [Store](https://github.com/GeorgePlattDemo/scan-to-build-store)   | What can this yard provide? Material, capability, modeled work, economics, and answers.                               |
+| [System](https://github.com/GeorgePlattDemo/new-system)           | How does an idea become an identified job? The application, shared job meaning, and records.                          |
+| [Store](https://github.com/GeorgePlattDemo/store-zero)            | What can this yard provide? Material, capability, modeled work, economics, and answers.                               |
 
-Try **Start your own** in the application. Intent establishes the job’s requirements; the Bench lets you work their values. Then follow the [Project 1 digital manufacturing trail](https://github.com/GeorgePlattDemo/scan-to-build-store/blob/main/docs/project-1-digital-trail/D001_Project1_Review.md) from one definition to a reproduced Store answer and generated virtual commands. The [verification register](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/main/docs/project/VERIFICATION-REGISTER.md) records the software claims and their proof.
+System and Store above are the working repositories. The demonstration linked at the top still runs from the original [System](https://github.com/GeorgePlattDemo/scan-to-build-system) and [Store](https://github.com/GeorgePlattDemo/scan-to-build-store), which remain the historical record until the replacement is accepted.
+
+Try **Start your own** in the application. Intent establishes the job’s requirements; the Bench lets you work their values. Then follow the [Project 1 digital manufacturing trail](https://github.com/GeorgePlattDemo/store-zero/blob/main/docs/project-1-digital-trail/D001_Project1_Review.md) from one definition to a reproduced Store answer and generated virtual commands. The [verification record](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/verification/start-your-own.md) records what has been shown for Start your own, and what has not.
 
 ## Bring a real case
 
@@ -71,4 +73,4 @@ The application is a working software demonstration. Store Zero’s prices and m
 
 *Information before atoms. NO BLOOD ON WOOD.*
 
-Maintainers: [AGENTS.md](AGENTS.md) · [Authority](governance/authority.md) · [Shared definitions](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/main/docs/definitions/README.md)
+Maintainers: [AGENTS.md](AGENTS.md) · [Authority](governance/authority.md) · [Shared definitions](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/DEFINITIONS.md)

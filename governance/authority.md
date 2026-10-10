@@ -13,7 +13,7 @@ A document may discuss another owner’s work. It does not gain authority over t
 | Store                        | Its material, catalog, represented stock, admitted capability, modeled work/time, economics, answers, refusals, and Store-specific fulfillment meaning.               | It answers the definition without changing the requested component to make the job fit.                   |
 | Local machine implementation | Commissioned geometry, stations, tools, references, lowering/compiler, controller configuration, I/O, motion, interlocks, calibration, and observed physical results. | It adds execution facts without reinterpreting customer requirements or inventing Store authority.        |
 
-Shared operational terms are defined once in [System’s definitions](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/main/docs/definitions/README.md). Program may investigate or propose a change; operational adoption requires an identified change in the responsible owner.
+Shared operational terms are defined once in [System’s definitions](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/DEFINITIONS.md). Program may investigate or propose a change; operational adoption requires an identified change in the responsible owner.
 
 ## Definition and answer
 
@@ -35,7 +35,7 @@ No later layer may backfill authority missing from an earlier one.
 
 ## Project 1 custody
 
-Store holds the published [Project 1 reference specimen and evidence package](https://github.com/GeorgePlattDemo/scan-to-build-store/blob/83d9253b179f92acde8879ebea93e0dbcd8c508b/docs/project-1-digital-trail/README.md). That documentary custody does not adopt its reference controller, unresolved mechanical assumptions, or proposed machine as Store capability.
+Store holds the published [Project 1 reference specimen and evidence package](https://github.com/GeorgePlattDemo/store-zero/blob/main/docs/project-1-digital-trail/README.md). That documentary custody does not adopt its reference controller, unresolved mechanical assumptions, or proposed machine as Store capability.
 
 Program retains broader machine development, controller/compiler development, physical experimentation, and adoption work. System retains operational job meaning. A later technical result receives a new identified revision; it does not rewrite the historical specimen.
 

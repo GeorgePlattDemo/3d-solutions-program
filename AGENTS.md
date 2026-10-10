@@ -16,7 +16,7 @@ Preserve that argument and the existing terminology. Do not reorganize, soften, 
 
 Program owns research, proposed trials, candidate engineering, findings, and development decisions. System owns the application and shared operational job meaning. Store owns its facts, evaluation, economics, answers, and refusals. Physical implementation and operating permission remain local responsibilities.
 
-Reference another owner’s work rather than recreating competing authority. Shared terms come from [System’s definitions](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/main/docs/definitions/README.md).
+Reference another owner’s work rather than recreating competing authority. Shared terms come from [System’s definitions](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/DEFINITIONS.md).
 
 Support consequential claims with identifiable sources or artifacts. Preserve dates, scope, assumptions, and material limits. Distinguish models from operating results, generated commands from physical execution, software tests from commissioning, and candidate engineering from adopted capability.
 

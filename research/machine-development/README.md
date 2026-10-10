@@ -25,7 +25,7 @@ The intended operations are reference establishment, indexing, cutting, bounded 
 
 Use commercially available industrial components wherever practical. Check compatibility, condition, geometry, modifications, and protective requirements before reusing equipment. Select for performance, diagnostics, maintainability, replacement availability, safety integration, and local technical support.
 
-The [Project 1 review](https://github.com/GeorgePlattDemo/scan-to-build-store/blob/83d9253b179f92acde8879ebea93e0dbcd8c508b/docs/project-1-digital-trail/D001_Project1_Review.md) identifies the present reference specimen, candidate controller path, and unresolved physical conditions. It is starting material for selection and sizing, not an adopted machine BOM.
+The [Project 1 review](https://github.com/GeorgePlattDemo/store-zero/blob/main/docs/project-1-digital-trail/D001_Project1_Review.md) identifies the present reference specimen, candidate controller path, and unresolved physical conditions. It is starting material for selection and sizing, not an adopted machine BOM.
 
 ## Connect job facts to machine facts
 
