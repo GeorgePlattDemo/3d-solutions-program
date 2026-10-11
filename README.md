@@ -59,7 +59,7 @@ Try **Start your own** in the application. Intent establishes the job’s requir
 
 ## Bring a real case
 
-Bring one request a yard keeps turning away, or one project someone would start if the right pieces were available. Customers can establish the need and what they would pay. Dealers can establish service demand and operating realities. Workers and educators can examine the tasks and skills. Engineers can test the capability; researchers can compare the complete economics.
+Bring one request a yard keeps turning away, or one project someone would start if the right pieces were available. Customers can establish the need and what they would pay. Dealers can establish service demand and operating realities. Workers and educators can examine the tasks and skills. Engineers can test the capability; researchers can compare the complete economics.Economic-development, extension, and community partners can help establish whether the service creates additional local value or shifts existing work, who can participate, and what training or support would make a bounded test practical
 
 [Bring a case, question, or observation](https://github.com/GeorgePlattDemo/3d-solutions-program/discussions/1), or share these repositories with someone who can test part of the proposition.
 
