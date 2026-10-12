@@ -16,6 +16,8 @@ Scale, costs, trade, and technology shape where work remains worthwhile. For dec
 
 **What if the information reached local wood and modest automation first?** The customer’s own project definition could drive the cut, mill, and drill beside inventory already sitting in a yard. The work, and some of the income, could happen there.
 
+The difference is when the machine is prepared. Its tools, stations, reference positions and limits are registered once, in advance, and the yard’s stock is matched to what they can do. A customer choosing supported operations and setting their values is therefore defining work against known machine capabilities, so no second person has to interpret the project and program the order.
+
 That is this Program’s proposition: **distributed manufacturing at the scale of an existing yard, beginning with a bounded service that could earn its keep.** The yard already has wood, handling equipment, customers, and people who know the business. The working application already supports job definition and Store evaluation. The next increment is a small dimensional-stock cell, with local machine integration and physical validation.
 
 ## Make the project easier to start
@@ -32,7 +34,7 @@ Demand as Architecture asks what changes when a need becomes usable information 
 
 1. **Define the result.** Establish the parts, features, dimensions, and operations needed.
 2. **Ask the local Store.** It answers from its material, capability, work model, and economics.
-3. **Carry the accepted definition into manufacturing.** Local machine engineering supplies the instructions for identified equipment.
+3. **Carry the accepted definition into manufacturing.** The machine was engineered and registered once; its compiler turns each accepted definition into instructions for that equipment.
 4. **Return useful components.** Prepare, identify, inspect, and hand them over for assembly.
 
 **Define it once. Nobody downstream should have to redraw it.**
