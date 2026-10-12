@@ -16,7 +16,7 @@ Scale, costs, trade, and technology shape where work remains worthwhile. For dec
 
 **What if the information reached local wood and modest automation first?** The customer’s own project definition could drive the cut, mill, and drill beside inventory already sitting in a yard. The work, and some of the income, could happen there.
 
-The difference is when the machine is prepared. Its tools, stations, reference positions and limits are registered once, in advance, and the yard’s stock is matched to what they can do. A customer choosing supported operations and setting their values is therefore defining work against known machine capabilities, so no second person has to interpret the project and program the order. That burden is assumed by the system’s internal compiler. That burden is assumed by the system's internal compiler.
+The difference is when the machine is prepared. Its tools, stations, reference positions and limits are registered once, in advance, and the yard’s stock is matched to what they can do. A customer choosing supported operations and setting their values is therefore defining work against known machine capabilities, so no second person has to interpret the project and program the order. That burden is assumed by the system’s internal compiler.
 
 That is this Program’s proposition: **distributed manufacturing at the scale of an existing yard, beginning with a bounded service that could earn its keep.** The yard already has wood, handling equipment, customers, and people who know the business. The working application already supports job definition and Store evaluation. The next increment is a small dimensional-stock cell, with local machine integration and physical validation.
 
