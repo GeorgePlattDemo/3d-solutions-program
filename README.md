@@ -28,7 +28,7 @@ Some projects already happen and could be served better. Others stay ideas becau
 
 ## Demand as Architecture
 
-[Demand as Architecture](research/demand-as-architecture.md) asks what changes when a need becomes usable information before it becomes an order.
+Demand as Architecture asks what changes when a need becomes usable information before it becomes an order.
 
 1. **Define the result.** Establish the parts, features, dimensions, and operations needed.
 2. **Ask the local Store.** It answers from its material, capability, work model, and economics.
@@ -43,7 +43,7 @@ The economic proposition is to remove repeated reconstruction, separate machine-
 
 The smallest useful cell is set by actual requests and the full cost of supplying them: material, preparation, handling, processing, inspection, people, maintenance, investment, and realistic utilization. Compare it with an existing tool, shop, supplier, or manual service that may serve the customer better.
 
-The [bounded-cell trial](research/bounded-cell-trial.md) follows real requests through the complete job. A good result is useful work supplied at a worthwhile margin. A useful negative identifies what stands in the way.
+The [supervised laboratory trial](SUPERVISED-LABORATORY-CELL-TRIAL.md) follows real requests through the complete job. A good result is useful work supplied at a worthwhile margin. A useful negative identifies what stands in the way.
 
 ## Three connected homes
 
@@ -68,9 +68,8 @@ Bring one request a yard keeps turning away, or one project someone would start 
 The application is a working software demonstration. Store Zero’s prices and machine time are modeled. Project 1 supplies a digital reference specimen; physical capability and commercial viability remain to be demonstrated.
 
 - [Evidence](EVIDENCE.md) connects consequential claims to sources.
-- [Machine Development](research/machine-development/README.md) identifies the engineering needed for physical specimens.
-- [Bounded-Cell Trial](research/bounded-cell-trial.md) tests demand, customer results, and the complete service.
+- [Supervised Laboratory Trial](SUPERVISED-LABORATORY-CELL-TRIAL.md) defines physical validation, supervised service testing, and full-job economics.
 
 *Information before atoms. NO BLOOD ON WOOD.*
 
-Maintainers: [AGENTS.md](AGENTS.md) · [Authority](governance/authority.md) · [Shared definitions](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/DEFINITIONS.md)
+Maintainers: [AGENTS.md](AGENTS.md) · [Shared definitions](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/DEFINITIONS.md)
