@@ -4,7 +4,7 @@ This repository investigates whether better-defined demand and bounded manufactu
 
 ## Read before changing
 
-Read README.md, EVIDENCE.md, governance/authority.md, and the document or implementation directly affected. Identify the requested outcome, its owning file, and the agreed starting revision.
+Read README.md, EVIDENCE.md, SUPERVISED-LABORATORY-CELL-TRIAL.md, and the document or implementation directly affected. Identify the requested outcome, its owning file, and the agreed starting revision.
 
 The README’s argument is intentional:
 
@@ -32,7 +32,7 @@ Every new file must contain substantive work with a clear purpose. Prefer improv
 
 Do not create branches, pull requests, or repository structures without explicit authorization. Follow the agreed integration path. A separate implementation left stranded is not a completed task.
 
-The seven substantive files are README.md, EVIDENCE.md, this file, research/demand-as-architecture.md, research/machine-development/README.md, research/bounded-cell-trial.md, and governance/authority.md. Add findings, experiments, economics, or sources when actual material requires them. Do not create a file for every stage through which one piece of research passes.
+The four substantive files are README.md, EVIDENCE.md, SUPERVISED-LABORATORY-CELL-TRIAL.md, and this file. Add findings, experiments, economics, or sources when actual material requires them. Do not create a file for every stage through which one piece of research passes.
 
 ## Keep the work useful
 
