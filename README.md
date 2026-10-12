@@ -37,13 +37,13 @@ Demand as Architecture asks what changes when a need becomes usable information 
 
 **Define it once. Nobody downstream should have to redraw it.**
 
-The economic proposition is to remove repeated reconstruction, separate machine-file preparation, and reconciliation from routine supported jobs. The tools and control methods are familiar. What needs testing is whether a job arriving already defined removes enough burden to make the service worthwhile.
+The economic proposition is to remove repeated reconstruction, separate machine-file preparation, and reconciliation from routine supported jobs. The machine's tooling, stations and operating limits are registered in advance; each supported job generates its own instructions from the customer’s definition, without a CAD/CAM designer programming the order. The tools and control methods are familiar. What needs testing is whether a job arriving already defined removes enough burden to make the service worthwhile.
 
 ## What would make it worthwhile
 
 The smallest useful cell is set by actual requests and the full cost of supplying them: material, preparation, handling, processing, inspection, people, maintenance, investment, and realistic utilization. Compare it with an existing tool, shop, supplier, or manual service that may serve the customer better.
 
-The [supervised laboratory trial](SUPERVISED-LABORATORY-CELL-TRIAL.md) follows real requests through the complete job. A good result is useful work supplied at a worthwhile margin. A useful negative identifies what stands in the way.
+The [Supervised Laboratory Dimensional Cell Trial](SUPERVISED-LABORATORY-CELL-TRIAL.md) follows real requests through the complete job. A good result is useful work supplied at a worthwhile margin. A useful negative identifies what stands in the way.
 
 ## Three connected homes
 
@@ -55,11 +55,11 @@ The [supervised laboratory trial](SUPERVISED-LABORATORY-CELL-TRIAL.md) follows r
 
 System and Store above are the working repositories. The demonstration linked at the top now runs the replacement System and its pinned replacement Store on Railway. The original [System](https://github.com/GeorgePlattDemo/scan-to-build-system) and [Store](https://github.com/GeorgePlattDemo/scan-to-build-store) remain historical records pending formal promotion.
 
-Try **Start your own** in the application. Intent establishes the job’s requirements; the Bench lets you work their values. Then follow the [Project 1 digital manufacturing trail](https://github.com/GeorgePlattDemo/store-zero/blob/main/docs/project-1-digital-trail/D001_Project1_Review.md) from one definition to a reproduced Store answer and generated virtual commands. The [verification record](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/verification/start-your-own.md) records what has been shown for Start your own, and what has not.
+Try **Start your own** in the application. Intent establishes the job’s requirements; the Bench lets you work their values. Then follow the [Project 1 digital manufacturing trail](https://github.com/GeorgePlattDemo/store-zero/blob/main/docs/project-1-digital-trail/D001_Project1_Review.md) from one definition to a reproduced Store answer and generated virtual commands. The [verification record](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/verification/start-your-own.md) describes what has been shown for Start your own, and what has not.
 
 ## Bring a real case
 
-Bring one request a yard keeps turning away, or one project someone would start if the right pieces were available. Customers can establish the need and what they would pay. Dealers can establish service demand and operating realities. Workers and educators can examine the tasks and skills. Engineers can test the capability; researchers can compare the complete economics. Economic-development, extension, and community partners can help establish whether the service creates additional local value or shifts existing work, who can participate, and what training or support would make a bounded test practical
+Bring one request a yard keeps turning away, or one project someone would start if the right pieces were available. Customers can establish the need and what they would pay. Dealers can establish service demand and operating realities. Workers and educators can examine the tasks and skills. Engineers can test the capability; researchers can compare the complete economics. Economic-development, extension, and community partners can help establish whether the service creates additional local value or shifts existing work, who can participate, and what training or support would make a bounded test practical.
 
 [Bring a case, question, or observation](https://github.com/GeorgePlattDemo/3d-solutions-program/discussions/1), or share these repositories with someone who can test part of the proposition.
 
@@ -68,7 +68,7 @@ Bring one request a yard keeps turning away, or one project someone would start 
 The application is a working software demonstration. Store Zero’s prices and machine time are modeled. Project 1 supplies a digital reference specimen; physical capability and commercial viability remain to be demonstrated.
 
 - [Evidence](EVIDENCE.md) connects consequential claims to sources.
-- [Supervised Laboratory Trial](SUPERVISED-LABORATORY-CELL-TRIAL.md) defines physical validation, supervised service testing, and full-job economics.
+- [Supervised Laboratory Dimensional Cell Trial](SUPERVISED-LABORATORY-CELL-TRIAL.md) defines physical validation, supervised service testing, and full-job economics.
 
 *Information before atoms. NO BLOOD ON WOOD.*
 

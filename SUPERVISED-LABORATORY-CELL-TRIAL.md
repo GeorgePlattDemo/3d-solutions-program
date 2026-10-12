@@ -8,7 +8,7 @@ A working application shows several real-world wood projects, each customized th
 
 Store evaluates the requested material against its declared SKUs, available stock, supported operations and machine capabilities. The resulting operation sequence accounts for stock handling, positioning, cutting, milling and drilling, with material consumption and modeled machine time forming the basis of the quotation.
 
-Store Zero instantly returns a simulated price (Q) and machine time for that exact definition, and generates the virtual commands for the machinery to position and process the stock into components autonomously. A requirement Store cannot support receives a refusal or an unresolved answer in place of a price. No store personnel translate the customer’s intent at any step.
+Store Zero instantly returns a simulated price (Q) and machine time for that exact definition, and generates the virtual commands for the machinery to position and process the stock into components autonomously. A requirement Store cannot support receives a refusal or an unresolved answer in place of a price. The machine configuration is established in advance: a bounded set of stock, operations and tools with registered station geometry. The customer defines the job. Software joins the two and generates the machining instructions, so no CAD/CAM designer redraws the parts or programs the individual order.
 
 Try it yourself, then examine the audit trail: each answer is tied to the definition revision it answers and to a fresh Store evaluation receipt. In Start Your Own, Accept & Pay records a simulated inbound order and queue entry tied to that revision and its fresh Store answer.
 
@@ -18,7 +18,7 @@ The next step is the physical one. Machine development must carry the same defin
 
 For many small woodworking jobs, arranging the work can cost more than doing it, so the work goes undone. Industry research on distributed production names the same burden: human planning in quoting, and repeated engineering and process-development costs ([Helu et al., NIST, 2020](https://www.nist.gov/publications/industry-review-distributed-production-discrete-manufacturing)). Whether that burden is large enough to matter for a local yard is what this trial measures.
 
-The working components are mature technology, so the open question is economic: what level of capability is viable? The trial is a tradeoff of footprint against sophistication. Start with one dimensional-stock machine in a supervised laboratory and find the smallest cell that serves a significant share of the woodwork people now avoid.
+The working components are mature technology. The open question is economic: how much useful work can a modest, pre-referenced machine do before the cost of added capability outweighs the value of eliminating per-job preparation? Start with one dimensional-stock machine in a supervised laboratory and find the smallest cell that serves a significant share of the woodwork people now avoid.
 
 Before moving a board across the state or country for a few prepared parts, let its definition reach suitable local wood first. Information before atoms.
 
@@ -88,7 +88,7 @@ Include operator labor, maintenance, downtime, inspection and waste; value contr
 
 Bind each test to its job revision, Store evaluation receipt and machine configuration, and preserve those identities, with the part and feature identities and the observed execution, through the entire sequence. Recheck the mapping after a change.
 
-**Validate the physical state.** The fence supplies the lateral reference and the support plane the vertical reference. A controlled cleanup cut is proposed to establish the longitudinal workpiece reference; it becomes usable only after engineering defines the retained face, cleanup allowance, blade and kerf relationship, restraint, and transform to machine coordinates. Track actual longitudinal board movement against its reference: drive rotation or drive feedback alone cannot establish that a board has not slipped. Address slip, lift, contact loss, stock variation, cutting loads, separation and interruption. Verify contact and restraint at every working position, maintain a checked position relationship, and invalidate it after a disturbance.
+**Validate the physical state.** The fence establishes Datum A (lateral reference); the support plane establishes Datum B (vertical reference). A controlled cleanup cut is proposed to establish Datum C, the longitudinal origin of each workpiece; it becomes usable only after engineering defines the retained face, cleanup allowance, blade and kerf relationship, restraint, and transform to machine coordinates. Track actual longitudinal board movement against its reference: drive rotation or drive feedback alone cannot establish that a board has not slipped. Address slip, lift, contact loss, stock variation, cutting loads, separation and interruption. Verify contact and restraint at every working position and maintain a checked position relationship. A disturbance that can move the stock invalidates Datum C until the longitudinal reference is re-established.
 
 The chain to validate: **machine references → workpiece reference → controlled stock position → registered tool action → independently inspected component.**
 
