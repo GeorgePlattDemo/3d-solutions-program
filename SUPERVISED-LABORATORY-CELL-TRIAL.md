@@ -6,19 +6,21 @@
 
 A working application shows several real-world wood projects, each customized through user controls. The definition travels over the web to Store Zero, a modeled test surface: a virtual lumberyard with declared stock, modestly automated machinery and its own economics.
 
-Store evaluates the requested material against its declared SKUs, available stock, supported operations and machine capabilities. The resulting operation sequence accounts for stock handling, positioning, cutting, milling and drilling, with material consumption and modeled machine time forming the basis of the quotation.
+Store evaluates the requested material against its declared SKUs, available stock, supported operations and machine capabilities. The resulting operation sequence accounts for stock handling, positioning, cutting, milling and drilling, with material consumption and modeled machine time forming the basis of budgetary Q.
 
-Store Zero instantly returns a simulated price (Q) and machine time for that exact definition, and generates the virtual commands for the machinery to position and process the stock into components autonomously. A requirement Store cannot support receives a refusal or an unresolved answer in place of a price. The machine configuration is established in advance: a bounded set of stock, operations and tools with registered station geometry. The customer defines the job. Software joins the two and generates the machining instructions, so no CAD/CAM designer redraws the parts or programs the individual order.
+Store Zero returns modeled time and budgetary Q for that exact definition, together with an ordered operation ledger containing nominal positioning and processing instructions.
+
+Machine functions are registered before the customer arrives: stock envelopes, supported operations, tools, station geometry and motion conventions are identified in advance. The customer defines the required operations and values. System derives the part requirements; Store resolves material and the manufacturing plan; accepted-job lowering binds that verified plan to the registered model. This compilation chain absorbs the modeled job's programming burden: supported requirements determine the ledger without a second person redrawing parts or entering derived coordinates. A requirement Store cannot support receives a refusal or unresolved answer. Proving the genuine accepted-order handoff and reusable controller export remains part of digital completion.
 
 Try it yourself, then examine the audit trail: each answer is tied to the definition revision it answers and to a fresh Store evaluation receipt. In Start Your Own, Accept & Pay records a simulated inbound order and queue entry tied to that revision and its fresh Store answer.
 
-The next step is the physical one. Machine development must carry the same definition into inspected parts. The central question is whether a registered request can move through preparation, machine execution and inspection without losing identity or requiring manual reinterpretation.
+The next step joins digital completion with physical validation. A reusable controller-oriented export must extend the existing accepted-packet and lowering path. Machine development must then carry that same identified job into inspected parts. The central question is whether reusable registration eliminates enough per-order interpretation, programming and handling expense to make the complete service economically viable.
 
 ### Purpose of the supervised lab trial
 
 For many small woodworking jobs, arranging the work can cost more than doing it, so the work goes undone. Industry research on distributed production names the same burden: human planning in quoting, and repeated engineering and process-development costs ([Helu et al., NIST, 2020](https://www.nist.gov/publications/industry-review-distributed-production-discrete-manufacturing)). Whether that burden is large enough to matter for a local yard is what this trial measures.
 
-The working components are mature technology. The open question is economic: how much useful work can a modest, pre-referenced machine do before the cost of added capability outweighs the value of eliminating per-job preparation? Start with one dimensional-stock machine in a supervised laboratory and find the smallest cell that serves a significant share of the woodwork people now avoid.
+The underlying language and motion-control techniques are established engineering; their application to this bounded machine still requires integration and validation. The economic question is how much useful work a modest, pre-referenced cell can perform before additional capability and its maintenance cost outweigh avoided per-job preparation. Start with one dimensional-stock machine in a supervised laboratory and find the smallest cell that serves a significant share of the woodwork people now avoid.
 
 Before moving a board across the state or country for a few prepared parts, let its definition reach suitable local wood first. Information before atoms.
 
@@ -36,7 +38,7 @@ The objective is straightforward: determine whether networked preparation, local
 
 The patents describe familiar tools, controlled stock movement and generated instructions. Project 1 generates virtual commands; its reference controller source remains uncompiled. The application authorizes no physical motion.
 
-Current Store lowering binds a modeled operation ledger; it is not a commissioned controller program. Actual machine integration, safety systems, controller commissioning and powered testing remain under the supervision of qualified technical personnel.
+Current Store lowering verifies the accepted job and binds its exact stock plan, operation sequence and predicted occupancy to the declared configuration. The present virtual replay checks that modeled ledger; it is not a commissioned controller runtime. The historical Project 1 generator separately produced controller-oriented data. The trial must connect a reusable current-job export to a selected controller, then validate actual machine state and output under qualified technical supervision.
 
 Guarding, stopping, isolation and restart control belong in the build and verification process rather than the current application. **NO BLOOD ON WOOD:** software success, simulated motion and commercial convenience do not resolve physical safety requirements.
 
@@ -74,7 +76,9 @@ The trial measures capability, preparation burden, occupied space and complete s
 | Base and supports  | 1       | Rigid base, idler rollers and infeed and outfeed support for the admitted stock lengths.                                                                                                                                  |
 | Local controls     | 1       | Controller, drives, I/O, actual position feedback, tool and restraint sensing, a risk-derived protective system, guarding and extraction.                                                                                 |
 
-Use commercially available industrial components wherever practical. Check compatibility, condition, geometry, modifications and protective requirements before reusing equipment, and select for performance, diagnostics, maintainability, replacement availability, safety integration and local technical support. The Project 1 review is starting material for selection and sizing, not an adopted machine bill of materials.
+Use commercially available industrial components wherever practical. [IEC 61131-3 Structured Text](https://webstore.iec.ch/en/publication/68533), [PLCopen motion function blocks and state models](https://www.plcopen.org/standards/motion-control/), and [TwinCAT PLC/NC point-to-point axis interfaces and EtherCAT](https://www.beckhoff.com/en-us/products/automation/twincat/tcxxxx-twincat-3-base/tc1250.html) provide established foundations consistent with Project 1's reference.
+
+[FreeCAD CAM/postprocessing](https://github.com/FreeCAD/FreeCAD-documentation/blob/main/wiki/CAM_Workbench.md), [LinuxCNC instruction/coordinate interpretation](https://linuxcnc.org/docs/html/gcode/coordinates.html), and [grblHAL hardware abstraction](https://github.com/grblHAL/core) are researched alternatives, not installed dependencies. [OPC UA machine-tool information](https://reference.opcfoundation.org/specs/OPC-40501-1/1.1) is a candidate for identified job/status exchange, not the motion loop. Select equipment for performance, diagnostics, maintainability, compatibility, protective requirements and local support. Project 1 remains selection and sizing evidence, not an adopted machine bill of materials.
 
 **Establish the layout.** Treat 5 feet wide by 3 feet deep as the core-machine target. Check a dimensioned layout through every tool movement. Record the complete operating space, including stock travel, supports, guarding, extraction and access. The two feed servos are only part of the actuator count; saw and tool positioning also require the appropriate drives and feedback.
 
@@ -84,7 +88,9 @@ Include operator labor, maintenance, downtime, inspection and waste; value contr
 
 ### Complete the registered path to inspected parts
 
-**Translate the definition.** Build a bounded postprocessor from the identified job to one registered machine configuration: identified job requirements plus a validated machine configuration yield controller-specific instructions. It must retain part, feature, job and configuration identities, add measured station and tool transforms, account for kerf and the retained face, sequence the operations, and reject unsupported or inconsistent work. It does not redesign the component, choose Store inventory or issue physical release. Specialist work belongs in design, registration, commissioning, validation and maintenance, so supported jobs reuse an identified configuration; a change to tooling, geometry, calibration or mappings requires the applicable updates and checks. Compile and exercise the selected controller program before powered cutting.
+**Translate the definition.** Extend the existing lowering architecture: **accepted job → verified Store plan → registered machine configuration → lowering layer → controller instructions**. System supplies the meaning, geometry, independent manifest and revision; Store has already selected stock and generated the priced plan. The exporter must consume that exact plan, retain packet/receipt/calculation, parent/SKU, component/feature and configuration identities, and add only registered local execution facts. It must not redesign components, select stock, reschedule the accepted plan or compute another time/Q. Missing station, tool, axis, units, datum or required controller parameters produce an identified unresolved condition or refusal.
+
+Register each function's operands, tooling, geometry, units, references, capability limits, preconditions and allowed outcomes. A clamp allowance does not become sensed clamp confirmation; a nominal reference event does not become an inspected retained face. The current model's linear C coordinate must map explicitly to a continuous longitudinal axis and workpiece offset, not to a conventional rotary G-code C axis. Keep reference instruction data, compiled controller code and executed runtime evidence distinct. Exercise the selected controller's cyclic function calls, Execute transitions and terminal outcomes before powered cutting. Specialist work belongs in registration, qualification, commissioning and maintenance, so supported orders reuse the mappings.
 
 Bind each test to its job revision, Store evaluation receipt and machine configuration, and preserve those identities, with the part and feature identities and the observed execution, through the entire sequence. Recheck the mapping after a change.
 
@@ -94,7 +100,18 @@ The chain to validate: **machine references → workpiece reference → controll
 
 The Project 1 review identifies one-roller states, unresolved face and kerf registration, and unverified saw-stroke geometry. Resolve these specific gaps through layout, sensing and measured tests before nominal commands are used physically; the supplied controller source remains uncompiled.
 
-**Prove useful output.** First produce the two mitered parts and center spots for one current Start Your Own revision; the preserved Project 1 specimen, two 18-inch parts with parallel face miters and a centered spot on each, is the reference target. Inspect length, angle, spot location and spot depth against criteria established before testing, using suitable instruments, repeated specimens and recorded conditions. Measure finished parts independently of commanded coordinates and encoder counts, and compare actual dimensions and processing time with Store’s modeled results. Controller coordinates are not inspection, and encoder resolution is not finished-part tolerance.
+**Prove useful output.** Use the current two-part SPF Job 1 default and its variation as paired specimens, each with the same eight-inch horizontal span:
+
+| Requirement/result | 16-inch default | 18-inch variation |
+| --- | ---: | ---: |
+| Face-miter magnitude | 30° | 26.387799961243° |
+| Centered spot X | 8 in | 9 in |
+| Selected parent | 60 in | 72 in |
+| Modeled manufacturing Q | $8.62 | $9.13 |
+
+The [Store walkthrough](https://github.com/GeorgePlattDemo/store-zero/blob/main/STORE-ZERO-MASTER.md#82-start-your-own) supplies their complete identified ledger, kerf convention, positions and timing. The preserved historical Project 1 is a separate 18-inch treated-lumber specimen with original $11.09 Q and 45-command reference; keep it unchanged.
+
+Inspect length, angle, spot location and full-diameter depth against predetermined criteria using suitable instruments, repeated specimens and recorded stock conditions. Demonstrate that changing only the admitted customer value produces a new identified definition, fresh Store result and regenerated instructions without manual angle or coordinate re-entry. Compare actual dimensions and whole-job effort with modeled results. Controller targets and encoder counts are not component inspection.
 
 Exercise changes and repeated specimens, then qualify routing and further dimensional jobs individually. Record actual versus modeled time, interruptions, rework and inspected results. Keep actual execution distinct from the application’s simulated fulfillment.
 
@@ -169,9 +186,9 @@ A useful negative identifies the demand limit, cost, technical constraint or bet
 | Program                      | Research questions, evidence, experiments, candidate engineering, machine development, economic and operating research, findings and development decisions.          | Proposals and findings do not change System behavior, Store capability or physical operating permission. |
 | System                       | The application, project definitions, shared operational meaning, job records and revisions, custody, and the interfaces carrying the job to Store.                  | It preserves and presents Store answers without creating substitute facts, prices or capability.         |
 | Store                        | Its material, catalog, represented stock, admitted capability, modeled work and time, economics, answers and refusals.                                               | It answers the definition without changing the requested component to make the job fit.                  |
-| Local machine implementation | Commissioned geometry, stations, tools, references, lowering/compiler, controller configuration, I/O, motion, interlocks, calibration and observed physical results. | It adds execution facts without reinterpreting customer requirements or inventing Store authority.       |
+| Local machine implementation | Commissioned geometry, tools, reference validity, controller/I/O mappings, physical adaptation of the existing lowering path, motion, interlocks, calibration and observed results. | Adds execution facts to the accepted Store plan; owns no second project compiler, stock planner or Q. |
 
-The intended chain is **customer requirement → System definition → Store answer → bounded machine-neutral work → local lowering → controller and machine → observed result.** No later layer may backfill authority missing from an earlier one. A changed definition requires a fresh Store evaluation, and a Store answer establishes neither physical readiness nor permission to operate.
+The chain is **customer operations/values → System geometry/features/manifest → Store stock/capability/plan/time/Q → customer decision and accepted packet → registered configuration and verified lowering → virtual instructions and evidence → commissioned controller execution and inspected result**. The first stages are implemented digital functions; current machine evidence is modeled; reusable controller export and physical execution remain development and validation work. No later stage backfills missing authority. A changed definition requires a fresh Store evaluation, and a changed tool, station, datum or mapping requires a new identified configuration and corresponding checks.
 
 The Project 1 specimen is a historical reference; a later technical result receives a new identified revision rather than rewriting it. Research use or publication of customer and business records requires permission for that purpose, and project participation does not itself authorize unrelated reuse.
 
@@ -188,7 +205,7 @@ Public benefit and institutional stewardship take priority; personal financial g
 3. Produces inspected results.
 4. Returns those results to its originating record.
 
-The digital front end exists. The remaining validation concerns local readiness, operator Cycle Start and actual fulfillment at each physical connection.
+The definition, evaluation and occupancy-evidence path exists. Remaining digital validation must prove the actual accepted-record handoff, provenance-complete controller export and target-runtime behavior. Local readiness, operator Cycle Start and inspected fulfillment then require separate physical evidence at each commissioned connection.
 
 **Positive and negative findings.** A well-supported negative finding is as valuable as a positive one. Either outcome gives the state an empirical answer about local yards, retained income and public value. The objective is not to prove success, but to determine whether local preparation, local material and networked fabrication produce measurable value worth carrying forward.
 

@@ -28,15 +28,17 @@ Its economic distinction matters here. Local customization can cost more to manu
 
 Helu, Sobel, Nelaturi, Waddell, and Hibbard’s 2020 **Industry Review of Distributed Production in Discrete Manufacturing**, published in the *Journal of Manufacturing Science and Engineering*, **142(11), 110802**, examines matching part requirements to process capabilities under technical, business, and logistical constraints. Its manuscript identifies human planning in quoting and repeated engineering and process-development costs as burdens on distributed production. It also emphasizes controlled, verifiably correct processes when small quantities leave little room for scrap. \[6\]
 
-That research is closely aligned with the Program’s practical proposition: define the result once, then let each later step add the facts it owns. The proposed advantage is reducing the repeated work required to turn a request into something known machinery can produce.
+That research supports measuring preparation as part of the complete service. Reusable compilation may remove repeated drawing, coordinate entry and order-specific programming while shifting specialist work into initial registration, validation, change control and maintenance. The trial must count both sides of that comparison, including unsupported requests and interventions.
 
 NC State Industry Extension Services describes process assessment and technologies matched to specific applications. The North Carolina Manufacturing Extension Partnership supports manufacturing productivity and technology adoption. They identify relevant regional support capacity; no participation or endorsement is claimed. \[7, 8\]
 
 ## Architecture and provenance
 
-The application supplies meaningful controls for a supported project. System preserves the requirements and submits a Store inquiry linked to that definition revision. Store answers from its own material, capability, modeled work, time, and economics.
+The application supplies meaningful controls at Intent and the Bench. System preserves the customer's choices, named derivations, complete component/feature manifest and definition revision. Store evaluates that inquiry afresh and returns its own stock resolution, operation ledger, modeled time, Q and receipt. Accepted-job custody preserves those exact facts for verified lowering; a price or a customer decision alone does not supply local readiness.
 
-The intended machine path combines those requirements with registered local facts: station locations, tools, geometry, motion rules, and operating prerequisites. Ordinary supported jobs would reuse known mappings rather than require a fresh CAD/CAM reconstruction at the dealer. The physical arrangement and the proposed reduction in preparation burden remain subjects for testing.
+Machine functions are registered before the customer arrives. The customer supplies the required operations and their values; System derives job meaning, component geometry and features; Store resolves stock, capability and the manufacturing plan. The compilation chain joins those requirements to registered tooling, station locations, datums and motion rules.
+
+Its purpose is to absorb job-specific programming burden: supported orders reuse identified engineering instead of requiring another person to interpret, redraw and program each component. Program investigates whether the preparation effort saved exceeds the cost of registering, maintaining and operating that capability.
 
 George Platt’s issued patents document the earlier architecture:
 
@@ -65,9 +67,21 @@ These values belong to this preserved reference calculation, made by the predece
 
 The review reports reproduction using **Node 24.19.0**, a **45-record virtual sequence containing 21 axis moves**, and **fourteen local proof checks**. Those checks include changed-demand and altered-result rejection, nominal spot alignment, modeled faults, contact-gap detection, and blocked physical admission. This document cites that reported run; it does not claim a separate reproduction. \[9, 10\]
 
-The part length is not re-entered or the component redrawn to generate the reference sequence. That establishes continuity through one bounded digital path.
+The historical generator derives its sequence without downstream re-entry of part length or redrawing the component. Current source diagnostics exercise the published derivation, translation, independent manifest, fresh Store evaluation and bound occupancy replay for two SPF definitions:
 
-The physical gaps are specific: one-roller contact states, retained-face and kerf registration, and saw downstroke geometry remain unresolved. The TwinCAT source was not compiled or executed in TwinCAT. **Physical admission is BLOCKED.** The specimen contains no commissioned machine or measured conforming parts. Claims for the current application are recorded in the current System’s verification note; the predecessor System’s verification register records the claims made for the original application. \[9, 11, 12\]
+| Current Job 1 | 16-inch default | 18-inch variation |
+| --- | ---: | ---: |
+| Face-miter magnitude | 30° | 26.387799961243° |
+| Centered spot X | 8 in | 9 in |
+| Selected parent | 60 in | 72 in |
+| Manufacturing Q | $8.62 | $9.13 |
+| Occupancy records / modeled moves | 51 / 22 | 51 / 22 |
+
+The [Store walkthrough](https://github.com/GeorgePlattDemo/store-zero/blob/main/STORE-ZERO-MASTER.md#82-start-your-own) supplies the governing calculations and source identities. Each diagnostic uses a constructed simulated accepted packet. It establishes the source-to-Store modeled relationship, while the genuine published acceptance-to-packet handoff and controller execution remain separate proof obligations. The historical 45-command reference retains its own representation and identity. [13, 14]
+
+Current lowering binds the verified Store plan to a declared machine configuration and replays nominal dimensional instructions. Its evidence class is `PREDICTED_OCCUPANCY_ONLY`. The historical package separately contains controller-oriented Structured Text that remains uncompiled in TwinCAT. [9, 10, 13]
+
+One-roller contact states, retained-face and kerf registration, and saw downstroke geometry remain unresolved. **Physical admission is BLOCKED.** The next digital work is reusable controller export from the existing accepted-packet/lowering path. Laboratory work must establish controller behavior and independently inspected components. Current findings and older observations retain their own dates and revisions. [12–14]
 
 ## Evidence needed next
 
@@ -79,7 +93,7 @@ Would you use the [current application](https://system-candidate-production.up.r
 | Engineering validation          | Stock control, references, tooling, controller execution, and inspected specimens under authorized conditions. |
 | Bounded service pilot           | Customer results and whole-job economics using an established capability.                                      |
 
-Hold the required customer result constant when comparing alternatives. Measure clarification, preparation, loading, processing, inspection, rework, staging, and handoff. Count material, tooling, maintenance, software, installation, space, downtime, capital burden, and realistic utilization.
+Hold the required customer result constant when comparing alternatives. Measure clarification, preparation, loading, processing, inspection, rework, staging and handoff. Record per-order programming and re-entry separately from one-time function registration, controller integration and subsequent calibration or tooling changes. Count material, tooling, maintenance, software, installation, space, downtime, capital burden and realistic utilization.
 
 Distinguish improved service from additional demand. A customer-reported abandoned project is useful evidence, but it does not prove what would have happened without the service. Interest is not a purchase, and local production alone does not establish additional employment or an environmental benefit.
 
@@ -97,5 +111,7 @@ The next question is concrete: does carrying a defined request to a bounded mach
 8. [NIST — North Carolina Manufacturing Extension Partnership](https://www.nist.gov/mep/centers/north-carolina-manufacturing-extension-partnership-ncmep).
 9. [D001 Project 1 Digital Trail Review 0.2](https://github.com/GeorgePlattDemo/scan-to-build-store/blob/83d9253b179f92acde8879ebea93e0dbcd8c508b/docs/project-1-digital-trail/D001_Project1_Review.md), preserved publication.
 10. [Project 1 publication record and evidence package](https://github.com/GeorgePlattDemo/scan-to-build-store/blob/83d9253b179f92acde8879ebea93e0dbcd8c508b/docs/project-1-digital-trail/README.md).
-11. [Predecessor System verification register](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/main/docs/project/VERIFICATION-REGISTER.md), the claim and proof register for the original application, preserved as history.
+11. [Predecessor System verification register](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/bbcfd1a2c391d8a8121d02c9d5e6db14623a9541/docs/project/VERIFICATION-REGISTER.md), the claim and proof register for the original application, preserved as history.
 12. [Current System verification note](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/verification/start-your-own.md), what has been shown for the five jobs of the current application, and what has not.
+13. [Current Store compilation, lowering and Job 1 explanation](https://github.com/GeorgePlattDemo/store-zero/blob/main/STORE-ZERO-MASTER.md#82-start-your-own); current protocol and machine evidence are specified in [Store Zero specification](https://github.com/GeorgePlattDemo/store-zero/blob/main/docs/STORE-ZERO-SPECIFICATION.md).
+14. Current source diagnostic, 12 October 2026: System `1939e809ba931ff6a848e4c747bd73e795820d32`, Store `ca6d3c2768cc7741d34daa81ea45bf44acdf6a3f`, explicit source-snapshot release label and fixed reproduction clock; published derivation/translation plus Store packet verification and occupancy replay. The [System verification note](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/verification/start-your-own.md#coordinated-operation-and-intent-integration) distinguishes this evidence from earlier deployed-browser observations.
