@@ -52,7 +52,7 @@ The [Supervised Laboratory Dimensional Cell Trial](SUPERVISED-LABORATORY-CELL-TR
 
 ## What has been shown
 
-Try **Start your own** in the application. Intent establishes the job’s requirements; the Bench lets you work their values. Then follow the [Project 1 digital manufacturing trail](https://github.com/GeorgePlattDemo/store-zero/blob/main/docs/project-1-digital-trail/D001_Project1_Review.md) from one definition to a reproduced Store answer and generated virtual commands. The [verification record](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/verification/start-your-own.md) describes what has been shown for Start your own, and what has not.
+Try **Start your own** in the application. Intent establishes the job’s requirements; the Bench lets you work their values. Then follow the [Project 1 digital manufacturing trail](https://github.com/GeorgePlattDemo/store-zero/blob/main/STORE-ZERO-MASTER.md#7-complete-historical-project-1-walkthrough) from one definition to a reproduced Store answer and generated virtual commands. The [verification record](https://github.com/GeorgePlattDemo/new-system/blob/main/SYSTEM-MASTER.md#14-testing-and-verification) describes what has been shown for Start your own, and what has not.
 
 The application is a working software demonstration. Store Zero’s prices and machine time are modeled. Project 1 supplies a digital reference specimen; physical capability and commercial viability remain to be demonstrated.
 
