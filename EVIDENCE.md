@@ -81,6 +81,8 @@ The historical generator derives its sequence without downstream re-entry of par
 
 *Authority category: Current System Behavior*
 
+The D-001 test function is an identified-location shallow drilled spot, not a general drilling or flat-bottom spotfacing capability. Its Store registration specifies a 3/16-inch drill, 118° included point and 3/16 inch of full-diameter penetration beyond that point (approximately 0.24383 inch total tip travel). This is the configured reference and ceiling. Project 1's two default spots are derived from the customer's selected part length as a center rule; other admitted definitions may state supported coordinates. The current executable model refuses separately specified depths that differ from the reference. Store must not silently discard an explicitly stated diameter, depth or location during System translation. The [laboratory trial](SUPERVISED-LABORATORY-CELL-TRIAL.md) has the future physical validation obligations.
+
 The current integration proof exercises published derivation, translation, independent manifest, fresh Store evaluation, customer acceptance, exact packet export and bound occupancy replay for two SPF definitions:
 
 | Current Job 1 | 16-inch default | 18-inch variation |
