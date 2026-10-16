@@ -36,6 +36,16 @@ That research supports measuring preparation as part of the complete service. Re
 
 NC State Industry Extension Services describes process assessment and technologies matched to specific applications. The North Carolina Manufacturing Extension Partnership supports manufacturing productivity and technology adoption. They identify relevant regional support capacity; no participation or endorsement is claimed. \[7, 8\]
 
+## Source-plan language and independent manufacturing meaning
+
+*Authority category: Current System Behavior for the bounded demonstration; Future Work for general plan ingestion*
+
+The governing distinction is between a plan's wording and its measurable requirements. Printed or customer-provided plans may use “bevel” for a face-miter cut, call a pointed drilled depression “spotface,” or require a “pilot hole” without specifying diameter, depth or reference. The plan's original phrase and revision remain attributable evidence. They cannot confer registered machine capability.
+
+System establishes physical part geometry, feature identities, dimensions, datums and openly unresolved differences; its typed plan-end interpretation rejects a missing angled plane/relation/datum rather than guessing from a word. Store alone evaluates the requested geometry against its registered tools, material, stock control and time/Q model; where the request is unsupported it returns an attributable refusal. Program examines whether that reliable interpretation and reusable compilation can reduce the preparation burden. Neither the compiler nor this research record claims that unrestricted PDF/CAD ingestion is already installed.
+
+A general plan ingestion layer remains future work: it must identify the source document/page/revision and any dimensional derivation or contradiction, preserve unsupported and abandoned demand, and require human verification when a drawing does not settle physical geometry. A successful plan reading is not a successful Store evaluation, a machine-ready packet, commissioned operation, or an inspected part. See the controlling [System manufacturing terminology definitions](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/DEFINITIONS.md#manufacturing-terminology-source-words-versus-physical-requirements), [Store specification](https://github.com/GeorgePlattDemo/store-zero/blob/main/docs/STORE-ZERO-SPECIFICATION.md) and current Project 1 digital proof; those must describe the same executable revisions.
+
 ## Architecture and provenance
 
 *Authority category: Historical Evidence*
@@ -81,7 +91,7 @@ The historical generator derives its sequence without downstream re-entry of par
 
 *Authority category: Current System Behavior*
 
-The D-001 test function is an identified-location shallow drilled spot, not a general drilling or flat-bottom spotfacing capability. Its Store registration specifies a 3/16-inch drill, 118° included point and 3/16 inch of full-diameter penetration beyond that point (approximately 0.24383 inch total tip travel). This is the configured reference and ceiling. Project 1's two default spots are derived from the customer's selected part length as a center rule; other admitted definitions may state supported coordinates. The current executable model refuses separately specified depths that differ from the reference. Store must not silently discard an explicitly stated diameter, depth or location during System translation. The [laboratory trial](SUPERVISED-LABORATORY-CELL-TRIAL.md) has the future physical validation obligations.
+The D-001 test function is an identified-location shallow drilled spot, not a general drilling or flat-bottom spotfacing capability. Its Store registration specifies a 3/16-inch drill, 118° included point and 3/16 inch of full-diameter penetration beyond that point (approximately 0.24383 inch total tip travel). This is the configured reference and ceiling. Project 1's two default spots are derived from the customer's selected part length as a center rule; other admitted definitions may state supported coordinates. The current Store implementation permits a positive separately stated full-diameter depth up to the 3/16-inch maximum, deriving the tool's point-height-adjusted Z target, modeled travel and time for each identified feature. Explicitly deeper requests are refused, as are unsupported locations, diameters and physical functions. The unchanged 16/18-inch Project 1 baseline still uses the registered nominal maximum; any selected variation requires a fresh definition, evaluation and current proof. Store must not silently discard an explicitly stated diameter, depth or location during System translation. The [laboratory trial](SUPERVISED-LABORATORY-CELL-TRIAL.md) has the future physical validation obligations.
 
 The current integration proof exercises published derivation, translation, independent manifest, fresh Store evaluation, customer acceptance, exact packet export and bound occupancy replay for two SPF definitions:
 
