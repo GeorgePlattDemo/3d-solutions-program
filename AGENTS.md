@@ -4,6 +4,8 @@ This repository investigates whether better-defined demand and bounded manufactu
 
 ## Read before changing
 
+*Authority category: Current System Behavior*
+
 Read README.md, EVIDENCE.md, SUPERVISED-LABORATORY-CELL-TRIAL.md, and the document or implementation directly affected. Identify the requested outcome, its owning file, and the agreed starting revision.
 
 The README’s argument is intentional:
@@ -13,6 +15,8 @@ The README’s argument is intentional:
 Preserve that argument and the existing terminology. Do not reorganize, soften, broaden, or replace it to fit a preferred style or template.
 
 ## Respect ownership and evidence
+
+*Authority category: Current System Behavior*
 
 Program owns research, proposed trials, candidate engineering, findings, and development decisions. System owns the application and shared operational job meaning. Store owns its facts, evaluation, economics, answers, and refusals. Physical implementation and operating permission remain local responsibilities.
 
@@ -26,6 +30,8 @@ This repository is public. Preserve source attribution and applicable notices. D
 
 ## Make bounded changes
 
+*Authority category: Current System Behavior*
+
 Complete the task on the smallest appropriate surface. Do not rewrite adjacent material, introduce terminology or dependencies, add fallback behavior, create speculative documents, or expand the research question.
 
 Every new file must contain substantive work with a clear purpose. Prefer improving the existing owner document to creating another layer around it. Preserve distinct evidence, decisions, requirements, and rationale when removing or relocating material.
@@ -35,6 +41,8 @@ Do not create branches, pull requests, or repository structures without explicit
 The four substantive files are README.md, EVIDENCE.md, SUPERVISED-LABORATORY-CELL-TRIAL.md, and this file. Add findings, experiments, economics, or sources when actual material requires them. Do not create a file for every stage through which one piece of research passes.
 
 ## Keep the work useful
+
+*Authority category: Current System Behavior*
 
 Write directly about the mechanism, evidence, question, and next decision. Keep qualifications where they affect meaning without repeating disclaimers or governance commentary.
 
@@ -46,9 +54,13 @@ A simpler solution or a reason to stop is a useful result. Preserve negative fin
 
 ## Current integrated proof
 
-Project 1 is the living end-to-end proof of the current System and Store. Consequential implementation or specification changes require the current proof, both masters, shared definitions and affected Program descriptions to agree. Operative prose describes current behavior; Git records repair chronology. Original sealed evidence retains provenance and cannot replace current acceptance. Report modeled/digital results, commissioned physical results and commercial observations with their actual evidence limits.
+*Authority category: Current System Behavior*
+
+Current executable contracts and verified outputs govern descriptions of installed behavior. The original Project 1 publication is historical evidence, not architectural authority. Regenerated reference evidence and revision-bound browser runs demonstrate current behavior for their identified inputs; they do not define that behavior. Consequential changes require affected specifications, masters, shared definitions, Program descriptions and current acceptance evidence to agree. Preserve sealed source bytes and distinguish modeled results, simulated commerce, commissioned execution and inspected output.
 
 ## Verify and finish
+
+*Authority category: Current System Behavior*
 
 Inspect the full diff, confirm the intended file scope, check affected links and sources, and run applicable existing checks. The documentary check is **python3 tools/check_program.py**. Hosted CI runs the same check; it does not prove runtime behavior, physical capability, or commercial performance.
 
@@ -57,6 +69,8 @@ Do not invent a checker, report an unrun test as passed, or treat file creation 
 **Complete the task. Preserve the argument. Respect the owners. Leave unrelated work alone.**
 
 ## Shared rules (the same block in Program, System and Store)
+
+*Authority category: Current System Behavior*
 
 1. One branch: `main`. Work lands on `main`; no other branch is left behind.
 2. The rebuild carries nothing from the original repositories that it does not use. Store offers only operations it handles; Store's CI fails if an offered operation has nothing that handles it.

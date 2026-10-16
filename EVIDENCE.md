@@ -8,6 +8,8 @@ They support a concrete investigation. Physical capability and service economics
 
 ## North Carolina’s changing wood economy
 
+*Authority category: Historical Evidence*
+
 NC Commerce’s **Not Your Grandfather’s Manufacturing**, published August 31, 2023, reports that furniture-factory employment fell **59.4% between 1993 and 2022**. It discusses globalization, trade deficits, efficiency, and automation in broader manufacturing changes. The figure establishes the scale of employment loss; it does not identify a single cause or a replacement service. \[1\]
 
 NC State Extension’s **Economic Contribution of the Forest Sector in North Carolina, 2024** reports total economic output up **3.1%** and total supported employment down **1.9%** from 2023. It reports approximately **66,508 direct jobs** and **140,919 jobs including indirect and induced effects**. These sector-wide estimates are distinct from factory employment counts. The two percentages alone do not establish why output and employment moved differently. \[2\]
@@ -19,6 +21,8 @@ In 2024, Weyerhaeuser indefinitely curtailed its New Bern sawmill in Vanceboro, 
 The Program asks what a different scale of work might do beside the wood: one board, one opening, one customer’s result, prepared without reconstructing the job at every handoff. The employment record supplies context. Demand for that particular service still has to be established.
 
 ## Technology can change the comparison
+
+*Authority category: Historical Evidence*
 
 For a small, specific job, interpreting the request, preparing it for production, supplying material, and delivering the result may determine whether the work is worthwhile. Distributed-manufacturing research examines that larger path.
 
@@ -33,6 +37,8 @@ That research supports measuring preparation as part of the complete service. Re
 NC State Industry Extension Services describes process assessment and technologies matched to specific applications. The North Carolina Manufacturing Extension Partnership supports manufacturing productivity and technology adoption. They identify relevant regional support capacity; no participation or endorsement is claimed. \[7, 8\]
 
 ## Architecture and provenance
+
+*Authority category: Historical Evidence*
 
 The application supplies meaningful controls at Intent and the Bench. System preserves the customer's choices, named derivations, complete component/feature manifest and definition revision. Store evaluates that inquiry afresh and returns its own stock resolution, operation ledger, modeled time, Q and receipt. Accepted-job custody preserves those exact facts for verified lowering; a price or a customer decision alone does not supply local readiness.
 
@@ -49,7 +55,9 @@ George Platt’s issued patents document the earlier architecture:
 
 The Project 1 review maps selected issued claims to customer choices, estimates, machining information, identification, and processing functions. That correspondence documents architectural provenance; it does not establish complete implementation, physical performance, or commercial viability. \[9\]
 
-## Present digital proof
+## Historical Evidence — original Project 1 specimen
+
+*Authority category: Historical Evidence*
 
 **D001 Project 1 Digital Trail Review 0.2**, dated October 3, 2026, follows one identified requirement through System derivation, a pinned Store evaluation, material selection, modeled economics, local coordinates, and generated virtual commands. The review was published in the predecessor Store repository, `scan-to-build-store`, at commit `83d9253b179f92acde8879ebea93e0dbcd8c508b`, with its reproducible evidence package; references 9 and 10 cite that preserved publication. The current Store, `store-zero`, also carries Project 1 trail documents; those are not the cited original. \[9, 10\]
 
@@ -67,7 +75,13 @@ These values belong to this preserved reference calculation, made by the predece
 
 The review reports reproduction using **Node 24.19.0**, a **45-record virtual sequence containing 21 axis moves**, and **fourteen local proof checks**. Those checks include changed-demand and altered-result rejection, nominal spot alignment, modeled faults, contact-gap detection, and blocked physical admission. This document cites that reported run; it does not claim a separate reproduction. \[9, 10\]
 
-The historical generator derives its sequence without downstream re-entry of part length or redrawing the component. The current Project 1 proof exercises published derivation, translation, independent manifest, fresh Store evaluation, customer acceptance, exact packet export and bound occupancy replay for two SPF definitions:
+The historical generator derives its sequence without downstream re-entry of part length or redrawing the component. The original specimen is historical evidence, not architectural authority.
+
+## Current System Behavior — digital integration evidence
+
+*Authority category: Current System Behavior*
+
+The current integration proof exercises published derivation, translation, independent manifest, fresh Store evaluation, customer acceptance, exact packet export and bound occupancy replay for two SPF definitions:
 
 | Current Job 1 | 16-inch default | 18-inch variation |
 | --- | ---: | ---: |
@@ -81,15 +95,19 @@ The [Store walkthrough](https://github.com/GeorgePlattDemo/store-zero/blob/main/
 
 Current lowering binds the verified Store plan to a declared machine configuration and replays nominal dimensional instructions. Its evidence class is `PREDICTED_OCCUPANCY_ONLY`. The historical package separately contains controller-oriented Structured Text that remains uncompiled in TwinCAT. [9, 10, 13]
 
-One-roller contact states, retained-face and kerf registration, and saw downstroke geometry remain unresolved. **Physical admission is BLOCKED.** Project 1 must remain aligned with current code, specifications, both technical masters and affected Program descriptions. Its original sealed source evidence retains provenance and cannot stand in for current acceptance. The next digital work is reusable controller export from the existing accepted-packet/lowering path. Laboratory work must establish controller behavior and independently inspected components. Current findings and older observations retain their own dates and revisions. [12–14]
+One-roller contact states, retained-face and kerf registration, and saw downstroke geometry remain unresolved. **Physical admission is BLOCKED.** Current acceptance evidence must remain aligned with executable contracts, specifications, both technical masters and affected Program descriptions. Its original sealed source evidence retains provenance and cannot stand in for current acceptance. The next digital work is reusable controller export from the existing accepted-packet/lowering path. Laboratory work must establish controller behavior and independently inspected components. Current findings and older observations retain their own dates and revisions. [12–14]
 
-## Capability impact and extensibility
+## Future Work — capability impact and extensibility
+
+*Authority category: Future Work*
 
 A capability-impact engine is a core successor requirement. Preserve complete requested work and each refusal/unresolved capability gap; evaluate separately registered hypothetical tools, stations, ranges or machines against that same demand through deterministic compilation and Store evaluation. Compare newly feasible work, modeled time/Q and full investment, maintenance, labor and utilization costs. Proposed feasibility does not establish a current offering or physical release. Learning can suggest patterns; deterministic requirements and registered capabilities decide satisfaction.
 
 Adding a third or fourth machine must extend the registered capability/execution model without rebuilding the customer-definition compiler. This is an architectural acceptance test. No current prototype or planning narrative is treated as an installed capability-impact service.
 
-## Evidence needed next
+## Future Work — evidence needed next
+
+*Authority category: Future Work*
 
 Would you use the [current application](https://system-candidate-production.up.railway.app/) to define a replacement wood component or explore a supported finished object? Try a case and tell us what you needed, what worked, and whether you would use the service. Your response is evidence about demand.
 
@@ -107,6 +125,8 @@ The next question is concrete: does carrying a defined request to a bounded mach
 
 ## Sources
 
+*Authority category: Current System Behavior*
+
 1. [NC Commerce — Not Your Grandfather’s Manufacturing](https://www.commerce.nc.gov/news/the-lead-feed/not-your-grandfathers-manufacturing), August 31, 2023.
 2. [NC State Extension — Economic Contribution of the Forest Sector in North Carolina, 2024](https://content.ces.ncsu.edu/economic-contribution-of-the-forest-sector-in-north-carolina).
 3. [NC State Extension — The North Carolina Sawmill Industry: A Closer Look](https://content.ces.ncsu.edu/the-north-carolina-sawmill-industry-a-closer-look), September 2020.
@@ -120,4 +140,4 @@ The next question is concrete: does carrying a defined request to a bounded mach
 11. [Predecessor System verification register](https://github.com/GeorgePlattDemo/scan-to-build-system/blob/bbcfd1a2c391d8a8121d02c9d5e6db14623a9541/docs/project/VERIFICATION-REGISTER.md), the claim and proof register for the original application, preserved as history.
 12. [Current System verification note](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/verification/start-your-own.md), what has been shown for the five jobs of the current application, and what has not.
 13. [Current Store compilation, lowering and Job 1 explanation](https://github.com/GeorgePlattDemo/store-zero/blob/main/STORE-ZERO-MASTER.md#82-start-your-own); current protocol and machine evidence are specified in [Store Zero specification](https://github.com/GeorgePlattDemo/store-zero/blob/main/docs/STORE-ZERO-SPECIFICATION.md).
-14. Current source diagnostic, 12 October 2026: System `1939e809ba931ff6a848e4c747bd73e795820d32`, Store `ca6d3c2768cc7741d34daa81ea45bf44acdf6a3f`, explicit source-snapshot release label and fixed reproduction clock; published derivation/translation plus Store packet verification and occupancy replay. The [System verification note](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/verification/start-your-own.md#coordinated-operation-and-intent-integration) distinguishes this evidence from earlier deployed-browser observations.
+14. Historical source diagnostic, 12 October 2026: System `1939e809ba931ff6a848e4c747bd73e795820d32`, Store `ca6d3c2768cc7741d34daa81ea45bf44acdf6a3f`, explicit source-snapshot release label and fixed reproduction clock; published derivation/translation plus Store packet verification and occupancy replay. The [System verification note](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/verification/start-your-own.md#coordinated-operation-and-intent-integration) distinguishes this evidence from earlier deployed-browser observations.

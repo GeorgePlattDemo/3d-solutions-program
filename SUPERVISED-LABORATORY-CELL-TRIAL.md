@@ -1,8 +1,12 @@
 ## Supervised Laboratory Dimensional Cell Trial
 
+*Authority category: Future Work*
+
 3D Solutions LLC | Proposed trial | 11 October 2026
 
 ### Where we are today
+
+*Authority category: Current System Behavior*
 
 A working application shows several real-world wood projects, each customized through user controls. The definition travels over the web to Store Zero, a modeled test surface: a virtual lumberyard with declared stock, modestly automated machinery and its own economics.
 
@@ -10,13 +14,15 @@ Store evaluates the requested material against its declared SKUs, available stoc
 
 Store Zero returns modeled time and budgetary Q for that exact definition, together with an ordered operation ledger containing nominal positioning and processing instructions.
 
-Machine functions are registered before the customer arrives: stock envelopes, supported operations, tools, station geometry and motion conventions are identified in advance. The customer defines the required operations and values. System derives the part requirements; Store resolves material and the manufacturing plan; accepted-job lowering binds that verified plan to the registered model. This compilation chain absorbs the modeled job's programming burden: supported requirements determine the ledger without a second person redrawing parts or entering derived coordinates. A requirement Store cannot support receives a refusal or unresolved answer. Proving the genuine accepted-order handoff and reusable controller export remains part of digital completion.
+Machine functions are registered before the customer arrives: stock envelopes, supported operations, tools, station geometry and motion conventions are identified in advance. The customer defines the required operations and values. System derives the part requirements; Store resolves material and the manufacturing plan; accepted-job lowering binds that verified plan to the registered model. This compilation chain absorbs the modeled job's programming burden: supported requirements determine the ledger without a second person redrawing parts or entering derived coordinates. A requirement Store cannot support receives a refusal or unresolved answer. Required browser checks exercise the accepted-decision, exact packet export and Store lowering/replay handoff for both SPF cases. Reusable controller export and target-runtime validation remain future work.
 
 Try it yourself, then examine the audit trail: each answer is tied to the definition revision it answers and to a fresh Store evaluation receipt. In Start Your Own, Accept & Pay records a simulated inbound order and queue entry tied to that revision and its fresh Store answer.
 
 The next step joins digital completion with physical validation. A reusable controller-oriented export must extend the existing accepted-packet and lowering path. Machine development must then carry that same identified job into inspected parts. The central question is whether reusable registration eliminates enough per-order interpretation, programming and handling expense to make the complete service economically viable.
 
 ### Purpose of the supervised lab trial
+
+*Authority category: Future Work*
 
 For many small woodworking jobs, arranging the work can cost more than doing it, so the work goes undone. Industry research on distributed production names the same burden: human planning in quoting, and repeated engineering and process-development costs ([Helu et al., NIST, 2020](https://www.nist.gov/publications/industry-review-distributed-production-discrete-manufacturing)). Whether that burden is large enough to matter for a local yard is what this trial measures.
 
@@ -28,6 +34,8 @@ Test capability against footprint and complete service cost. Add the sheet machi
 
 ### Why North Carolina
 
+*Authority category: Future Work*
+
 North Carolina is well placed to test whether this path grows local economic capability: it has the wood, the yards, the colleges and the research institutions to find out quickly and openly.
 
 I offer this framework, its patented architecture and software foundation as a basis for institutional stewardship and public benefit. If the will and expertise exist locally, the foundation is here; willing institutions elsewhere can investigate it as well.
@@ -35,6 +43,8 @@ I offer this framework, its patented architecture and software foundation as a b
 The objective is straightforward: determine whether networked preparation, local material and local fabrication provide measurable public value through evidence rather than assumption.
 
 ### Where the trial starts
+
+*Authority category: Current System Behavior*
 
 The patents describe familiar tools, controlled stock movement and generated instructions. Project 1 generates virtual commands; its reference controller source remains uncompiled. The application authorizes no physical motion.
 
@@ -59,11 +69,15 @@ Requests outside the boundary remain evidence. Refuse, redirect or record them; 
 
 ### Educational and research value
 
+*Authority category: Future Work*
+
 Participants can learn basic robotics through encoder counts, board movement, tool coordinates and sensed conditions. Qualified technical staff lead integration and powered testing.
 
 The trial measures capability, preparation burden, occupied space and complete service cost. The goal is to create evidence useful to engineering, workforce development, manufacturing and public-interest evaluation.
 
 ### Build and verify the dimensional machine
+
+*Authority category: Future Work*
 
 **The board moves. The stations remain known.** Fixed-location stations may still pivot, plunge or position their tools within declared travel. The full layout is not required for the first specimen; each additional station or function must earn its place.
 
@@ -87,6 +101,8 @@ Use commercially available industrial components wherever practical. [IEC 61131-
 Include operator labor, maintenance, downtime, inspection and waste; value contributed equipment separately at replacement cost.
 
 ### Complete the registered path to inspected parts
+
+*Authority category: Future Work*
 
 **Translate the definition.** Extend the existing lowering architecture: **accepted job → verified Store plan → registered machine configuration → lowering layer → controller instructions**. System supplies the meaning, geometry, independent manifest and revision; Store has already selected stock and generated the priced plan. The exporter must consume that exact plan, retain packet/receipt/calculation, parent/SKU, component/feature and configuration identities, and add only registered local execution facts. It must not redesign components, select stock, reschedule the accepted plan or compute another time/Q. Missing station, tool, axis, units, datum or required controller parameters produce an identified unresolved condition or refusal.
 
@@ -128,6 +144,8 @@ Exercise changes and repeated specimens, then qualify routing and further dimens
 
 ### Supervised laboratory service
 
+*Authority category: Future Work*
+
 After the admitted work is demonstrated, offer free preparation to participants through an approved operator and a bounded intake process. Participants may bring wood that passes the laboratory’s material inspection and capability limits. Record material identity, actual dimensions and material condition as supplied material; it is not a fictitious purchase from Store inventory. Include unsupported requests and customers who do not proceed.
 
 Measure real-world usefulness: clarification effort, machine loading, processing effort, inspection burden, handoff effort, waste and customer support. Compare the same result against an existing manual or shop service.
@@ -136,9 +154,13 @@ Free uptake establishes interest and operating experience. Willingness to pay re
 
 ### Extension to one local yard
 
+*Authority category: Future Work*
+
 Bring one willing local yard into the next stage using its own stock, actual offered prices, measured labor and measured utilization. Test the laboratory process under real yard conditions. The laboratory tests supervised preparation, including qualified participant-supplied wood; the yard trial establishes economics with the yard’s own inventory, actual costs, offered prices and observed utilization. That is where the experiment becomes a test of a business proposition.
 
 ### Evidence and evaluation
+
+*Authority category: Future Work*
 
 Student studies should examine economics, stewardship and continuity with input from:
 
@@ -179,6 +201,8 @@ A useful negative identifies the demand limit, cost, technical constraint or bet
 
 ### Who owns what
 
+*Authority category: Current System Behavior*
+
 **Program investigates and records why. System defines what the job means. Store determines what the identified Store can provide.** A document that discusses another owner’s work gains no authority over it. Shared terms are defined once in [System’s definitions](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/DEFINITIONS.md).
 
 | Owner                        | Owns                                                                                                                                                                 | Boundary                                                                                                 |
@@ -190,13 +214,17 @@ A useful negative identifies the demand limit, cost, technical constraint or bet
 
 The chain is **customer operations/values → System geometry/features/manifest → Store stock/capability/plan/time/Q → customer decision and accepted packet → registered configuration and verified lowering → virtual instructions and evidence → commissioned controller execution and inspected result**. The first stages are implemented digital functions; current machine evidence is modeled; reusable controller export and physical execution remain development and validation work. No later stage backfills missing authority. A changed definition requires a fresh Store evaluation, and a changed tool, station, datum or mapping requires a new identified configuration and corresponding checks.
 
-Project 1 is the living end-to-end proof of the current System/Store. Code, specification, machine-model or catalog changes require corresponding current proof and operative-document reconciliation. Original sealed source records retain their identities and provenance; they cannot substitute for the current proof. Research use or publication of customer and business records requires permission for that purpose, and project participation does not itself authorize unrelated reuse.
+Current integration acceptance uses the two Project 1 SPF cases; the original Project 1 publication is historical evidence, not architectural authority. Code, specification, machine-model or catalog changes require corresponding current proof and operative-document reconciliation. Original sealed source records retain their identities and provenance; they cannot substitute for the current proof. Research use or publication of customer and business records requires permission for that purpose, and project participation does not itself authorize unrelated reuse.
 
 ### Institutional stewardship and continuity
+
+*Authority category: Future Work*
 
 Public benefit and institutional stewardship take priority; personal financial gain is secondary. If developed as a UNC project, agreed faculty guidance and a documented handover could support continuity beyond any single participant. The objective is durable institutional knowledge rather than dependence on any individual contributor.
 
 ### Findings and next steps
+
+*Authority category: Future Work*
 
 **In-network testing.** Make each commissioned cell approachable through the same application, first in the laboratory and then at one local yard. Verify that the identified request:
 

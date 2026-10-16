@@ -8,6 +8,8 @@
 
 ## The North Carolina question
 
+*Authority category: Current System Behavior*
+
 North Carolina still grows, cuts, and ships a great deal of wood. The work around it has concentrated. Furniture-factory employment fell **59.4% between 1993 and 2022** ([NC Commerce](https://www.commerce.nc.gov/news/the-lead-feed/not-your-grandfathers-manufacturing)). In 2024 the forest sector’s total output rose **3.1%** while total supported employment fell **1.9%** ([NC State Extension](https://content.ces.ncsu.edu/economic-contribution-of-the-forest-sector-in-north-carolina)). A 2020 Extension review describes fewer sawmill companies and a state producing more lumber than it consumed ([sawmill review](https://content.ces.ncsu.edu/the-north-carolina-sawmill-industry-a-closer-look)).
 
 Scale, costs, trade, and technology shape where work remains worthwhile. For decades, much of manufacturing investment favored larger facilities and concentrated production. Precise digital definitions, accessible motion control, and dependable software may now make a different scale worthwhile: one board, one opening, one customer’s result.
@@ -24,6 +26,8 @@ This Program’s proposition is **distributed manufacturing at the scale of an e
 
 ## Make the project easier to start
 
+*Authority category: Current System Behavior*
+
 A person needs a fitted shelf, a replacement brace, a panel with an opening, or pieces for a small assembly. They can picture the result. Getting suitable material and accurately prepared parts is the hard part. For a modest project, arranging the work can cost more effort than the work itself.
 
 The opportunity begins upstream of the machine: help people define what they want and ask a local business what it can supply. The customer takes home pieces they can build with. The yard sells both the wood and the work that makes it useful.
@@ -38,11 +42,15 @@ The tools and control methods are familiar.
 
 ## What would make it worthwhile
 
+*Authority category: Current System Behavior*
+
 The smallest useful cell is set by actual requests and the full cost of supplying them: material, preparation, handling, processing, inspection, people, maintenance, investment, and realistic utilization. Compare it with an existing tool, shop, supplier, or manual service that may serve the customer better.
 
 The [Supervised Laboratory Dimensional Cell Trial](SUPERVISED-LABORATORY-CELL-TRIAL.md) follows real requests through the complete job. A good result is useful work supplied at a worthwhile margin. A useful negative identifies what stands in the way.
 
 ## Three connected homes
+
+*Authority category: Current System Behavior*
 
 | **Repository**                                                    | **The question it answers**                                                                                           |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
@@ -52,14 +60,18 @@ The [Supervised Laboratory Dimensional Cell Trial](SUPERVISED-LABORATORY-CELL-TR
 
 ## What has been shown
 
+*Authority category: Current System Behavior*
+
 Try **Start your own** in the application. Intent establishes the job’s requirements; the Bench lets you work their values. Then follow the [Project 1 digital manufacturing trail](https://github.com/GeorgePlattDemo/store-zero/blob/main/docs/project-1-digital-trail/README.md) from one definition to a reproduced Store answer and generated virtual commands. The [verification record](https://github.com/GeorgePlattDemo/new-system/blob/main/SYSTEM-MASTER.md#14-testing-and-verification) describes what has been shown for Start your own, and what has not.
 
-The application is a working software demonstration. Store Zero’s prices and machine time are modeled. Project 1 is the living end-to-end proof of the current integrated code and specifications, including published acceptance, exact packet export, Store lowering and virtual replay. Physical capability and commercial viability remain to be demonstrated.
+The application is a working software demonstration. Store Zero’s prices and machine time are modeled. Current integration acceptance exercises the Project 1 SPF cases through published acceptance, exact packet export, Store lowering and virtual replay. The original Project 1 publication is historical evidence, not architectural authority. Physical capability and commercial viability remain to be demonstrated.
 
 - [Evidence](EVIDENCE.md) connects consequential claims to sources.
 - [Supervised Laboratory Dimensional Cell Trial](SUPERVISED-LABORATORY-CELL-TRIAL.md) defines physical validation, supervised service testing, and full-job economics.
 
 ## Bring a real case
+
+*Authority category: Current System Behavior*
 
 Bring one request a yard keeps turning away, or one project someone would start if the right pieces were available.
 
