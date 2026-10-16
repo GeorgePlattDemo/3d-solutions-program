@@ -36,6 +36,16 @@ That research supports measuring preparation as part of the complete service. Re
 
 NC State Industry Extension Services describes process assessment and technologies matched to specific applications. The North Carolina Manufacturing Extension Partnership supports manufacturing productivity and technology adoption. They identify relevant regional support capacity; no participation or endorsement is claimed. \[7, 8\]
 
+## Source-plan language and independent manufacturing meaning
+
+*Authority category: Current System Behavior for the bounded demonstration; Future Work for general plan ingestion*
+
+The governing distinction is between a plan's wording and its measurable requirements. Printed or customer-provided plans may use “bevel” for a face-miter cut, call a pointed drilled depression “spotface,” or require a “pilot hole” without specifying diameter, depth or reference. The plan's original phrase and revision remain attributable evidence. They cannot confer registered machine capability.
+
+System establishes physical part geometry, feature identities, dimensions, datums and openly unresolved differences; its typed plan-end interpretation rejects a missing angled plane/relation/datum rather than guessing from a word. Store alone evaluates the requested geometry against its registered tools, material, stock control and time/Q model; where the request is unsupported it returns an attributable refusal. Program examines whether that reliable interpretation and reusable compilation can reduce the preparation burden. Neither the compiler nor this research record claims that unrestricted PDF/CAD ingestion is already installed.
+
+A general plan ingestion layer remains future work: it must identify the source document/page/revision and any dimensional derivation or contradiction, preserve unsupported and abandoned demand, and require human verification when a drawing does not settle physical geometry. A successful plan reading is not a successful Store evaluation, a machine-ready packet, commissioned operation, or an inspected part. See the controlling [System manufacturing terminology definitions](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/DEFINITIONS.md#manufacturing-terminology-source-words-versus-physical-requirements), [Store specification](https://github.com/GeorgePlattDemo/store-zero/blob/main/docs/STORE-ZERO-SPECIFICATION.md) and current Project 1 digital proof; those must describe the same executable revisions.
+
 ## Architecture and provenance
 
 *Authority category: Historical Evidence*
