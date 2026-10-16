@@ -109,7 +109,7 @@ The Project 1 review identifies one-roller states, unresolved face and kerf regi
 | Selected parent | 60 in | 72 in |
 | Modeled manufacturing Q | $8.62 | $9.13 |
 
-The [Store walkthrough](https://github.com/GeorgePlattDemo/store-zero/blob/main/STORE-ZERO-MASTER.md#82-start-your-own) supplies their complete identified ledger, kerf convention, positions and timing. The preserved historical Project 1 is a separate 18-inch treated-lumber specimen with original $11.09 Q and 45-command reference; keep it unchanged.
+The [Store walkthrough](https://github.com/GeorgePlattDemo/store-zero/blob/main/STORE-ZERO-MASTER.md#82-start-your-own) supplies their complete identified ledger, kerf convention, positions and timing. The current Project 1 review and full reference proof regenerate both SPF settings, and required System browser checks carry their actual accepted records into Store lowering/replay. The original 18-inch treated-lumber publication retains its own $11.09 calculation and 45-command source reference as provenance.
 
 Inspect length, angle, spot location and full-diameter depth against predetermined criteria using suitable instruments, repeated specimens and recorded stock conditions. Demonstrate that changing only the admitted customer value produces a new identified definition, fresh Store result and regenerated instructions without manual angle or coordinate re-entry. Compare actual dimensions and whole-job effort with modeled results. Controller targets and encoder counts are not component inspection.
 
@@ -122,7 +122,7 @@ Exercise changes and repeated specimens, then qualify routing and further dimens
 3. **Validate the spot operation.** Register the 3/16-inch tool and establish point geometry, position, penetration depth, restraint and inspection. The reference depth is 3/16 inch of full-diameter penetration beyond the drill point.
 4. **Connect lowering to the controller runtime.** Test the generator and target controller against the configuration, including readiness, admission, interruption, faults and reference invalidation.
 5. **Produce and inspect the components.** Use predetermined acceptance criteria, suitable instruments and repeated specimens, include relevant stock variation, and retain discrepancies and failed attempts.
-6. **Add capability where needed.** Further spotting, routing, sensing or automation must answer a demonstrated requirement and pass its own validation.
+6. **Add capability where needed.** Further spotting, routing, sensing or automation must answer a demonstrated requirement and pass its own validation. Preserve refused demand and compare separately registered hypothetical configurations through deterministic compilation/Store, including added feasible work and complete cost. A third or fourth machine extends capability registration and mappings without rebuilding the customer-definition compiler; capability-impact analysis is a core successor requirement.
 
 **Handoff to the service trial.** Before service testing, responsible parties accept an identified configuration and capability envelope, validate its protective and operating requirements, set inspection criteria and demonstrate the admitted work under authorized conditions. The handoff records the configuration, admitted material and operations, observed performance, operating and inspection responsibilities, support needs and remaining restrictions. A capability change receives a new identified evaluation rather than silently widening the trial.
 
@@ -190,7 +190,7 @@ A useful negative identifies the demand limit, cost, technical constraint or bet
 
 The chain is **customer operations/values → System geometry/features/manifest → Store stock/capability/plan/time/Q → customer decision and accepted packet → registered configuration and verified lowering → virtual instructions and evidence → commissioned controller execution and inspected result**. The first stages are implemented digital functions; current machine evidence is modeled; reusable controller export and physical execution remain development and validation work. No later stage backfills missing authority. A changed definition requires a fresh Store evaluation, and a changed tool, station, datum or mapping requires a new identified configuration and corresponding checks.
 
-The Project 1 specimen is a historical reference; a later technical result receives a new identified revision rather than rewriting it. Research use or publication of customer and business records requires permission for that purpose, and project participation does not itself authorize unrelated reuse.
+Project 1 is the living end-to-end proof of the current System/Store. Code, specification, machine-model or catalog changes require corresponding current proof and operative-document reconciliation. Original sealed source records retain their identities and provenance; they cannot substitute for the current proof. Research use or publication of customer and business records requires permission for that purpose, and project participation does not itself authorize unrelated reuse.
 
 ### Institutional stewardship and continuity
 
@@ -205,7 +205,7 @@ Public benefit and institutional stewardship take priority; personal financial g
 3. Produces inspected results.
 4. Returns those results to its originating record.
 
-The definition, evaluation and occupancy-evidence path exists. Remaining digital validation must prove the actual accepted-record handoff, provenance-complete controller export and target-runtime behavior. Local readiness, operator Cycle Start and inspected fulfillment then require separate physical evidence at each commissioned connection.
+The definition, evaluation and occupancy-evidence path exists. Required current System Chromium checks prove the actual published acceptance-to-packet/Store lowering handoff for both SPF settings and publish revision-bound evidence. Remaining digital validation requires provenance-complete controller export and target-runtime behavior. Local readiness, operator Cycle Start and inspected fulfillment then require separate physical evidence at each commissioned connection.
 
 **Positive and negative findings.** A well-supported negative finding is as valuable as a positive one. Either outcome gives the state an empirical answer about local yards, retained income and public value. The objective is not to prove success, but to determine whether local preparation, local material and networked fabrication produce measurable value worth carrying forward.
 

@@ -67,7 +67,7 @@ These values belong to this preserved reference calculation, made by the predece
 
 The review reports reproduction using **Node 24.19.0**, a **45-record virtual sequence containing 21 axis moves**, and **fourteen local proof checks**. Those checks include changed-demand and altered-result rejection, nominal spot alignment, modeled faults, contact-gap detection, and blocked physical admission. This document cites that reported run; it does not claim a separate reproduction. \[9, 10\]
 
-The historical generator derives its sequence without downstream re-entry of part length or redrawing the component. Current source diagnostics exercise the published derivation, translation, independent manifest, fresh Store evaluation and bound occupancy replay for two SPF definitions:
+The historical generator derives its sequence without downstream re-entry of part length or redrawing the component. The current Project 1 proof exercises published derivation, translation, independent manifest, fresh Store evaluation, customer acceptance, exact packet export and bound occupancy replay for two SPF definitions:
 
 | Current Job 1 | 16-inch default | 18-inch variation |
 | --- | ---: | ---: |
@@ -77,11 +77,17 @@ The historical generator derives its sequence without downstream re-entry of par
 | Manufacturing Q | $8.62 | $9.13 |
 | Occupancy records / modeled moves | 51 / 22 | 51 / 22 |
 
-The [Store walkthrough](https://github.com/GeorgePlattDemo/store-zero/blob/main/STORE-ZERO-MASTER.md#82-start-your-own) supplies the governing calculations and source identities. Each diagnostic uses a constructed simulated accepted packet. It establishes the source-to-Store modeled relationship, while the genuine published acceptance-to-packet handoff and controller execution remain separate proof obligations. The historical 45-command reference retains its own representation and identity. [13, 14]
+The [Store walkthrough](https://github.com/GeorgePlattDemo/store-zero/blob/main/STORE-ZERO-MASTER.md#82-start-your-own) supplies the governing calculations and source identities. The [current Store reference proof](https://github.com/GeorgePlattDemo/store-zero/blob/main/docs/project-1-digital-trail/README.md) regenerates complete evidence from executable source and catalog. Required System Chromium checks accept both real published settings, export the existing linked customer decision and exact Store answer, submit each packet to Store machine evidence, and publish the complete proof with actual repository and source identities. Controller execution remains a separate proof obligation. The historical 45-command reference retains its own representation and identity. [13, 14]
 
 Current lowering binds the verified Store plan to a declared machine configuration and replays nominal dimensional instructions. Its evidence class is `PREDICTED_OCCUPANCY_ONLY`. The historical package separately contains controller-oriented Structured Text that remains uncompiled in TwinCAT. [9, 10, 13]
 
-One-roller contact states, retained-face and kerf registration, and saw downstroke geometry remain unresolved. **Physical admission is BLOCKED.** The next digital work is reusable controller export from the existing accepted-packet/lowering path. Laboratory work must establish controller behavior and independently inspected components. Current findings and older observations retain their own dates and revisions. [12–14]
+One-roller contact states, retained-face and kerf registration, and saw downstroke geometry remain unresolved. **Physical admission is BLOCKED.** Project 1 must remain aligned with current code, specifications, both technical masters and affected Program descriptions. Its original sealed source evidence retains provenance and cannot stand in for current acceptance. The next digital work is reusable controller export from the existing accepted-packet/lowering path. Laboratory work must establish controller behavior and independently inspected components. Current findings and older observations retain their own dates and revisions. [12–14]
+
+## Capability impact and extensibility
+
+A capability-impact engine is a core successor requirement. Preserve complete requested work and each refusal/unresolved capability gap; evaluate separately registered hypothetical tools, stations, ranges or machines against that same demand through deterministic compilation and Store evaluation. Compare newly feasible work, modeled time/Q and full investment, maintenance, labor and utilization costs. Proposed feasibility does not establish a current offering or physical release. Learning can suggest patterns; deterministic requirements and registered capabilities decide satisfaction.
+
+Adding a third or fourth machine must extend the registered capability/execution model without rebuilding the customer-definition compiler. This is an architectural acceptance test. No current prototype or planning narrative is treated as an installed capability-impact service.
 
 ## Evidence needed next
 

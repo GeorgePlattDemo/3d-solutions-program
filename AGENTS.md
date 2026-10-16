@@ -44,6 +44,10 @@ A simpler solution or a reason to stop is a useful result. Preserve negative fin
 
 **NO BLOOD ON WOOD.** Software success, simulated motion, or commercial convenience does not resolve physical safety requirements.
 
+## Current integrated proof
+
+Project 1 is the living end-to-end proof of the current System and Store. Consequential implementation or specification changes require the current proof, both masters, shared definitions and affected Program descriptions to agree. Operative prose describes current behavior; Git records repair chronology. Original sealed evidence retains provenance and cannot replace current acceptance. Report modeled/digital results, commissioned physical results and commercial observations with their actual evidence limits.
+
 ## Verify and finish
 
 Inspect the full diff, confirm the intended file scope, check affected links and sources, and run applicable existing checks. The documentary check is **python3 tools/check_program.py**. Hosted CI runs the same check; it does not prove runtime behavior, physical capability, or commercial performance.
