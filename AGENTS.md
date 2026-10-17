@@ -8,6 +8,13 @@ This repository investigates whether better-defined demand and bounded manufactu
 
 Read README.md, EVIDENCE.md, SUPERVISED-LABORATORY-CELL-TRIAL.md, and the document or implementation directly affected. Identify the requested outcome, its owning file, and the agreed starting revision.
 
+| Start here | Owns |
+| --- | --- |
+| [README.md](README.md) | The public premise and invitation; preserve its intentional argument |
+| [EVIDENCE.md](EVIDENCE.md) | Research findings, identified digital evidence and its limits |
+| [SUPERVISED-LABORATORY-CELL-TRIAL.md](SUPERVISED-LABORATORY-CELL-TRIAL.md) | Proposed physical validation, inspection and whole-service research |
+| [tools/check_program.py](tools/check_program.py) and [Program CI](.github/workflows/program-check.yml) | Documentary checks; neither establishes runtime or physical capability |
+
 The README’s argument is intentional:
 
 **North Carolina’s condition → a possible change in efficient scale → the customer’s project → defined demand → local manufacturing → full-job economics → evidence and participation.**
