@@ -8,6 +8,13 @@ This repository investigates whether better-defined demand and bounded manufactu
 
 Read README.md, EVIDENCE.md, SUPERVISED-LABORATORY-CELL-TRIAL.md, and the document or implementation directly affected. Identify the requested outcome, its owning file, and the agreed starting revision.
 
+| Start here | Owns |
+| --- | --- |
+| [README.md](README.md) | The public premise and invitation; preserve its intentional argument |
+| [EVIDENCE.md](EVIDENCE.md) | Research findings, identified digital evidence and its limits |
+| [SUPERVISED-LABORATORY-CELL-TRIAL.md](SUPERVISED-LABORATORY-CELL-TRIAL.md) | Proposed physical validation, inspection and whole-service research |
+| [tools/check_program.py](tools/check_program.py) and [Program CI](.github/workflows/program-check.yml) | Documentary checks; neither establishes runtime or physical capability |
+
 The README’s argument is intentional:
 
 **North Carolina’s condition → a possible change in efficient scale → the customer’s project → defined demand → local manufacturing → full-job economics → evidence and participation.**
@@ -52,14 +59,6 @@ A simpler solution or a reason to stop is a useful result. Preserve negative fin
 
 **NO BLOOD ON WOOD.** Software success, simulated motion, or commercial convenience does not resolve physical safety requirements.
 
-## Current integrated proof
-
-*Authority category: Current System Behavior*
-
-The adopted definitions and specifications govern required behavior. Executable source, identified configuration and verified outputs establish what a particular revision actually implements. A disagreement is a conformance defect: preserve the requirement, identify the affected owner and evidence, and repair the implementation or obtain an explicit requirement decision. Neither a passing test nor existing code silently overrides the adopted contract. Documentation must distinguish adopted requirements, verified implementation, proposed capability and physical qualification.
-
-The current Project 1 proof is maintained acceptance evidence, regenerated from the operative source and configuration when consequential behavior changes. Original sealed publications retain their source identities and historical results. Consequential changes must reconcile the affected definitions, specifications, masters, Program descriptions, current proof, tests, links and operational identities before completion. Preserve full technical content and distinguish modeled results, simulated commerce, commissioned execution and inspected output.
-
 ## Verify and finish
 
 *Authority category: Current System Behavior*
@@ -74,11 +73,7 @@ Do not invent a checker, report an unrun test as passed, or treat file creation 
 
 *Authority category: Current System Behavior*
 
-1. **`main` is the only permitted working branch.** Do not create additional local or remote branches, including task, review, feature, repair or documentation branches. Do not create a branch-creating worktree, rename a branch to evade the rule, or change these instructions to accommodate a tool. If an authorized change cannot proceed on `main`, stop and report the exact blocker. Preserve the prepared work and wait for the conflicting condition to be resolved. Do not force-push, bypass protection or rewrite a repository as a workaround.
-2. Maintain only the implementation paths the current application uses. Store offers only registered operations it handles; its acceptance checks must reject an offered operation without its evaluator. Preserve independently useful evidence and its source identity.
-3. One Store commit. System's candidate record, published runtime pin, CI Store checkout and `startup.sh` name the same Store commit, and move together, after System's tests pass against a checkout of exactly that commit.
-4. A missing fact stays missing. A Store answer is used only for the definition revision it answers.
-5. A change is finished when it is on `main`, CI is green, and every document that describes the changed behavior says the same thing.
+Application implementation and Store-pin maintenance follow [System's owning instructions](https://github.com/GeorgePlattDemo/new-system/blob/main/AGENTS.md); registered manufacturing evaluation follows [Store's owning instructions](https://github.com/GeorgePlattDemo/store-zero/blob/main/AGENTS.md). Program references those owners rather than maintaining another runtime procedure. A missing fact stays missing; a cited Store answer belongs only to the definition revision it answers. Preserve independently useful evidence and its source identity. Program's working-branch restriction is stated under Make bounded changes; completion and documentation reconciliation are governed below.
 
 ## Documentation authority and completion contract
 
