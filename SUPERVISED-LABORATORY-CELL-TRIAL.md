@@ -234,7 +234,7 @@ For both existing and newly introduced projects, record the exact customer defin
 
 Trial preparation must identify the exact implemented revision and open obligations in the [System conformance register](https://github.com/GeorgePlattDemo/new-system/blob/main/SYSTEM-MASTER.md#155-manufacturing-contract-conformance-register). Separately test nominal and shallower selected depths and supported locations after their digital chain is verified; measure the full-diameter portion, point penetration, positioning and required surface condition using an identified method. Preserve unfavorable results and stop when capability, control, references or readiness cannot be established.
 
-Maintain this trial plan and Program evidence in place as engineering or results change, without abbreviating their scope or treating a prior document as current proof. Regenerate the living digital proof at its existing owner, retain original sealed evidence and keep current owner links valid. The root READMEs remain frozen for this authorized work. Commissioned controller execution, actual service economics and inspected production remain distinct trial outcomes.
+Maintain this trial plan and Program evidence in place as engineering or results change, without abbreviating their scope or treating a prior document as current proof. Regenerate the living digital proof at its existing owner, retain original sealed evidence and keep current owner links valid. Root README edits require the bounded authorization, review and exact approved-byte checks in [AGENTS.md](AGENTS.md#documentation-authority-and-completion-contract). Commissioned controller execution, actual service economics and inspected production remain distinct trial outcomes.
 
 ### Findings and next steps
 
