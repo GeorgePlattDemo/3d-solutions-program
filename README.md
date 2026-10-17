@@ -69,6 +69,20 @@ The application is a working software demonstration. Store Zero’s prices and m
 - [Evidence](EVIDENCE.md) connects consequential claims to sources.
 - [Supervised Laboratory Dimensional Cell Trial](SUPERVISED-LABORATORY-CELL-TRIAL.md) defines physical validation, supervised service testing, and full-job economics.
 
+## Read and verify
+
+*Authority category: Current System Behavior*
+
+| Purpose | Existing owner |
+| --- | --- |
+| Economic premise, sources and demonstrated limits | [Evidence](EVIDENCE.md) |
+| Candidate dimensional machine, engineering objectives, physical validation and full-service economics | [Supervised laboratory trial](SUPERVISED-LABORATORY-CELL-TRIAL.md) |
+| Customer application, project definitions and shared manufacturing meaning | [System master](https://github.com/GeorgePlattDemo/new-system/blob/main/SYSTEM-MASTER.md) and [sole shared definitions](https://github.com/GeorgePlattDemo/new-system/blob/main/docs/DEFINITIONS.md) |
+| Catalog, machines, manufacturing evaluation and current digital proof | [Store master](https://github.com/GeorgePlattDemo/store-zero/blob/main/STORE-ZERO-MASTER.md) and [Project 1 evidence](https://github.com/GeorgePlattDemo/store-zero/blob/main/docs/project-1-digital-trail/README.md) |
+| Maintenance and verification | [AGENTS.md](AGENTS.md), [document checker](tools/check_program.py) and [required CI](.github/workflows/program-check.yml) |
+
+Program is a research repository. Run `python3 tools/check_program.py` to verify its local document destinations and approved README identity; the [System verification record](https://github.com/GeorgePlattDemo/new-system/blob/main/SYSTEM-MASTER.md#14-testing-and-verification) owns application evidence. Documentary checks establish neither physical capability nor commercial viability.
+
 ## Bring a real case
 
 *Authority category: Current System Behavior*
