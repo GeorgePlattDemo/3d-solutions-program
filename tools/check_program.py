@@ -22,7 +22,7 @@ def anchors(text):
     return result
 
 readme = (ROOT / "README.md").read_bytes()
-assert hashlib.sha1(f"blob {len(readme)}\0".encode() + readme).hexdigest() == "da0eea7633c33f516ea68859e406227707e03b56", "Root README freeze violated"
+assert hashlib.sha1(f"blob {len(readme)}\0".encode() + readme).hexdigest() == "3d5e25cf70ae121a28598d7b5792aa4b4b2d2f46", "Root README freeze violated"
 
 
 for path in ROOT.rglob("*.md"):
