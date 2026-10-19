@@ -2,6 +2,8 @@
 
 *Defined Demand, Local Wood, Useful Work · 3D Solutions Program · Proposed evidence-first review · 19 October 2026*
 
+**What if the economics that once favored large, distant wood factories have changed enough that a customer can define useful work once—and a modest, registered machine beside local lumber can produce it safely, competitively, and without a specialist programming every order?**
+
 ## North Carolina’s changing wood economy
 
 *Historical evidence — reported by public agencies and identified industry sources*
