@@ -1,5 +1,6 @@
 {
-  "retrieved_at": "2026-10-24T23:36:09+00:00",
+  "publication": "pending",
+  "retrieved_at": "2026-10-24T23:39:47+00:00",
   "schema_version": 1,
   "series": {
     "store": {
@@ -151,8 +152,8 @@
   },
   "source": "Railway native HTTP metrics",
   "window": {
-    "end": "2026-10-24T23:36:09+00:00",
-    "start": "2026-10-17T23:36:09+00:00",
+    "end": "2026-10-24T23:39:46+00:00",
+    "start": "2026-10-17T23:39:46+00:00",
     "step_seconds": 10080
   }
 }
