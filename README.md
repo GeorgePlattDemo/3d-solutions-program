@@ -79,6 +79,7 @@ A 16-inch SPF definition produces **Q $8.62**; a changed 18-inch definition prod
 The application demonstrates the digital definition-to-manufacturing path. Store Zero's prices and machine time are modeled; physical D-001/S-001 machines have not been commissioned. The next proof is reusable controller export, controlled material movement, safe local operation, measured time, and **inspected wood components**. A working compiler model is not proof that a machine has made the part.
 
 - [Evidence](EVIDENCE.md) connects the North Carolina record, manufacturing research, patents, and digital implementation to their sources.
+- [▶ View application activity](https://github.com/GeorgePlattDemo/3d-solutions-program/blob/application-activity-data/APPLICATION-ACTIVITY.md) — Daily System and Store requests, showing how often the demonstration and its evaluation service are exercised.
 - [Supervised Laboratory Dimensional Cell Trial](SUPERVISED-LABORATORY-CELL-TRIAL.md) defines the candidate machine, supervised physical qualification, comparisons, and full-job economics.
 
 ## Bring a real case
