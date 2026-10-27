@@ -2,34 +2,34 @@
 
 This shows daily System requests and Store Zero activity. System contacts Store to validate the customer's defined job against available materials and registered machine capabilities, and return an updated Q (quoted price). That handoff—from customer definition to a fresh Store answer—is the step being demonstrated. Counts come from Railway's server-side HTTP records, not cookies or visitor tracking. Bots, automated tests, and repeat requests may be included; these are activity counts, not individual people.
 
-**Updated:** 2026-10-26T18:41:28+00:00. The automatic workflow is scheduled once daily at 12:15 UTC (8:15 a.m. EDT / 7:15 a.m. EST).
+**Updated:** 2026-10-27T22:43:09+00:00. The automatic workflow is scheduled once daily at 12:15 UTC (8:15 a.m. EDT / 7:15 a.m. EST).
 
 ## Daily System and Store requests
 
 ```mermaid
 xychart-beta
     title "System and Store HTTP requests"
-    x-axis ["2026-10-19","2026-10-20","2026-10-21","2026-10-22","2026-10-23","2026-10-24","2026-10-25","2026-10-26"]
+    x-axis ["2026-10-20","2026-10-21","2026-10-22","2026-10-23","2026-10-24","2026-10-25","2026-10-26","2026-10-27"]
     y-axis "Requests" 0 --> 600
-    bar [216,66,584,93,1,1,410,230]
-    line [60,7,164,35,0,0,84,49]
+    bar [0,584,93,1,1,410,231,156]
+    line [0,164,35,0,0,84,49,42]
 ```
 
 **Bars: System requests. Line: Store Zero requests.**
 
 | UTC bucket date | System requests | Store requests |
 |---|---:|---:|
-| 2026-10-19 | 216 | 60 |
-| 2026-10-20 | 66 | 7 |
+| 2026-10-20 | 0 | 0 |
 | 2026-10-21 | 584 | 164 |
 | 2026-10-22 | 93 | 35 |
 | 2026-10-23 | 1 | 0 |
 | 2026-10-24 | 1 | 0 |
 | 2026-10-25 | 410 | 84 |
-| 2026-10-26 | 230 | 49 |
-| **Window totals** | **1,601** | **399** |
+| 2026-10-26 | 231 | 49 |
+| 2026-10-27 | 156 | 42 |
+| **Window totals** | **1,476** | **374** |
 
-Railway window: 2026-10-19T18:41:27+00:00 through 2026-10-26T18:41:27+00:00. Counts are grouped by the UTC start date of Railway's 10,080-second buckets; calendar-day attribution is approximate, and the first and last days are partial. A zero means the successful native metric query returned no counted requests for that date; it is not a claim about people or complete request-log coverage.
+Railway window: 2026-10-20T22:43:08+00:00 through 2026-10-27T22:43:08+00:00. Counts are grouped by the UTC start date of Railway's 10,080-second buckets; calendar-day attribution is approximate, and the first and last days are partial. A zero means the successful native metric query returned no counted requests for that date; it is not a claim about people or complete request-log coverage.
 
 Both destinations receive the same aggregate files from one collection run. Service totals include all HTTP paths; they do not isolate completed evaluations or establish that each Store request came from System.
 
