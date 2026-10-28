@@ -1,14 +1,10 @@
 {
   "publication": "scheduled",
-  "retrieved_at": "2026-10-27T22:43:09+00:00",
+  "retrieved_at": "2026-10-28T18:21:14+00:00",
   "schema_version": 1,
   "series": {
     "store": {
       "samples": [
-        {
-          "total": 53,
-          "ts": 1792546560
-        },
         {
           "total": 56,
           "ts": 1792607040
@@ -62,18 +58,10 @@
           "ts": 1793121120
         }
       ],
-      "total": 374
+      "total": 321
     },
     "system": {
       "samples": [
-        {
-          "total": 225,
-          "ts": 1792546560
-        },
-        {
-          "total": 1,
-          "ts": 1792556640
-        },
         {
           "total": 243,
           "ts": 1792607040
@@ -149,15 +137,19 @@
         {
           "total": 1,
           "ts": 1793131200
+        },
+        {
+          "total": 1,
+          "ts": 1793151360
         }
       ],
-      "total": 1476
+      "total": 1251
     }
   },
   "source": "Railway native HTTP metrics",
   "window": {
-    "end": "2026-10-27T22:43:08+00:00",
-    "start": "2026-10-20T22:43:08+00:00",
+    "end": "2026-10-28T18:21:13+00:00",
+    "start": "2026-10-21T18:21:13+00:00",
     "step_seconds": 10080
   }
 }
