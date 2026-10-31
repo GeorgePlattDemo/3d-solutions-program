@@ -1,163 +1,54 @@
 {
+  "bucket_basis": "UTC_START_OF_10080_SECOND_RAILWAY_BUCKET_APPROXIMATE",
   "publication": "scheduled",
   "retrieved_at": "2026-10-30T18:00:18+00:00",
-  "schema_version": 1,
-  "series": {
-    "store": {
-      "samples": [
-        {
-          "total": 40,
-          "ts": 1792889280
-        },
-        {
-          "total": 26,
-          "ts": 1792929600
-        },
-        {
-          "total": 9,
-          "ts": 1792939680
-        },
-        {
-          "total": 9,
-          "ts": 1792969920
-        },
-        {
-          "total": 9,
-          "ts": 1792980000
-        },
-        {
-          "total": 7,
-          "ts": 1792990080
-        },
-        {
-          "total": 33,
-          "ts": 1793020320
-        },
-        {
-          "total": 7,
-          "ts": 1793060640
-        },
-        {
-          "total": 7,
-          "ts": 1793111040
-        },
-        {
-          "total": 28,
-          "ts": 1793121120
-        },
-        {
-          "total": 21,
-          "ts": 1793211840
-        },
-        {
-          "total": 7,
-          "ts": 1793221920
-        },
-        {
-          "total": 40,
-          "ts": 1793232000
-        },
-        {
-          "total": 3,
-          "ts": 1793242080
-        },
-        {
-          "total": 61,
-          "ts": 1793312640
-        }
-      ],
-      "total": 307
+  "rows": [
+    {
+      "store_requests": 35,
+      "system_requests": 93,
+      "utc_bucket_date": "2026-10-22"
     },
-    "system": {
-      "samples": [
-        {
-          "total": 1,
-          "ts": 1792828800
-        },
-        {
-          "total": 131,
-          "ts": 1792889280
-        },
-        {
-          "total": 1,
-          "ts": 1792899360
-        },
-        {
-          "total": 154,
-          "ts": 1792929600
-        },
-        {
-          "total": 67,
-          "ts": 1792939680
-        },
-        {
-          "total": 57,
-          "ts": 1792969920
-        },
-        {
-          "total": 56,
-          "ts": 1792980000
-        },
-        {
-          "total": 28,
-          "ts": 1792990080
-        },
-        {
-          "total": 146,
-          "ts": 1793020320
-        },
-        {
-          "total": 1,
-          "ts": 1793050560
-        },
-        {
-          "total": 29,
-          "ts": 1793060640
-        },
-        {
-          "total": 53,
-          "ts": 1793111040
-        },
-        {
-          "total": 73,
-          "ts": 1793121120
-        },
-        {
-          "total": 1,
-          "ts": 1793131200
-        },
-        {
-          "total": 1,
-          "ts": 1793151360
-        },
-        {
-          "total": 69,
-          "ts": 1793211840
-        },
-        {
-          "total": 29,
-          "ts": 1793221920
-        },
-        {
-          "total": 150,
-          "ts": 1793232000
-        },
-        {
-          "total": 219,
-          "ts": 1793312640
-        },
-        {
-          "total": 1,
-          "ts": 1793352960
-        }
-      ],
-      "total": 1267
+    {
+      "store_requests": 0,
+      "system_requests": 1,
+      "utc_bucket_date": "2026-10-23"
+    },
+    {
+      "store_requests": 0,
+      "system_requests": 1,
+      "utc_bucket_date": "2026-10-24"
+    },
+    {
+      "store_requests": 84,
+      "system_requests": 410,
+      "utc_bucket_date": "2026-10-25"
+    },
+    {
+      "store_requests": 49,
+      "system_requests": 231,
+      "utc_bucket_date": "2026-10-26"
+    },
+    {
+      "store_requests": 42,
+      "system_requests": 156,
+      "utc_bucket_date": "2026-10-27"
+    },
+    {
+      "store_requests": 28,
+      "system_requests": 99,
+      "utc_bucket_date": "2026-10-28"
+    },
+    {
+      "store_requests": 104,
+      "system_requests": 369,
+      "utc_bucket_date": "2026-10-29"
     }
-  },
+  ],
+  "schema_version": 2,
+  "seed_sources": [
+    "Research traffic-dashboard-2026-10-24.md, 2026-10-22 through 2026-10-24",
+    "Program application-activity-data archived CSV revisions through 2026-10-30, 2026-10-25 through 2026-10-29"
+  ],
   "source": "Railway native HTTP metrics",
-  "window": {
-    "end": "2026-10-30T18:00:17+00:00",
-    "start": "2026-10-23T18:00:17+00:00",
-    "step_seconds": 10080
-  }
+  "start_date": "2026-10-22"
 }
