@@ -1,7 +1,7 @@
 {
   "bucket_basis": "UTC_START_OF_10080_SECOND_RAILWAY_BUCKET_APPROXIMATE",
-  "publication": "pending",
-  "retrieved_at": "2026-10-31T13:19:39+00:00",
+  "publication": "scheduled",
+  "retrieved_at": "2026-10-31T17:15:19+00:00",
   "rows": [
     {
       "store_requests": 35,
