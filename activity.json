@@ -1,7 +1,7 @@
 {
   "bucket_basis": "UTC_START_OF_10080_SECOND_RAILWAY_BUCKET_APPROXIMATE",
   "publication": "scheduled",
-  "retrieved_at": "2026-11-05T13:09:29+00:00",
+  "retrieved_at": "2026-11-06T12:54:57+00:00",
   "rows": [
     {
       "store_requests": 35,
@@ -72,6 +72,11 @@
       "store_requests": 16,
       "system_requests": 111,
       "utc_bucket_date": "2026-11-04"
+    },
+    {
+      "store_requests": 7,
+      "system_requests": 29,
+      "utc_bucket_date": "2026-11-05"
     }
   ],
   "schema_version": 2,
